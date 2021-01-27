@@ -1,0 +1,4177 @@
+Country,Country code,Poptype,year,population
+Burundi,108,Pop,1990,5613
+Burundi,108,Pop,1995,6239
+Burundi,108,Pop,2000,6767
+Burundi,108,Pop,2005,7934
+Burundi,108,Pop,2010,9461
+Burundi,108,Pop,2015,11179
+Burundi,108,MalePop,1990,2755
+Burundi,108,MalePop,1995,3054
+Burundi,108,MalePop,2000,3336
+Burundi,108,MalePop,2005,3920
+Burundi,108,MalePop,2010,4667
+Burundi,108,MalePop,2015,5524
+Burundi,108,FemalePop,1990,2858
+Burundi,108,FemalePop,1995,3185
+Burundi,108,FemalePop,2000,3431
+Burundi,108,FemalePop,2005,4014
+Burundi,108,FemalePop,2010,4794
+Burundi,108,FemalePop,2015,5655
+Comoros,174,Pop,1990,415
+Comoros,174,Pop,1995,480
+Comoros,174,Pop,2000,548
+Comoros,174,Pop,2005,619
+Comoros,174,Pop,2010,699
+Comoros,174,Pop,2015,788
+Comoros,174,MalePop,1990,208
+Comoros,174,MalePop,1995,241
+Comoros,174,MalePop,2000,276
+Comoros,174,MalePop,2005,312
+Comoros,174,MalePop,2010,352
+Comoros,174,MalePop,2015,398
+Comoros,174,FemalePop,1990,207
+Comoros,174,FemalePop,1995,239
+Comoros,174,FemalePop,2000,272
+Comoros,174,FemalePop,2005,307
+Comoros,174,FemalePop,2010,346
+Comoros,174,FemalePop,2015,391
+Djibouti,262,Pop,1990,588
+Djibouti,262,Pop,1995,661
+Djibouti,262,Pop,2000,723
+Djibouti,262,Pop,2005,778
+Djibouti,262,Pop,2010,831
+Djibouti,262,Pop,2015,888
+Djibouti,262,MalePop,1990,296
+Djibouti,262,MalePop,1995,332
+Djibouti,262,MalePop,2000,363
+Djibouti,262,MalePop,2005,391
+Djibouti,262,MalePop,2010,417
+Djibouti,262,MalePop,2015,446
+Djibouti,262,FemalePop,1990,292
+Djibouti,262,FemalePop,1995,329
+Djibouti,262,FemalePop,2000,359
+Djibouti,262,FemalePop,2005,387
+Djibouti,262,FemalePop,2010,413
+Djibouti,262,FemalePop,2015,442
+Eritrea,232,Pop,1990,3139
+Eritrea,232,Pop,1995,3164
+Eritrea,232,Pop,2000,3535
+Eritrea,232,Pop,2005,4191
+Eritrea,232,Pop,2010,4690
+Eritrea,232,Pop,2015,5228
+Eritrea,232,MalePop,1990,1558
+Eritrea,232,MalePop,1995,1571
+Eritrea,232,MalePop,2000,1758
+Eritrea,232,MalePop,2005,2090
+Eritrea,232,MalePop,2010,2344
+Eritrea,232,MalePop,2015,2619
+Eritrea,232,FemalePop,1990,1581
+Eritrea,232,FemalePop,1995,1593
+Eritrea,232,FemalePop,2000,1777
+Eritrea,232,FemalePop,2005,2101
+Eritrea,232,FemalePop,2010,2346
+Eritrea,232,FemalePop,2015,2609
+Ethiopia,231,Pop,1990,48057
+Ethiopia,231,Pop,1995,57237
+Ethiopia,231,Pop,2000,66444
+Ethiopia,231,Pop,2005,76608
+Ethiopia,231,Pop,2010,87562
+Ethiopia,231,Pop,2015,99391
+Ethiopia,231,MalePop,1990,23966
+Ethiopia,231,MalePop,1995,28536
+Ethiopia,231,MalePop,2000,33129
+Ethiopia,231,MalePop,2005,38217
+Ethiopia,231,MalePop,2010,43697
+Ethiopia,231,MalePop,2015,49608
+Ethiopia,231,FemalePop,1990,24091
+Ethiopia,231,FemalePop,1995,28701
+Ethiopia,231,FemalePop,2000,33314
+Ethiopia,231,FemalePop,2005,38392
+Ethiopia,231,FemalePop,2010,43865
+Ethiopia,231,FemalePop,2015,49783
+Kenya,404,Pop,1990,23446
+Kenya,404,Pop,1995,27373
+Kenya,404,Pop,2000,31066
+Kenya,404,Pop,2005,35349
+Kenya,404,Pop,2010,40328
+Kenya,404,Pop,2015,46050
+Kenya,404,MalePop,1990,11678
+Kenya,404,MalePop,1995,13633
+Kenya,404,MalePop,2000,15488
+Kenya,404,MalePop,2005,17665
+Kenya,404,MalePop,2010,20159
+Kenya,404,MalePop,2015,23017
+Kenya,404,FemalePop,1990,11768
+Kenya,404,FemalePop,1995,13740
+Kenya,404,FemalePop,2000,15578
+Kenya,404,FemalePop,2005,17684
+Kenya,404,FemalePop,2010,20169
+Kenya,404,FemalePop,2015,23033
+Madagascar,450,Pop,1990,11546
+Madagascar,450,Pop,1995,13453
+Madagascar,450,Pop,2000,15745
+Madagascar,450,Pop,2005,18290
+Madagascar,450,Pop,2010,21080
+Madagascar,450,Pop,2015,24235
+Madagascar,450,MalePop,1990,5765
+Madagascar,450,MalePop,1995,6704
+Madagascar,450,MalePop,2000,7839
+Madagascar,450,MalePop,2005,9107
+Madagascar,450,MalePop,2010,10500
+Madagascar,450,MalePop,2015,12082
+Madagascar,450,FemalePop,1990,5781
+Madagascar,450,FemalePop,1995,6748
+Madagascar,450,FemalePop,2000,7905
+Madagascar,450,FemalePop,2005,9183
+Madagascar,450,FemalePop,2010,10580
+Madagascar,450,FemalePop,2015,12153
+Malawi,454,Pop,1990,9409
+Malawi,454,Pop,1995,9823
+Malawi,454,Pop,2000,11193
+Malawi,454,Pop,2005,12748
+Malawi,454,Pop,2010,14770
+Malawi,454,Pop,2015,17215
+Malawi,454,MalePop,1990,4623
+Malawi,454,MalePop,1995,4860
+Malawi,454,MalePop,2000,5551
+Malawi,454,MalePop,2005,6342
+Malawi,454,MalePop,2010,7356
+Malawi,454,MalePop,2015,8593
+Malawi,454,FemalePop,1990,4786
+Malawi,454,FemalePop,1995,4963
+Malawi,454,FemalePop,2000,5643
+Malawi,454,FemalePop,2005,6406
+Malawi,454,FemalePop,2010,7413
+Malawi,454,FemalePop,2015,8622
+Mauritius,480,Pop,1990,1056
+Mauritius,480,Pop,1995,1129
+Mauritius,480,Pop,2000,1185
+Mauritius,480,Pop,2005,1222
+Mauritius,480,Pop,2010,1248
+Mauritius,480,Pop,2015,1273
+Mauritius,480,MalePop,1990,527
+Mauritius,480,MalePop,1995,563
+Mauritius,480,MalePop,2000,588
+Mauritius,480,MalePop,2005,606
+Mauritius,480,MalePop,2010,619
+Mauritius,480,MalePop,2015,629
+Mauritius,480,FemalePop,1990,529
+Mauritius,480,FemalePop,1995,566
+Mauritius,480,FemalePop,2000,597
+Mauritius,480,FemalePop,2005,616
+Mauritius,480,FemalePop,2010,629
+Mauritius,480,FemalePop,2015,644
+Mayotte,175,Pop,1990,95
+Mayotte,175,Pop,1995,123
+Mayotte,175,Pop,2000,150
+Mayotte,175,Pop,2005,178
+Mayotte,175,Pop,2010,209
+Mayotte,175,Pop,2015,240
+Mayotte,175,MalePop,1990,48
+Mayotte,175,MalePop,1995,63
+Mayotte,175,MalePop,2000,76
+Mayotte,175,MalePop,2005,88
+Mayotte,175,MalePop,2010,102
+Mayotte,175,MalePop,2015,118
+Mayotte,175,FemalePop,1990,46
+Mayotte,175,FemalePop,1995,61
+Mayotte,175,FemalePop,2000,74
+Mayotte,175,FemalePop,2005,90
+Mayotte,175,FemalePop,2010,107
+Mayotte,175,FemalePop,2015,122
+Mozambique,508,Pop,1990,13372
+Mozambique,508,Pop,1995,15913
+Mozambique,508,Pop,2000,18265
+Mozambique,508,Pop,2005,21127
+Mozambique,508,Pop,2010,24321
+Mozambique,508,Pop,2015,27978
+Mozambique,508,MalePop,1990,6390
+Mozambique,508,MalePop,1995,7596
+Mozambique,508,MalePop,2000,8766
+Mozambique,508,MalePop,2005,10213
+Mozambique,508,MalePop,2010,11821
+Mozambique,508,MalePop,2015,13666
+Mozambique,508,FemalePop,1990,6982
+Mozambique,508,FemalePop,1995,8317
+Mozambique,508,FemalePop,2000,9498
+Mozambique,508,FemalePop,2005,10914
+Mozambique,508,FemalePop,2010,12500
+Mozambique,508,FemalePop,2015,14312
+R<e9>union,638,Pop,1990,611
+R<e9>union,638,Pop,1995,674
+R<e9>union,638,Pop,2000,737
+R<e9>union,638,Pop,2005,792
+R<e9>union,638,Pop,2010,831
+R<e9>union,638,Pop,2015,861
+R<e9>union,638,MalePop,1990,299
+R<e9>union,638,MalePop,1995,329
+R<e9>union,638,MalePop,2000,360
+R<e9>union,638,MalePop,2005,388
+R<e9>union,638,MalePop,2010,402
+R<e9>union,638,MalePop,2015,417
+R<e9>union,638,FemalePop,1990,312
+R<e9>union,638,FemalePop,1995,345
+R<e9>union,638,FemalePop,2000,377
+R<e9>union,638,FemalePop,2005,403
+R<e9>union,638,FemalePop,2010,428
+R<e9>union,638,FemalePop,2015,444
+Rwanda,646,Pop,1990,7260
+Rwanda,646,Pop,1995,5913
+Rwanda,646,Pop,2000,8022
+Rwanda,646,Pop,2005,9008
+Rwanda,646,Pop,2010,10294
+Rwanda,646,Pop,2015,11610
+Rwanda,646,MalePop,1990,3565
+Rwanda,646,MalePop,1995,2839
+Rwanda,646,MalePop,2000,3847
+Rwanda,646,MalePop,2005,4297
+Rwanda,646,MalePop,2010,4915
+Rwanda,646,MalePop,2015,5560
+Rwanda,646,FemalePop,1990,3695
+Rwanda,646,FemalePop,1995,3074
+Rwanda,646,FemalePop,2000,4175
+Rwanda,646,FemalePop,2005,4711
+Rwanda,646,FemalePop,2010,5379
+Rwanda,646,FemalePop,2015,6050
+Seychelles,690,Pop,1990,71
+Seychelles,690,Pop,1995,77
+Seychelles,690,Pop,2000,81
+Seychelles,690,Pop,2005,89
+Seychelles,690,Pop,2010,93
+Seychelles,690,Pop,2015,96
+Seychelles,690,MalePop,1990,35
+Seychelles,690,MalePop,1995,38
+Seychelles,690,MalePop,2000,40
+Seychelles,690,MalePop,2005,44
+Seychelles,690,MalePop,2010,47
+Seychelles,690,MalePop,2015,49
+Seychelles,690,FemalePop,1990,35
+Seychelles,690,FemalePop,1995,38
+Seychelles,690,FemalePop,2000,41
+Seychelles,690,FemalePop,2005,44
+Seychelles,690,FemalePop,2010,46
+Seychelles,690,FemalePop,2015,48
+Somalia,706,Pop,1990,6322
+Somalia,706,Pop,1995,6346
+Somalia,706,Pop,2000,7385
+Somalia,706,Pop,2005,8467
+Somalia,706,Pop,2010,9582
+Somalia,706,Pop,2015,10787
+Somalia,706,MalePop,1990,3130
+Somalia,706,MalePop,1995,3144
+Somalia,706,MalePop,2000,3663
+Somalia,706,MalePop,2005,4205
+Somalia,706,MalePop,2010,4764
+Somalia,706,MalePop,2015,5368
+Somalia,706,FemalePop,1990,3191
+Somalia,706,FemalePop,1995,3202
+Somalia,706,FemalePop,2000,3722
+Somalia,706,FemalePop,2005,4262
+Somalia,706,FemalePop,2010,4818
+Somalia,706,FemalePop,2015,5419
+South Sudan,728,Pop,1990,5762
+South Sudan,728,Pop,1995,5453
+South Sudan,728,Pop,2000,6693
+South Sudan,728,Pop,2005,8100
+South Sudan,728,Pop,2010,10056
+South Sudan,728,Pop,2015,12340
+South Sudan,728,MalePop,1990,2864
+South Sudan,728,MalePop,1995,2713
+South Sudan,728,MalePop,2000,3334
+South Sudan,728,MalePop,2005,4041
+South Sudan,728,MalePop,2010,5027
+South Sudan,728,MalePop,2015,6179
+South Sudan,728,FemalePop,1990,2898
+South Sudan,728,FemalePop,1995,2740
+South Sudan,728,FemalePop,2000,3359
+South Sudan,728,FemalePop,2005,4059
+South Sudan,728,FemalePop,2010,5030
+South Sudan,728,FemalePop,2015,6161
+Uganda,800,Pop,1990,17384
+Uganda,800,Pop,1995,20413
+Uganda,800,Pop,2000,23758
+Uganda,800,Pop,2005,28042
+Uganda,800,Pop,2010,33149
+Uganda,800,Pop,2015,39032
+Uganda,800,MalePop,1990,8635
+Uganda,800,MalePop,1995,10133
+Uganda,800,MalePop,2000,11809
+Uganda,800,MalePop,2005,13971
+Uganda,800,MalePop,2010,16553
+Uganda,800,MalePop,2015,19507
+Uganda,800,FemalePop,1990,8750
+Uganda,800,FemalePop,1995,10280
+Uganda,800,FemalePop,2000,11949
+Uganda,800,FemalePop,2005,14072
+Uganda,800,FemalePop,2010,16596
+Uganda,800,FemalePop,2015,19525
+United Republic of Tanzania,834,Pop,1990,25458
+United Republic of Tanzania,834,Pop,1995,29903
+United Republic of Tanzania,834,Pop,2000,33992
+United Republic of Tanzania,834,Pop,2005,39066
+United Republic of Tanzania,834,Pop,2010,45649
+United Republic of Tanzania,834,Pop,2015,53470
+United Republic of Tanzania,834,MalePop,1990,12608
+United Republic of Tanzania,834,MalePop,1995,14835
+United Republic of Tanzania,834,MalePop,2000,16911
+United Republic of Tanzania,834,MalePop,2005,19395
+United Republic of Tanzania,834,MalePop,2010,22666
+United Republic of Tanzania,834,MalePop,2015,26574
+United Republic of Tanzania,834,FemalePop,1990,12850
+United Republic of Tanzania,834,FemalePop,1995,15068
+United Republic of Tanzania,834,FemalePop,2000,17081
+United Republic of Tanzania,834,FemalePop,2005,19671
+United Republic of Tanzania,834,FemalePop,2010,22983
+United Republic of Tanzania,834,FemalePop,2015,26896
+Zambia,894,Pop,1990,8143
+Zambia,894,Pop,1995,9254
+Zambia,894,Pop,2000,10585
+Zambia,894,Pop,2005,12044
+Zambia,894,Pop,2010,13917
+Zambia,894,Pop,2015,16212
+Zambia,894,MalePop,1990,4039
+Zambia,894,MalePop,1995,4589
+Zambia,894,MalePop,2000,5257
+Zambia,894,MalePop,2005,5998
+Zambia,894,MalePop,2010,6943
+Zambia,894,MalePop,2015,8094
+Zambia,894,FemalePop,1990,4104
+Zambia,894,FemalePop,1995,4664
+Zambia,894,FemalePop,2000,5328
+Zambia,894,FemalePop,2005,6046
+Zambia,894,FemalePop,2010,6975
+Zambia,894,FemalePop,2015,8118
+Zimbabwe,716,Pop,1990,10485
+Zimbabwe,716,Pop,1995,11683
+Zimbabwe,716,Pop,2000,12500
+Zimbabwe,716,Pop,2005,12984
+Zimbabwe,716,Pop,2010,13974
+Zimbabwe,716,Pop,2015,15603
+Zimbabwe,716,MalePop,1990,5219
+Zimbabwe,716,MalePop,1995,5806
+Zimbabwe,716,MalePop,2000,6220
+Zimbabwe,716,MalePop,2005,6436
+Zimbabwe,716,MalePop,2010,6905
+Zimbabwe,716,MalePop,2015,7688
+Zimbabwe,716,FemalePop,1990,5265
+Zimbabwe,716,FemalePop,1995,5878
+Zimbabwe,716,FemalePop,2000,6280
+Zimbabwe,716,FemalePop,2005,6548
+Zimbabwe,716,FemalePop,2010,7069
+Zimbabwe,716,FemalePop,2015,7915
+Angola,24,Pop,1990,11128
+Angola,24,Pop,1995,13043
+Angola,24,Pop,2000,15059
+Angola,24,Pop,2005,17913
+Angola,24,Pop,2010,21220
+Angola,24,Pop,2015,25022
+Angola,24,MalePop,1990,5479
+Angola,24,MalePop,1995,6420
+Angola,24,MalePop,2000,7427
+Angola,24,MalePop,2005,8857
+Angola,24,MalePop,2010,10513
+Angola,24,MalePop,2015,12416
+Angola,24,FemalePop,1990,5649
+Angola,24,FemalePop,1995,6622
+Angola,24,FemalePop,2000,7631
+Angola,24,FemalePop,2005,9056
+Angola,24,FemalePop,2010,10707
+Angola,24,FemalePop,2015,12606
+Cameroon,120,Pop,1990,12070
+Cameroon,120,Pop,1995,13930
+Cameroon,120,Pop,2000,15928
+Cameroon,120,Pop,2005,18127
+Cameroon,120,Pop,2010,20591
+Cameroon,120,Pop,2015,23344
+Cameroon,120,MalePop,1990,5995
+Cameroon,120,MalePop,1995,6928
+Cameroon,120,MalePop,2000,7934
+Cameroon,120,MalePop,2005,9045
+Cameroon,120,MalePop,2010,10288
+Cameroon,120,MalePop,2015,11672
+Cameroon,120,FemalePop,1990,6075
+Cameroon,120,FemalePop,1995,7002
+Cameroon,120,FemalePop,2000,7994
+Cameroon,120,FemalePop,2005,9082
+Cameroon,120,FemalePop,2010,10302
+Cameroon,120,FemalePop,2015,11672
+Central African Republic,140,Pop,1990,2938
+Central African Republic,140,Pop,1995,3336
+Central African Republic,140,Pop,2000,3726
+Central African Republic,140,Pop,2005,4056
+Central African Republic,140,Pop,2010,4445
+Central African Republic,140,Pop,2015,4900
+Central African Republic,140,MalePop,1990,1443
+Central African Republic,140,MalePop,1995,1638
+Central African Republic,140,MalePop,2000,1831
+Central African Republic,140,MalePop,2005,1995
+Central African Republic,140,MalePop,2010,2189
+Central African Republic,140,MalePop,2015,2415
+Central African Republic,140,FemalePop,1990,1495
+Central African Republic,140,FemalePop,1995,1698
+Central African Republic,140,FemalePop,2000,1895
+Central African Republic,140,FemalePop,2005,2060
+Central African Republic,140,FemalePop,2010,2256
+Central African Republic,140,FemalePop,2015,2485
+Chad,148,Pop,1990,5958
+Chad,148,Pop,1995,7002
+Chad,148,Pop,2000,8343
+Chad,148,Pop,2005,10068
+Chad,148,Pop,2010,11896
+Chad,148,Pop,2015,14037
+Chad,148,MalePop,1990,2958
+Chad,148,MalePop,1995,3482
+Chad,148,MalePop,2000,4156
+Chad,148,MalePop,2005,5025
+Chad,148,MalePop,2010,5950
+Chad,148,MalePop,2015,7028
+Chad,148,FemalePop,1990,3000
+Chad,148,FemalePop,1995,3520
+Chad,148,FemalePop,2000,4188
+Chad,148,FemalePop,2005,5042
+Chad,148,FemalePop,2010,5947
+Chad,148,FemalePop,2015,7010
+Congo,178,Pop,1990,2386
+Congo,178,Pop,1995,2721
+Congo,178,Pop,2000,3109
+Congo,178,Pop,2005,3503
+Congo,178,Pop,2010,4066
+Congo,178,Pop,2015,4620
+Congo,178,MalePop,1990,1190
+Congo,178,MalePop,1995,1357
+Congo,178,MalePop,2000,1552
+Congo,178,MalePop,2005,1750
+Congo,178,MalePop,2010,2033
+Congo,178,MalePop,2015,2311
+Congo,178,FemalePop,1990,1197
+Congo,178,FemalePop,1995,1364
+Congo,178,FemalePop,2000,1557
+Congo,178,FemalePop,2005,1753
+Congo,178,FemalePop,2010,2033
+Congo,178,FemalePop,2015,2309
+Democratic Republic of the Congo,180,Pop,1990,34963
+Democratic Republic of the Congo,180,Pop,1995,42184
+Democratic Republic of the Congo,180,Pop,2000,48049
+Democratic Republic of the Congo,180,Pop,2005,56090
+Democratic Republic of the Congo,180,Pop,2010,65939
+Democratic Republic of the Congo,180,Pop,2015,77267
+Democratic Republic of the Congo,180,MalePop,1990,17255
+Democratic Republic of the Congo,180,MalePop,1995,20880
+Democratic Republic of the Congo,180,MalePop,2000,23834
+Democratic Republic of the Congo,180,MalePop,2005,27878
+Democratic Republic of the Congo,180,MalePop,2010,32833
+Democratic Republic of the Congo,180,MalePop,2015,38533
+Democratic Republic of the Congo,180,FemalePop,1990,17707
+Democratic Republic of the Congo,180,FemalePop,1995,21304
+Democratic Republic of the Congo,180,FemalePop,2000,24215
+Democratic Republic of the Congo,180,FemalePop,2005,28212
+Democratic Republic of the Congo,180,FemalePop,2010,33106
+Democratic Republic of the Congo,180,FemalePop,2015,38734
+Equatorial Guinea,226,Pop,1990,377
+Equatorial Guinea,226,Pop,1995,448
+Equatorial Guinea,226,Pop,2000,531
+Equatorial Guinea,226,Pop,2005,626
+Equatorial Guinea,226,Pop,2010,729
+Equatorial Guinea,226,Pop,2015,845
+Equatorial Guinea,226,MalePop,1990,193
+Equatorial Guinea,226,MalePop,1995,229
+Equatorial Guinea,226,MalePop,2000,272
+Equatorial Guinea,226,MalePop,2005,321
+Equatorial Guinea,226,MalePop,2010,374
+Equatorial Guinea,226,MalePop,2015,433
+Equatorial Guinea,226,FemalePop,1990,185
+Equatorial Guinea,226,FemalePop,1995,219
+Equatorial Guinea,226,FemalePop,2000,259
+Equatorial Guinea,226,FemalePop,2005,305
+Equatorial Guinea,226,FemalePop,2010,355
+Equatorial Guinea,226,FemalePop,2015,412
+Gabon,266,Pop,1990,952
+Gabon,266,Pop,1995,1086
+Gabon,266,Pop,2000,1232
+Gabon,266,Pop,2005,1378
+Gabon,266,Pop,2010,1542
+Gabon,266,Pop,2015,1725
+Gabon,266,MalePop,1990,466
+Gabon,266,MalePop,1995,535
+Gabon,266,MalePop,2000,611
+Gabon,266,MalePop,2005,690
+Gabon,266,MalePop,2010,778
+Gabon,266,MalePop,2015,872
+Gabon,266,FemalePop,1990,486
+Gabon,266,FemalePop,1995,552
+Gabon,266,FemalePop,2000,620
+Gabon,266,FemalePop,2005,688
+Gabon,266,FemalePop,2010,764
+Gabon,266,FemalePop,2015,853
+Sao Tome and Principe,678,Pop,1990,114
+Sao Tome and Principe,678,Pop,1995,126
+Sao Tome and Principe,678,Pop,2000,137
+Sao Tome and Principe,678,Pop,2005,153
+Sao Tome and Principe,678,Pop,2010,171
+Sao Tome and Principe,678,Pop,2015,190
+Sao Tome and Principe,678,MalePop,1990,56
+Sao Tome and Principe,678,MalePop,1995,62
+Sao Tome and Principe,678,MalePop,2000,68
+Sao Tome and Principe,678,MalePop,2005,76
+Sao Tome and Principe,678,MalePop,2010,85
+Sao Tome and Principe,678,MalePop,2015,95
+Sao Tome and Principe,678,FemalePop,1990,57
+Sao Tome and Principe,678,FemalePop,1995,63
+Sao Tome and Principe,678,FemalePop,2000,69
+Sao Tome and Principe,678,FemalePop,2005,77
+Sao Tome and Principe,678,FemalePop,2010,86
+Sao Tome and Principe,678,FemalePop,2015,96
+Algeria,12,Pop,1990,25912
+Algeria,12,Pop,1995,28904
+Algeria,12,Pop,2000,31184
+Algeria,12,Pop,2005,33268
+Algeria,12,Pop,2010,36036
+Algeria,12,Pop,2015,39667
+Algeria,12,MalePop,1990,13117
+Algeria,12,MalePop,1995,14639
+Algeria,12,MalePop,2000,15803
+Algeria,12,MalePop,2005,16809
+Algeria,12,MalePop,2010,18151
+Algeria,12,MalePop,2015,19958
+Algeria,12,FemalePop,1990,12795
+Algeria,12,FemalePop,1995,14265
+Algeria,12,FemalePop,2000,15381
+Algeria,12,FemalePop,2005,16459
+Algeria,12,FemalePop,2010,17885
+Algeria,12,FemalePop,2015,19709
+Egypt,818,Pop,1990,56397
+Egypt,818,Pop,1995,62435
+Egypt,818,Pop,2000,68335
+Egypt,818,Pop,2005,74942
+Egypt,818,Pop,2010,82041
+Egypt,818,Pop,2015,91508
+Egypt,818,MalePop,1990,28295
+Egypt,818,MalePop,1995,31396
+Egypt,818,MalePop,2000,34354
+Egypt,818,MalePop,2005,37762
+Egypt,818,MalePop,2010,41405
+Egypt,818,MalePop,2015,46240
+Egypt,818,FemalePop,1990,28102
+Egypt,818,FemalePop,1995,31038
+Egypt,818,FemalePop,2000,33981
+Egypt,818,FemalePop,2005,37180
+Egypt,818,FemalePop,2010,40636
+Egypt,818,FemalePop,2015,45268
+Libya,434,Pop,1990,4398
+Libya,434,Pop,1995,4878
+Libya,434,Pop,2000,5337
+Libya,434,Pop,2005,5802
+Libya,434,Pop,2010,6266
+Libya,434,Pop,2015,6278
+Libya,434,MalePop,1990,2320
+Libya,434,MalePop,1995,2556
+Libya,434,MalePop,2000,2784
+Libya,434,MalePop,2005,2999
+Libya,434,MalePop,2010,3207
+Libya,434,MalePop,2015,3157
+Libya,434,FemalePop,1990,2079
+Libya,434,FemalePop,1995,2322
+Libya,434,FemalePop,2000,2553
+Libya,434,FemalePop,2005,2802
+Libya,434,FemalePop,2010,3058
+Libya,434,FemalePop,2015,3122
+Morocco,504,Pop,1990,24950
+Morocco,504,Pop,1995,27162
+Morocco,504,Pop,2000,28951
+Morocco,504,Pop,2005,30385
+Morocco,504,Pop,2010,32108
+Morocco,504,Pop,2015,34378
+Morocco,504,MalePop,1990,12449
+Morocco,504,MalePop,1995,13513
+Morocco,504,MalePop,2000,14345
+Morocco,504,MalePop,2005,14986
+Morocco,504,MalePop,2010,15803
+Morocco,504,MalePop,2015,16989
+Morocco,504,FemalePop,1990,12501
+Morocco,504,FemalePop,1995,13649
+Morocco,504,FemalePop,2000,14605
+Morocco,504,FemalePop,2005,15400
+Morocco,504,FemalePop,2010,16305
+Morocco,504,FemalePop,2015,17388
+Sudan,729,Pop,1990,20009
+Sudan,729,Pop,1995,24692
+Sudan,729,Pop,2000,28080
+Sudan,729,Pop,2005,31990
+Sudan,729,Pop,2010,36115
+Sudan,729,Pop,2015,40235
+Sudan,729,MalePop,1990,10047
+Sudan,729,MalePop,1995,12398
+Sudan,729,MalePop,2000,14094
+Sudan,729,MalePop,2005,16050
+Sudan,729,MalePop,2010,18120
+Sudan,729,MalePop,2015,20197
+Sudan,729,FemalePop,1990,9962
+Sudan,729,FemalePop,1995,12294
+Sudan,729,FemalePop,2000,13986
+Sudan,729,FemalePop,2005,15940
+Sudan,729,FemalePop,2010,17995
+Sudan,729,FemalePop,2015,20038
+Tunisia,788,Pop,1990,8233
+Tunisia,788,Pop,1995,9114
+Tunisia,788,Pop,2000,9699
+Tunisia,788,Pop,2005,10102
+Tunisia,788,Pop,2010,10639
+Tunisia,788,Pop,2015,11254
+Tunisia,788,MalePop,1990,4139
+Tunisia,788,MalePop,1995,4590
+Tunisia,788,MalePop,2000,4866
+Tunisia,788,MalePop,2005,5032
+Tunisia,788,MalePop,2010,5276
+Tunisia,788,MalePop,2015,5561
+Tunisia,788,FemalePop,1990,4093
+Tunisia,788,FemalePop,1995,4524
+Tunisia,788,FemalePop,2000,4833
+Tunisia,788,FemalePop,2005,5071
+Tunisia,788,FemalePop,2010,5363
+Tunisia,788,FemalePop,2015,5692
+Western Sahara,732,Pop,1990,217
+Western Sahara,732,Pop,1995,253
+Western Sahara,732,Pop,2000,306
+Western Sahara,732,Pop,2005,428
+Western Sahara,732,Pop,2010,512
+Western Sahara,732,Pop,2015,573
+Western Sahara,732,MalePop,1990,114
+Western Sahara,732,MalePop,1995,132
+Western Sahara,732,MalePop,2000,160
+Western Sahara,732,MalePop,2005,226
+Western Sahara,732,MalePop,2010,270
+Western Sahara,732,MalePop,2015,300
+Western Sahara,732,FemalePop,1990,103
+Western Sahara,732,FemalePop,1995,122
+Western Sahara,732,FemalePop,2000,146
+Western Sahara,732,FemalePop,2005,202
+Western Sahara,732,FemalePop,2010,242
+Western Sahara,732,FemalePop,2015,273
+Botswana,72,Pop,1990,1380
+Botswana,72,Pop,1995,1576
+Botswana,72,Pop,2000,1737
+Botswana,72,Pop,2005,1864
+Botswana,72,Pop,2010,2048
+Botswana,72,Pop,2015,2262
+Botswana,72,MalePop,1990,681
+Botswana,72,MalePop,1995,781
+Botswana,72,MalePop,2000,864
+Botswana,72,MalePop,2005,930
+Botswana,72,MalePop,2010,1023
+Botswana,72,MalePop,2015,1130
+Botswana,72,FemalePop,1990,699
+Botswana,72,FemalePop,1995,795
+Botswana,72,FemalePop,2000,872
+Botswana,72,FemalePop,2005,934
+Botswana,72,FemalePop,2010,1025
+Botswana,72,FemalePop,2015,1132
+Lesotho,426,Pop,1990,1598
+Lesotho,426,Pop,1995,1754
+Lesotho,426,Pop,2000,1856
+Lesotho,426,Pop,2005,1926
+Lesotho,426,Pop,2010,2011
+Lesotho,426,Pop,2015,2135
+Lesotho,426,MalePop,1990,776
+Lesotho,426,MalePop,1995,859
+Lesotho,426,MalePop,2000,899
+Lesotho,426,MalePop,2005,939
+Lesotho,426,MalePop,2010,988
+Lesotho,426,MalePop,2015,1057
+Lesotho,426,FemalePop,1990,821
+Lesotho,426,FemalePop,1995,894
+Lesotho,426,FemalePop,2000,957
+Lesotho,426,FemalePop,2005,987
+Lesotho,426,FemalePop,2010,1023
+Lesotho,426,FemalePop,2015,1078
+Namibia,516,Pop,1990,1415
+Namibia,516,Pop,1995,1654
+Namibia,516,Pop,2000,1898
+Namibia,516,Pop,2005,2027
+Namibia,516,Pop,2010,2194
+Namibia,516,Pop,2015,2459
+Namibia,516,MalePop,1990,692
+Namibia,516,MalePop,1995,811
+Namibia,516,MalePop,2000,933
+Namibia,516,MalePop,2005,990
+Namibia,516,MalePop,2010,1064
+Namibia,516,MalePop,2015,1197
+Namibia,516,FemalePop,1990,724
+Namibia,516,FemalePop,1995,843
+Namibia,516,FemalePop,2000,965
+Namibia,516,FemalePop,2005,1037
+Namibia,516,FemalePop,2010,1129
+Namibia,516,FemalePop,2015,1262
+South Africa,710,Pop,1990,36793
+South Africa,710,Pop,1995,41427
+South Africa,710,Pop,2000,44897
+South Africa,710,Pop,2005,48353
+South Africa,710,Pop,2010,51622
+South Africa,710,Pop,2015,54490
+South Africa,710,MalePop,1990,18204
+South Africa,710,MalePop,1995,20409
+South Africa,710,MalePop,2000,22103
+South Africa,710,MalePop,2005,23744
+South Africa,710,MalePop,2010,25322
+South Africa,710,MalePop,2015,26797
+South Africa,710,FemalePop,1990,18589
+South Africa,710,FemalePop,1995,21018
+South Africa,710,FemalePop,2000,22794
+South Africa,710,FemalePop,2005,24609
+South Africa,710,FemalePop,2010,26300
+South Africa,710,FemalePop,2015,27693
+Swaziland,748,Pop,1990,863
+Swaziland,748,Pop,1995,963
+Swaziland,748,Pop,2000,1064
+Swaziland,748,Pop,2005,1105
+Swaziland,748,Pop,2010,1193
+Swaziland,748,Pop,2015,1287
+Swaziland,748,MalePop,1990,407
+Swaziland,748,MalePop,1995,463
+Swaziland,748,MalePop,2000,515
+Swaziland,748,MalePop,2005,540
+Swaziland,748,MalePop,2010,587
+Swaziland,748,MalePop,2015,636
+Swaziland,748,FemalePop,1990,456
+Swaziland,748,FemalePop,1995,500
+Swaziland,748,FemalePop,2000,549
+Swaziland,748,FemalePop,2005,565
+Swaziland,748,FemalePop,2010,607
+Swaziland,748,FemalePop,2015,651
+Benin,204,Pop,1990,5001
+Benin,204,Pop,1995,5986
+Benin,204,Pop,2000,6949
+Benin,204,Pop,2005,8182
+Benin,204,Pop,2010,9510
+Benin,204,Pop,2015,10880
+Benin,204,MalePop,1990,2417
+Benin,204,MalePop,1995,2928
+Benin,204,MalePop,2000,3408
+Benin,204,MalePop,2005,4048
+Benin,204,MalePop,2010,4731
+Benin,204,MalePop,2015,5426
+Benin,204,FemalePop,1990,2584
+Benin,204,FemalePop,1995,3058
+Benin,204,FemalePop,2000,3541
+Benin,204,FemalePop,2005,4134
+Benin,204,FemalePop,2010,4778
+Benin,204,FemalePop,2015,5454
+Burkina Faso,854,Pop,1990,8811
+Burkina Faso,854,Pop,1995,10090
+Burkina Faso,854,Pop,2000,11608
+Burkina Faso,854,Pop,2005,13422
+Burkina Faso,854,Pop,2010,15632
+Burkina Faso,854,Pop,2015,18106
+Burkina Faso,854,MalePop,1990,4306
+Burkina Faso,854,MalePop,1995,4943
+Burkina Faso,854,MalePop,2000,5702
+Burkina Faso,854,MalePop,2005,6622
+Burkina Faso,854,MalePop,2010,7737
+Burkina Faso,854,MalePop,2015,8984
+Burkina Faso,854,FemalePop,1990,4505
+Burkina Faso,854,FemalePop,1995,5147
+Burkina Faso,854,FemalePop,2000,5906
+Burkina Faso,854,FemalePop,2005,6800
+Burkina Faso,854,FemalePop,2010,7895
+Burkina Faso,854,FemalePop,2015,9121
+Cabo Verde,132,Pop,1990,341
+Cabo Verde,132,Pop,1995,389
+Cabo Verde,132,Pop,2000,439
+Cabo Verde,132,Pop,2005,474
+Cabo Verde,132,Pop,2010,490
+Cabo Verde,132,Pop,2015,521
+Cabo Verde,132,MalePop,1990,162
+Cabo Verde,132,MalePop,1995,187
+Cabo Verde,132,MalePop,2000,212
+Cabo Verde,132,MalePop,2005,232
+Cabo Verde,132,MalePop,2010,241
+Cabo Verde,132,MalePop,2015,257
+Cabo Verde,132,FemalePop,1990,179
+Cabo Verde,132,FemalePop,1995,202
+Cabo Verde,132,FemalePop,2000,227
+Cabo Verde,132,FemalePop,2005,242
+Cabo Verde,132,FemalePop,2010,249
+Cabo Verde,132,FemalePop,2015,264
+C<f4>te d'Ivoire,384,Pop,1990,12166
+C<f4>te d'Ivoire,384,Pop,1995,14404
+C<f4>te d'Ivoire,384,Pop,2000,16518
+C<f4>te d'Ivoire,384,Pop,2005,18133
+C<f4>te d'Ivoire,384,Pop,2010,20132
+C<f4>te d'Ivoire,384,Pop,2015,22702
+C<f4>te d'Ivoire,384,MalePop,1990,6329
+C<f4>te d'Ivoire,384,MalePop,1995,7468
+C<f4>te d'Ivoire,384,MalePop,2000,8533
+C<f4>te d'Ivoire,384,MalePop,2005,9306
+C<f4>te d'Ivoire,384,MalePop,2010,10279
+C<f4>te d'Ivoire,384,MalePop,2015,11546
+C<f4>te d'Ivoire,384,FemalePop,1990,5837
+C<f4>te d'Ivoire,384,FemalePop,1995,6936
+C<f4>te d'Ivoire,384,FemalePop,2000,7984
+C<f4>te d'Ivoire,384,FemalePop,2005,8827
+C<f4>te d'Ivoire,384,FemalePop,2010,9853
+C<f4>te d'Ivoire,384,FemalePop,2015,11155
+Gambia,270,Pop,1990,917
+Gambia,270,Pop,1995,1066
+Gambia,270,Pop,2000,1229
+Gambia,270,Pop,2005,1441
+Gambia,270,Pop,2010,1693
+Gambia,270,Pop,2015,1991
+Gambia,270,MalePop,1990,462
+Gambia,270,MalePop,1995,533
+Gambia,270,MalePop,2000,610
+Gambia,270,MalePop,2005,714
+Gambia,270,MalePop,2010,838
+Gambia,270,MalePop,2015,986
+Gambia,270,FemalePop,1990,455
+Gambia,270,FemalePop,1995,533
+Gambia,270,FemalePop,2000,619
+Gambia,270,FemalePop,2005,726
+Gambia,270,FemalePop,2010,855
+Gambia,270,FemalePop,2015,1005
+Ghana,288,Pop,1990,14628
+Ghana,288,Pop,1995,16761
+Ghana,288,Pop,2000,18825
+Ghana,288,Pop,2005,21390
+Ghana,288,Pop,2010,24318
+Ghana,288,Pop,2015,27410
+Ghana,288,MalePop,1990,7434
+Ghana,288,MalePop,1995,8474
+Ghana,288,MalePop,2000,9507
+Ghana,288,MalePop,2005,10686
+Ghana,288,MalePop,2010,12035
+Ghana,288,MalePop,2015,13635
+Ghana,288,FemalePop,1990,7195
+Ghana,288,FemalePop,1995,8287
+Ghana,288,FemalePop,2000,9318
+Ghana,288,FemalePop,2005,10704
+Ghana,288,FemalePop,2010,12283
+Ghana,288,FemalePop,2015,13774
+Guinea,324,Pop,1990,6034
+Guinea,324,Pop,1995,7863
+Guinea,324,Pop,2000,8799
+Guinea,324,Pop,2005,9669
+Guinea,324,Pop,2010,11012
+Guinea,324,Pop,2015,12609
+Guinea,324,MalePop,1990,2984
+Guinea,324,MalePop,1995,3900
+Guinea,324,MalePop,2000,4382
+Guinea,324,MalePop,2005,4833
+Guinea,324,MalePop,2010,5513
+Guinea,324,MalePop,2015,6322
+Guinea,324,FemalePop,1990,3050
+Guinea,324,FemalePop,1995,3963
+Guinea,324,FemalePop,2000,4418
+Guinea,324,FemalePop,2005,4836
+Guinea,324,FemalePop,2010,5500
+Guinea,324,FemalePop,2015,6286
+Guinea-Bissau,624,Pop,1990,1056
+Guinea-Bissau,624,Pop,1995,1181
+Guinea-Bissau,624,Pop,2000,1315
+Guinea-Bissau,624,Pop,2005,1463
+Guinea-Bissau,624,Pop,2010,1634
+Guinea-Bissau,624,Pop,2015,1844
+Guinea-Bissau,624,MalePop,1990,521
+Guinea-Bissau,624,MalePop,1995,583
+Guinea-Bissau,624,MalePop,2000,650
+Guinea-Bissau,624,MalePop,2005,725
+Guinea-Bissau,624,MalePop,2010,811
+Guinea-Bissau,624,MalePop,2015,916
+Guinea-Bissau,624,FemalePop,1990,535
+Guinea-Bissau,624,FemalePop,1995,598
+Guinea-Bissau,624,FemalePop,2000,665
+Guinea-Bissau,624,FemalePop,2005,737
+Guinea-Bissau,624,FemalePop,2010,823
+Guinea-Bissau,624,FemalePop,2015,929
+Liberia,430,Pop,1990,2103
+Liberia,430,Pop,1995,2080
+Liberia,430,Pop,2000,2892
+Liberia,430,Pop,2005,3270
+Liberia,430,Pop,2010,3958
+Liberia,430,Pop,2015,4503
+Liberia,430,MalePop,1990,1047
+Liberia,430,MalePop,1995,1035
+Liberia,430,MalePop,2000,1445
+Liberia,430,MalePop,2005,1639
+Liberia,430,MalePop,2010,1990
+Liberia,430,MalePop,2015,2270
+Liberia,430,FemalePop,1990,1056
+Liberia,430,FemalePop,1995,1045
+Liberia,430,FemalePop,2000,1447
+Liberia,430,FemalePop,2005,1630
+Liberia,430,FemalePop,2010,1968
+Liberia,430,FemalePop,2015,2234
+Mali,466,Pop,1990,8482
+Mali,466,Pop,1995,9641
+Mali,466,Pop,2000,11047
+Mali,466,Pop,2005,12881
+Mali,466,Pop,2010,15167
+Mali,466,Pop,2015,17600
+Mali,466,MalePop,1990,4197
+Mali,466,MalePop,1995,4791
+Mali,466,MalePop,2000,5517
+Mali,466,MalePop,2005,6465
+Mali,466,MalePop,2010,7644
+Mali,466,MalePop,2015,8885
+Mali,466,FemalePop,1990,4285
+Mali,466,FemalePop,1995,4850
+Mali,466,FemalePop,2000,5530
+Mali,466,FemalePop,2005,6417
+Mali,466,FemalePop,2010,7523
+Mali,466,FemalePop,2015,8715
+Mauritania,478,Pop,1990,2024
+Mauritania,478,Pop,1995,2334
+Mauritania,478,Pop,2000,2711
+Mauritania,478,Pop,2005,3154
+Mauritania,478,Pop,2010,3591
+Mauritania,478,Pop,2015,4068
+Mauritania,478,MalePop,1990,1009
+Mauritania,478,MalePop,1995,1165
+Mauritania,478,MalePop,2000,1358
+Mauritania,478,MalePop,2005,1584
+Mauritania,478,MalePop,2010,1805
+Mauritania,478,MalePop,2015,2047
+Mauritania,478,FemalePop,1990,1015
+Mauritania,478,FemalePop,1995,1169
+Mauritania,478,FemalePop,2000,1354
+Mauritania,478,FemalePop,2005,1570
+Mauritania,478,FemalePop,2010,1786
+Mauritania,478,FemalePop,2015,2021
+Niger,562,Pop,1990,7912
+Niger,562,Pop,1995,9362
+Niger,562,Pop,2000,11225
+Niger,562,Pop,2005,13485
+Niger,562,Pop,2010,16292
+Niger,562,Pop,2015,19899
+Niger,562,MalePop,1990,3890
+Niger,562,MalePop,1995,4636
+Niger,562,MalePop,2000,5612
+Niger,562,MalePop,2005,6768
+Niger,562,MalePop,2010,8202
+Niger,562,MalePop,2015,10029
+Niger,562,FemalePop,1990,4021
+Niger,562,FemalePop,1995,4726
+Niger,562,FemalePop,2000,5613
+Niger,562,FemalePop,2005,6717
+Niger,562,FemalePop,2010,8090
+Niger,562,FemalePop,2015,9870
+Nigeria,566,Pop,1990,95617
+Nigeria,566,Pop,1995,108425
+Nigeria,566,Pop,2000,122877
+Nigeria,566,Pop,2005,139611
+Nigeria,566,Pop,2010,159425
+Nigeria,566,Pop,2015,182202
+Nigeria,566,MalePop,1990,48276
+Nigeria,566,MalePop,1995,54793
+Nigeria,566,MalePop,2000,62210
+Nigeria,566,MalePop,2005,70832
+Nigeria,566,MalePop,2010,81051
+Nigeria,566,MalePop,2015,92789
+Nigeria,566,FemalePop,1990,47341
+Nigeria,566,FemalePop,1995,53632
+Nigeria,566,FemalePop,2000,60667
+Nigeria,566,FemalePop,2005,68780
+Nigeria,566,FemalePop,2010,78374
+Nigeria,566,FemalePop,2015,89413
+Saint Helena,654,Pop,1990,6
+Saint Helena,654,Pop,1995,5
+Saint Helena,654,Pop,2000,5
+Saint Helena,654,Pop,2005,4
+Saint Helena,654,Pop,2010,4
+Saint Helena,654,Pop,2015,4
+Saint Helena,654,MalePop,1990,NA
+Saint Helena,654,MalePop,1995,NA
+Saint Helena,654,MalePop,2000,NA
+Saint Helena,654,MalePop,2005,NA
+Saint Helena,654,MalePop,2010,NA
+Saint Helena,654,MalePop,2015,NA
+Saint Helena,654,FemalePop,1990,NA
+Saint Helena,654,FemalePop,1995,NA
+Saint Helena,654,FemalePop,2000,NA
+Saint Helena,654,FemalePop,2005,NA
+Saint Helena,654,FemalePop,2010,NA
+Saint Helena,654,FemalePop,2015,NA
+Senegal,686,Pop,1990,7514
+Senegal,686,Pop,1995,8711
+Senegal,686,Pop,2000,9861
+Senegal,686,Pop,2005,11269
+Senegal,686,Pop,2010,12957
+Senegal,686,Pop,2015,15129
+Senegal,686,MalePop,1990,3740
+Senegal,686,MalePop,1995,4325
+Senegal,686,MalePop,2000,4853
+Senegal,686,MalePop,2005,5527
+Senegal,686,MalePop,2010,6344
+Senegal,686,MalePop,2015,7429
+Senegal,686,FemalePop,1990,3774
+Senegal,686,FemalePop,1995,4386
+Senegal,686,FemalePop,2000,5008
+Senegal,686,FemalePop,2005,5742
+Senegal,686,FemalePop,2010,6613
+Senegal,686,FemalePop,2015,7701
+Sierra Leone,694,Pop,1990,3931
+Sierra Leone,694,Pop,1995,3838
+Sierra Leone,694,Pop,2000,4061
+Sierra Leone,694,Pop,2005,5071
+Sierra Leone,694,Pop,2010,5776
+Sierra Leone,694,Pop,2015,6453
+Sierra Leone,694,MalePop,1990,1942
+Sierra Leone,694,MalePop,1995,1895
+Sierra Leone,694,MalePop,2000,2005
+Sierra Leone,694,MalePop,2005,2501
+Sierra Leone,694,MalePop,2010,2852
+Sierra Leone,694,MalePop,2015,3193
+Sierra Leone,694,FemalePop,1990,1990
+Sierra Leone,694,FemalePop,1995,1943
+Sierra Leone,694,FemalePop,2000,2056
+Sierra Leone,694,FemalePop,2005,2570
+Sierra Leone,694,FemalePop,2010,2924
+Sierra Leone,694,FemalePop,2015,3260
+Togo,768,Pop,1990,3787
+Togo,768,Pop,1995,4284
+Togo,768,Pop,2000,4875
+Togo,768,Pop,2005,5578
+Togo,768,Pop,2010,6391
+Togo,768,Pop,2015,7305
+Togo,768,MalePop,1990,1868
+Togo,768,MalePop,1995,2092
+Togo,768,MalePop,2000,2383
+Togo,768,MalePop,2005,2737
+Togo,768,MalePop,2010,3148
+Togo,768,MalePop,2015,3609
+Togo,768,FemalePop,1990,1919
+Togo,768,FemalePop,1995,2192
+Togo,768,FemalePop,2000,2492
+Togo,768,FemalePop,2005,2841
+Togo,768,FemalePop,2010,3243
+Togo,768,FemalePop,2015,3695
+Kazakhstan,398,Pop,1990,16530
+Kazakhstan,398,Pop,1995,15926
+Kazakhstan,398,Pop,2000,14957
+Kazakhstan,398,Pop,2005,15452
+Kazakhstan,398,Pop,2010,16311
+Kazakhstan,398,Pop,2015,17625
+Kazakhstan,398,MalePop,1990,8002
+Kazakhstan,398,MalePop,1995,7693
+Kazakhstan,398,MalePop,2000,7171
+Kazakhstan,398,MalePop,2005,7421
+Kazakhstan,398,MalePop,2010,7862
+Kazakhstan,398,MalePop,2015,8512
+Kazakhstan,398,FemalePop,1990,8528
+Kazakhstan,398,FemalePop,1995,8233
+Kazakhstan,398,FemalePop,2000,7786
+Kazakhstan,398,FemalePop,2005,8031
+Kazakhstan,398,FemalePop,2010,8449
+Kazakhstan,398,FemalePop,2015,9113
+Kyrgyzstan,417,Pop,1990,4395
+Kyrgyzstan,417,Pop,1995,4592
+Kyrgyzstan,417,Pop,2000,4955
+Kyrgyzstan,417,Pop,2005,5115
+Kyrgyzstan,417,Pop,2010,5465
+Kyrgyzstan,417,Pop,2015,5940
+Kyrgyzstan,417,MalePop,1990,2149
+Kyrgyzstan,417,MalePop,1995,2260
+Kyrgyzstan,417,MalePop,2000,2444
+Kyrgyzstan,417,MalePop,2005,2530
+Kyrgyzstan,417,MalePop,2010,2695
+Kyrgyzstan,417,MalePop,2015,2940
+Kyrgyzstan,417,FemalePop,1990,2245
+Kyrgyzstan,417,FemalePop,1995,2333
+Kyrgyzstan,417,FemalePop,2000,2511
+Kyrgyzstan,417,FemalePop,2005,2585
+Kyrgyzstan,417,FemalePop,2010,2770
+Kyrgyzstan,417,FemalePop,2015,3000
+Tajikistan,762,Pop,1990,5297
+Tajikistan,762,Pop,1995,5784
+Tajikistan,762,Pop,2000,6186
+Tajikistan,762,Pop,2005,6806
+Tajikistan,762,Pop,2010,7582
+Tajikistan,762,Pop,2015,8482
+Tajikistan,762,MalePop,1990,2631
+Tajikistan,762,MalePop,1995,2893
+Tajikistan,762,MalePop,2000,3100
+Tajikistan,762,MalePop,2005,3421
+Tajikistan,762,MalePop,2010,3812
+Tajikistan,762,MalePop,2015,4296
+Tajikistan,762,FemalePop,1990,2666
+Tajikistan,762,FemalePop,1995,2891
+Tajikistan,762,FemalePop,2000,3086
+Tajikistan,762,FemalePop,2005,3385
+Tajikistan,762,FemalePop,2010,3769
+Tajikistan,762,FemalePop,2015,4186
+Turkmenistan,795,Pop,1990,3668
+Turkmenistan,795,Pop,1995,4188
+Turkmenistan,795,Pop,2000,4501
+Turkmenistan,795,Pop,2005,4748
+Turkmenistan,795,Pop,2010,5042
+Turkmenistan,795,Pop,2015,5374
+Turkmenistan,795,MalePop,1990,1809
+Turkmenistan,795,MalePop,1995,2068
+Turkmenistan,795,MalePop,2000,2222
+Turkmenistan,795,MalePop,2005,2342
+Turkmenistan,795,MalePop,2010,2483
+Turkmenistan,795,MalePop,2015,2641
+Turkmenistan,795,FemalePop,1990,1859
+Turkmenistan,795,FemalePop,1995,2120
+Turkmenistan,795,FemalePop,2000,2279
+Turkmenistan,795,FemalePop,2005,2406
+Turkmenistan,795,FemalePop,2010,2559
+Turkmenistan,795,FemalePop,2015,2733
+Uzbekistan,860,Pop,1990,20515
+Uzbekistan,860,Pop,1995,22687
+Uzbekistan,860,Pop,2000,24518
+Uzbekistan,860,Pop,2005,25922
+Uzbekistan,860,Pop,2010,27740
+Uzbekistan,860,Pop,2015,29893
+Uzbekistan,860,MalePop,1990,10141
+Uzbekistan,860,MalePop,1995,11258
+Uzbekistan,860,MalePop,2000,12144
+Uzbekistan,860,MalePop,2005,12782
+Uzbekistan,860,MalePop,2010,13651
+Uzbekistan,860,MalePop,2015,14699
+Uzbekistan,860,FemalePop,1990,10374
+Uzbekistan,860,FemalePop,1995,11430
+Uzbekistan,860,FemalePop,2000,12374
+Uzbekistan,860,FemalePop,2005,13140
+Uzbekistan,860,FemalePop,2010,14088
+Uzbekistan,860,FemalePop,2015,15194
+China,156,Pop,1990,1154606
+China,156,Pop,1995,1227841
+China,156,Pop,2000,1269975
+China,156,Pop,2005,1305601
+China,156,Pop,2010,1340969
+China,156,Pop,2015,1376049
+China,156,MalePop,1990,592506
+China,156,MalePop,1995,630561
+China,156,MalePop,2000,652374
+China,156,MalePop,2005,671410
+China,156,MalePop,2010,690256
+China,156,MalePop,2015,708977
+China,156,FemalePop,1990,562099
+China,156,FemalePop,1995,597281
+China,156,FemalePop,2000,617600
+China,156,FemalePop,2005,634191
+China,156,FemalePop,2010,650712
+China,156,FemalePop,2015,667072
+"China, Hong Kong Special Administrative Region",344,Pop,1990,5794
+"China, Hong Kong Special Administrative Region",344,Pop,1995,6144
+"China, Hong Kong Special Administrative Region",344,Pop,2000,6784
+"China, Hong Kong Special Administrative Region",344,Pop,2005,6842
+"China, Hong Kong Special Administrative Region",344,Pop,2010,6994
+"China, Hong Kong Special Administrative Region",344,Pop,2015,7288
+"China, Hong Kong Special Administrative Region",344,MalePop,1990,2962
+"China, Hong Kong Special Administrative Region",344,MalePop,1995,3074
+"China, Hong Kong Special Administrative Region",344,MalePop,2000,3304
+"China, Hong Kong Special Administrative Region",344,MalePop,2005,3270
+"China, Hong Kong Special Administrative Region",344,MalePop,2010,3281
+"China, Hong Kong Special Administrative Region",344,MalePop,2015,3422
+"China, Hong Kong Special Administrative Region",344,FemalePop,1990,2832
+"China, Hong Kong Special Administrative Region",344,FemalePop,1995,3070
+"China, Hong Kong Special Administrative Region",344,FemalePop,2000,3479
+"China, Hong Kong Special Administrative Region",344,FemalePop,2005,3572
+"China, Hong Kong Special Administrative Region",344,FemalePop,2010,3713
+"China, Hong Kong Special Administrative Region",344,FemalePop,2015,3866
+"China, Macao Special Administrative Region",446,Pop,1990,360
+"China, Macao Special Administrative Region",446,Pop,1995,398
+"China, Macao Special Administrative Region",446,Pop,2000,432
+"China, Macao Special Administrative Region",446,Pop,2005,468
+"China, Macao Special Administrative Region",446,Pop,2010,535
+"China, Macao Special Administrative Region",446,Pop,2015,588
+"China, Macao Special Administrative Region",446,MalePop,1990,175
+"China, Macao Special Administrative Region",446,MalePop,1995,193
+"China, Macao Special Administrative Region",446,MalePop,2000,209
+"China, Macao Special Administrative Region",446,MalePop,2005,224
+"China, Macao Special Administrative Region",446,MalePop,2010,257
+"China, Macao Special Administrative Region",446,MalePop,2015,283
+"China, Macao Special Administrative Region",446,FemalePop,1990,185
+"China, Macao Special Administrative Region",446,FemalePop,1995,205
+"China, Macao Special Administrative Region",446,FemalePop,2000,223
+"China, Macao Special Administrative Region",446,FemalePop,2005,244
+"China, Macao Special Administrative Region",446,FemalePop,2010,278
+"China, Macao Special Administrative Region",446,FemalePop,2015,305
+Democratic People's Republic of Korea,408,Pop,1990,20194
+Democratic People's Republic of Korea,408,Pop,1995,21764
+Democratic People's Republic of Korea,408,Pop,2000,22840
+Democratic People's Republic of Korea,408,Pop,2005,23813
+Democratic People's Republic of Korea,408,Pop,2010,24501
+Democratic People's Republic of Korea,408,Pop,2015,25155
+Democratic People's Republic of Korea,408,MalePop,1990,9809
+Democratic People's Republic of Korea,408,MalePop,1995,10608
+Democratic People's Republic of Korea,408,MalePop,2000,11132
+Democratic People's Republic of Korea,408,MalePop,2005,11624
+Democratic People's Republic of Korea,408,MalePop,2010,11970
+Democratic People's Republic of Korea,408,MalePop,2015,12300
+Democratic People's Republic of Korea,408,FemalePop,1990,10385
+Democratic People's Republic of Korea,408,FemalePop,1995,11156
+Democratic People's Republic of Korea,408,FemalePop,2000,11708
+Democratic People's Republic of Korea,408,FemalePop,2005,12189
+Democratic People's Republic of Korea,408,FemalePop,2010,12531
+Democratic People's Republic of Korea,408,FemalePop,2015,12856
+Japan,392,Pop,1990,122249
+Japan,392,Pop,1995,124483
+Japan,392,Pop,2000,125715
+Japan,392,Pop,2005,126979
+Japan,392,Pop,2010,127320
+Japan,392,Pop,2015,126573
+Japan,392,MalePop,1990,59943
+Japan,392,MalePop,1995,61010
+Japan,392,MalePop,2000,61490
+Japan,392,MalePop,2005,61956
+Japan,392,MalePop,2010,62018
+Japan,392,MalePop,2015,61559
+Japan,392,FemalePop,1990,62306
+Japan,392,FemalePop,1995,63473
+Japan,392,FemalePop,2000,64224
+Japan,392,FemalePop,2005,65023
+Japan,392,FemalePop,2010,65302
+Japan,392,FemalePop,2015,65015
+Mongolia,496,Pop,1990,2184
+Mongolia,496,Pop,1995,2298
+Mongolia,496,Pop,2000,2397
+Mongolia,496,Pop,2005,2526
+Mongolia,496,Pop,2010,2713
+Mongolia,496,Pop,2015,2959
+Mongolia,496,MalePop,1990,1078
+Mongolia,496,MalePop,1995,1138
+Mongolia,496,MalePop,2000,1196
+Mongolia,496,MalePop,2005,1257
+Mongolia,496,MalePop,2010,1346
+Mongolia,496,MalePop,2015,1465
+Mongolia,496,FemalePop,1990,1106
+Mongolia,496,FemalePop,1995,1160
+Mongolia,496,FemalePop,2000,1202
+Mongolia,496,FemalePop,2005,1270
+Mongolia,496,FemalePop,2010,1367
+Mongolia,496,FemalePop,2015,1494
+Republic of Korea,410,Pop,1990,42972
+Republic of Korea,410,Pop,1995,44653
+Republic of Korea,410,Pop,2000,46206
+Republic of Korea,410,Pop,2005,47606
+Republic of Korea,410,Pop,2010,49090
+Republic of Korea,410,Pop,2015,50293
+Republic of Korea,410,MalePop,1990,21523
+Republic of Korea,410,MalePop,1995,22361
+Republic of Korea,410,MalePop,2000,23179
+Republic of Korea,410,MalePop,2005,23790
+Republic of Korea,410,MalePop,2010,24422
+Republic of Korea,410,MalePop,2015,24995
+Republic of Korea,410,FemalePop,1990,21449
+Republic of Korea,410,FemalePop,1995,22292
+Republic of Korea,410,FemalePop,2000,23027
+Republic of Korea,410,FemalePop,2005,23816
+Republic of Korea,410,FemalePop,2010,24668
+Republic of Korea,410,FemalePop,2015,25298
+Brunei Darussalam,96,Pop,1990,257
+Brunei Darussalam,96,Pop,1995,295
+Brunei Darussalam,96,Pop,2000,331
+Brunei Darussalam,96,Pop,2005,362
+Brunei Darussalam,96,Pop,2010,393
+Brunei Darussalam,96,Pop,2015,423
+Brunei Darussalam,96,MalePop,1990,136
+Brunei Darussalam,96,MalePop,1995,155
+Brunei Darussalam,96,MalePop,2000,168
+Brunei Darussalam,96,MalePop,2005,186
+Brunei Darussalam,96,MalePop,2010,203
+Brunei Darussalam,96,MalePop,2015,218
+Brunei Darussalam,96,FemalePop,1990,121
+Brunei Darussalam,96,FemalePop,1995,140
+Brunei Darussalam,96,FemalePop,2000,162
+Brunei Darussalam,96,FemalePop,2005,176
+Brunei Darussalam,96,FemalePop,2010,190
+Brunei Darussalam,96,FemalePop,2015,205
+Cambodia,116,Pop,1990,9009
+Cambodia,116,Pop,1995,10694
+Cambodia,116,Pop,2000,12198
+Cambodia,116,Pop,2005,13320
+Cambodia,116,Pop,2010,14364
+Cambodia,116,Pop,2015,15578
+Cambodia,116,MalePop,1990,4351
+Cambodia,116,MalePop,1995,5192
+Cambodia,116,MalePop,2000,5928
+Cambodia,116,MalePop,2005,6465
+Cambodia,116,MalePop,2010,6997
+Cambodia,116,MalePop,2015,7598
+Cambodia,116,FemalePop,1990,4658
+Cambodia,116,FemalePop,1995,5503
+Cambodia,116,FemalePop,2000,6270
+Cambodia,116,FemalePop,2005,6855
+Cambodia,116,FemalePop,2010,7366
+Cambodia,116,FemalePop,2015,7980
+Indonesia,360,Pop,1990,181437
+Indonesia,360,Pop,1995,196958
+Indonesia,360,Pop,2000,211540
+Indonesia,360,Pop,2005,226255
+Indonesia,360,Pop,2010,241613
+Indonesia,360,Pop,2015,257564
+Indonesia,360,MalePop,1990,91116
+Indonesia,360,MalePop,1995,98526
+Indonesia,360,MalePop,2000,105868
+Indonesia,360,MalePop,2005,113587
+Indonesia,360,MalePop,2010,121773
+Indonesia,360,MalePop,2015,129688
+Indonesia,360,FemalePop,1990,90321
+Indonesia,360,FemalePop,1995,98432
+Indonesia,360,FemalePop,2000,105672
+Indonesia,360,FemalePop,2005,112667
+Indonesia,360,FemalePop,2010,119840
+Indonesia,360,FemalePop,2015,127876
+Lao People's Democratic Republic,418,Pop,1990,4248
+Lao People's Democratic Republic,418,Pop,1995,4858
+Lao People's Democratic Republic,418,Pop,2000,5343
+Lao People's Democratic Republic,418,Pop,2005,5745
+Lao People's Democratic Republic,418,Pop,2010,6261
+Lao People's Democratic Republic,418,Pop,2015,6802
+Lao People's Democratic Republic,418,MalePop,1990,2124
+Lao People's Democratic Republic,418,MalePop,1995,2421
+Lao People's Democratic Republic,418,MalePop,2000,2661
+Lao People's Democratic Republic,418,MalePop,2005,2841
+Lao People's Democratic Republic,418,MalePop,2010,3106
+Lao People's Democratic Republic,418,MalePop,2015,3385
+Lao People's Democratic Republic,418,FemalePop,1990,2123
+Lao People's Democratic Republic,418,FemalePop,1995,2437
+Lao People's Democratic Republic,418,FemalePop,2000,2682
+Lao People's Democratic Republic,418,FemalePop,2005,2904
+Lao People's Democratic Republic,418,FemalePop,2010,3154
+Lao People's Democratic Republic,418,FemalePop,2015,3417
+Malaysia,458,Pop,1990,18211
+Malaysia,458,Pop,1995,20725
+Malaysia,458,Pop,2000,23421
+Malaysia,458,Pop,2005,25796
+Malaysia,458,Pop,2010,28120
+Malaysia,458,Pop,2015,30331
+Malaysia,458,MalePop,1990,9244
+Malaysia,458,MalePop,1995,10530
+Malaysia,458,MalePop,2000,11909
+Malaysia,458,MalePop,2005,12995
+Malaysia,458,MalePop,2010,13956
+Malaysia,458,MalePop,2015,15026
+Malaysia,458,FemalePop,1990,8967
+Malaysia,458,FemalePop,1995,10195
+Malaysia,458,FemalePop,2000,11511
+Malaysia,458,FemalePop,2005,12801
+Malaysia,458,FemalePop,2010,14163
+Malaysia,458,FemalePop,2015,15305
+Myanmar,104,Pop,1990,42007
+Myanmar,104,Pop,1995,44711
+Myanmar,104,Pop,2000,47670
+Myanmar,104,Pop,2005,49985
+Myanmar,104,Pop,2010,51733
+Myanmar,104,Pop,2015,53897
+Myanmar,104,MalePop,1990,20571
+Myanmar,104,MalePop,1995,21911
+Myanmar,104,MalePop,2000,23301
+Myanmar,104,MalePop,2005,24420
+Myanmar,104,MalePop,2010,25252
+Myanmar,104,MalePop,2015,26335
+Myanmar,104,FemalePop,1990,21437
+Myanmar,104,FemalePop,1995,22800
+Myanmar,104,FemalePop,2000,24369
+Myanmar,104,FemalePop,2005,25564
+Myanmar,104,FemalePop,2010,26481
+Myanmar,104,FemalePop,2015,27562
+Philippines,608,Pop,1990,61947
+Philippines,608,Pop,1995,69836
+Philippines,608,Pop,2000,77932
+Philippines,608,Pop,2005,86141
+Philippines,608,Pop,2010,93039
+Philippines,608,Pop,2015,100699
+Philippines,608,MalePop,1990,31293
+Philippines,608,MalePop,1995,35227
+Philippines,608,MalePop,2000,39249
+Philippines,608,MalePop,2005,43293
+Philippines,608,MalePop,2010,47060
+Philippines,608,MalePop,2015,50813
+Philippines,608,FemalePop,1990,30655
+Philippines,608,FemalePop,1995,34609
+Philippines,608,FemalePop,2000,38683
+Philippines,608,FemalePop,2005,42848
+Philippines,608,FemalePop,2010,45979
+Philippines,608,FemalePop,2015,49887
+Singapore,702,Pop,1990,3016
+Singapore,702,Pop,1995,3483
+Singapore,702,Pop,2000,3918
+Singapore,702,Pop,2005,4496
+Singapore,702,Pop,2010,5079
+Singapore,702,Pop,2015,5604
+Singapore,702,MalePop,1990,1518
+Singapore,702,MalePop,1995,1753
+Singapore,702,MalePop,2000,1957
+Singapore,702,MalePop,2005,2231
+Singapore,702,MalePop,2010,2506
+Singapore,702,MalePop,2015,2765
+Singapore,702,FemalePop,1990,1499
+Singapore,702,FemalePop,1995,1730
+Singapore,702,FemalePop,2000,1961
+Singapore,702,FemalePop,2005,2264
+Singapore,702,FemalePop,2010,2573
+Singapore,702,FemalePop,2015,2839
+Thailand,764,Pop,1990,56583
+Thailand,764,Pop,1995,59266
+Thailand,764,Pop,2000,62693
+Thailand,764,Pop,2005,65864
+Thailand,764,Pop,2010,66692
+Thailand,764,Pop,2015,67959
+Thailand,764,MalePop,1990,28027
+Thailand,764,MalePop,1995,29476
+Thailand,764,MalePop,2000,31005
+Thailand,764,MalePop,2005,32544
+Thailand,764,MalePop,2010,32938
+Thailand,764,MalePop,2015,33495
+Thailand,764,FemalePop,1990,28556
+Thailand,764,FemalePop,1995,29790
+Thailand,764,FemalePop,2000,31688
+Thailand,764,FemalePop,2005,33320
+Thailand,764,FemalePop,2010,33754
+Thailand,764,FemalePop,2015,34465
+Timor-Leste,626,Pop,1990,740
+Timor-Leste,626,Pop,1995,856
+Timor-Leste,626,Pop,2000,847
+Timor-Leste,626,Pop,2005,989
+Timor-Leste,626,Pop,2010,1057
+Timor-Leste,626,Pop,2015,1185
+Timor-Leste,626,MalePop,1990,374
+Timor-Leste,626,MalePop,1995,433
+Timor-Leste,626,MalePop,2000,430
+Timor-Leste,626,MalePop,2005,502
+Timor-Leste,626,MalePop,2010,537
+Timor-Leste,626,MalePop,2015,602
+Timor-Leste,626,FemalePop,1990,366
+Timor-Leste,626,FemalePop,1995,424
+Timor-Leste,626,FemalePop,2000,418
+Timor-Leste,626,FemalePop,2005,488
+Timor-Leste,626,FemalePop,2010,520
+Timor-Leste,626,FemalePop,2015,583
+Viet Nam,704,Pop,1990,68210
+Viet Nam,704,Pop,1995,75199
+Viet Nam,704,Pop,2000,80286
+Viet Nam,704,Pop,2005,84204
+Viet Nam,704,Pop,2010,88358
+Viet Nam,704,Pop,2015,93448
+Viet Nam,704,MalePop,1990,33584
+Viet Nam,704,MalePop,1995,37054
+Viet Nam,704,MalePop,2000,39551
+Viet Nam,704,MalePop,2005,41470
+Viet Nam,704,MalePop,2010,43627
+Viet Nam,704,MalePop,2015,46224
+Viet Nam,704,FemalePop,1990,34626
+Viet Nam,704,FemalePop,1995,38145
+Viet Nam,704,FemalePop,2000,40734
+Viet Nam,704,FemalePop,2005,42734
+Viet Nam,704,FemalePop,2010,44731
+Viet Nam,704,FemalePop,2015,47223
+Afghanistan,4,Pop,1990,12068
+Afghanistan,4,Pop,1995,16773
+Afghanistan,4,Pop,2000,19702
+Afghanistan,4,Pop,2005,24400
+Afghanistan,4,Pop,2010,27962
+Afghanistan,4,Pop,2015,32527
+Afghanistan,4,MalePop,1990,6180
+Afghanistan,4,MalePop,1995,8682
+Afghanistan,4,MalePop,2000,10147
+Afghanistan,4,MalePop,2005,12616
+Afghanistan,4,MalePop,2010,14368
+Afghanistan,4,MalePop,2015,16774
+Afghanistan,4,FemalePop,1990,5888
+Afghanistan,4,FemalePop,1995,8090
+Afghanistan,4,FemalePop,2000,9555
+Afghanistan,4,FemalePop,2005,11784
+Afghanistan,4,FemalePop,2010,13595
+Afghanistan,4,FemalePop,2015,15753
+Bangladesh,50,Pop,1990,105983
+Bangladesh,50,Pop,1995,118428
+Bangladesh,50,Pop,2000,131281
+Bangladesh,50,Pop,2005,142930
+Bangladesh,50,Pop,2010,151617
+Bangladesh,50,Pop,2015,160996
+Bangladesh,50,MalePop,1990,54175
+Bangladesh,50,MalePop,1995,60475
+Bangladesh,50,MalePop,2000,67000
+Bangladesh,50,MalePop,2005,72793
+Bangladesh,50,MalePop,2010,76666
+Bangladesh,50,MalePop,2015,81277
+Bangladesh,50,FemalePop,1990,51808
+Bangladesh,50,FemalePop,1995,57953
+Bangladesh,50,FemalePop,2000,64280
+Bangladesh,50,FemalePop,2005,70137
+Bangladesh,50,FemalePop,2010,74951
+Bangladesh,50,FemalePop,2015,79719
+Bhutan,64,Pop,1990,536
+Bhutan,64,Pop,1995,509
+Bhutan,64,Pop,2000,564
+Bhutan,64,Pop,2005,651
+Bhutan,64,Pop,2010,720
+Bhutan,64,Pop,2015,775
+Bhutan,64,MalePop,1990,277
+Bhutan,64,MalePop,1995,262
+Bhutan,64,MalePop,2000,290
+Bhutan,64,MalePop,2005,347
+Bhutan,64,MalePop,2010,386
+Bhutan,64,MalePop,2015,416
+Bhutan,64,FemalePop,1990,258
+Bhutan,64,FemalePop,1995,247
+Bhutan,64,FemalePop,2000,274
+Bhutan,64,FemalePop,2005,304
+Bhutan,64,FemalePop,2010,334
+Bhutan,64,FemalePop,2015,359
+India,356,Pop,1990,870602
+India,356,Pop,1995,960875
+India,356,Pop,2000,1053481
+India,356,Pop,2005,1144326
+India,356,Pop,2010,1230985
+India,356,Pop,2015,1311051
+India,356,MalePop,1990,450560
+India,356,MalePop,1995,497499
+India,356,MalePop,2000,545691
+India,356,MalePop,2005,593104
+India,356,MalePop,2010,638355
+India,356,MalePop,2015,679548
+India,356,FemalePop,1990,420042
+India,356,FemalePop,1995,463376
+India,356,FemalePop,2000,507790
+India,356,FemalePop,2005,551223
+India,356,FemalePop,2010,592630
+India,356,FemalePop,2015,631502
+Iran (Islamic Republic of),364,Pop,1990,56169
+Iran (Islamic Republic of),364,Pop,1995,60319
+Iran (Islamic Republic of),364,Pop,2000,65850
+Iran (Islamic Republic of),364,Pop,2005,70122
+Iran (Islamic Republic of),364,Pop,2010,74253
+Iran (Islamic Republic of),364,Pop,2015,79109
+Iran (Islamic Republic of),364,MalePop,1990,28617
+Iran (Islamic Republic of),364,MalePop,1995,30591
+Iran (Islamic Republic of),364,MalePop,2000,33373
+Iran (Islamic Republic of),364,MalePop,2005,35797
+Iran (Islamic Republic of),364,MalePop,2010,37543
+Iran (Islamic Republic of),364,MalePop,2015,39835
+Iran (Islamic Republic of),364,FemalePop,1990,27552
+Iran (Islamic Republic of),364,FemalePop,1995,29728
+Iran (Islamic Republic of),364,FemalePop,2000,32477
+Iran (Islamic Republic of),364,FemalePop,2005,34326
+Iran (Islamic Republic of),364,FemalePop,2010,36711
+Iran (Islamic Republic of),364,FemalePop,2015,39274
+Maldives,462,Pop,1990,223
+Maldives,462,Pop,1995,254
+Maldives,462,Pop,2000,280
+Maldives,462,Pop,2005,305
+Maldives,462,Pop,2010,333
+Maldives,462,Pop,2015,364
+Maldives,462,MalePop,1990,114
+Maldives,462,MalePop,1995,129
+Maldives,462,MalePop,2000,142
+Maldives,462,MalePop,2005,153
+Maldives,462,MalePop,2010,167
+Maldives,462,MalePop,2015,182
+Maldives,462,FemalePop,1990,109
+Maldives,462,FemalePop,1995,125
+Maldives,462,FemalePop,2000,138
+Maldives,462,FemalePop,2005,152
+Maldives,462,FemalePop,2010,166
+Maldives,462,FemalePop,2015,181
+Nepal,524,Pop,1990,18742
+Nepal,524,Pop,1995,21391
+Nepal,524,Pop,2000,23740
+Nepal,524,Pop,2005,25507
+Nepal,524,Pop,2010,26876
+Nepal,524,Pop,2015,28514
+Nepal,524,MalePop,1990,9299
+Nepal,524,MalePop,1995,10796
+Nepal,524,MalePop,2000,11806
+Nepal,524,MalePop,2005,12641
+Nepal,524,MalePop,2010,13091
+Nepal,524,MalePop,2015,13816
+Nepal,524,FemalePop,1990,9443
+Nepal,524,FemalePop,1995,10595
+Nepal,524,FemalePop,2000,11935
+Nepal,524,FemalePop,2005,12866
+Nepal,524,FemalePop,2010,13785
+Nepal,524,FemalePop,2015,14697
+Pakistan,586,Pop,1990,107608
+Pakistan,586,Pop,1995,122600
+Pakistan,586,Pop,2000,138250
+Pakistan,586,Pop,2005,153356
+Pakistan,586,Pop,2010,170044
+Pakistan,586,Pop,2015,188925
+Pakistan,586,MalePop,1990,55779
+Pakistan,586,MalePop,1995,63357
+Pakistan,586,MalePop,2000,71330
+Pakistan,586,MalePop,2005,79029
+Pakistan,586,MalePop,2010,87415
+Pakistan,586,MalePop,2015,97052
+Pakistan,586,FemalePop,1990,51829
+Pakistan,586,FemalePop,1995,59243
+Pakistan,586,FemalePop,2000,66921
+Pakistan,586,FemalePop,2005,74327
+Pakistan,586,FemalePop,2010,82629
+Pakistan,586,FemalePop,2015,91873
+Sri Lanka,144,Pop,1990,17331
+Sri Lanka,144,Pop,1995,18248
+Sri Lanka,144,Pop,2000,18784
+Sri Lanka,144,Pop,2005,19526
+Sri Lanka,144,Pop,2010,20201
+Sri Lanka,144,Pop,2015,20715
+Sri Lanka,144,MalePop,1990,8750
+Sri Lanka,144,MalePop,1995,9166
+Sri Lanka,144,MalePop,2000,9369
+Sri Lanka,144,MalePop,2005,9626
+Sri Lanka,144,MalePop,2010,9830
+Sri Lanka,144,MalePop,2015,9979
+Sri Lanka,144,FemalePop,1990,8580
+Sri Lanka,144,FemalePop,1995,9083
+Sri Lanka,144,FemalePop,2000,9415
+Sri Lanka,144,FemalePop,2005,9900
+Sri Lanka,144,FemalePop,2010,10371
+Sri Lanka,144,FemalePop,2015,10736
+Armenia,51,Pop,1990,3545
+Armenia,51,Pop,1995,3223
+Armenia,51,Pop,2000,3076
+Armenia,51,Pop,2005,3015
+Armenia,51,Pop,2010,2963
+Armenia,51,Pop,2015,3018
+Armenia,51,MalePop,1990,1719
+Armenia,51,MalePop,1995,1528
+Armenia,51,MalePop,2000,1445
+Armenia,51,MalePop,2005,1479
+Armenia,51,MalePop,2010,1523
+Armenia,51,MalePop,2015,1400
+Armenia,51,FemalePop,1990,1825
+Armenia,51,FemalePop,1995,1695
+Armenia,51,FemalePop,2000,1631
+Armenia,51,FemalePop,2005,1536
+Armenia,51,FemalePop,2010,1440
+Armenia,51,FemalePop,2015,1618
+Azerbaijan,31,Pop,1990,7217
+Azerbaijan,31,Pop,1995,7771
+Azerbaijan,31,Pop,2000,8118
+Azerbaijan,31,Pop,2005,8563
+Azerbaijan,31,Pop,2010,9100
+Azerbaijan,31,Pop,2015,9754
+Azerbaijan,31,MalePop,1990,3535
+Azerbaijan,31,MalePop,1995,3803
+Azerbaijan,31,MalePop,2000,3966
+Azerbaijan,31,MalePop,2005,4218
+Azerbaijan,31,MalePop,2010,4510
+Azerbaijan,31,MalePop,2015,4856
+Azerbaijan,31,FemalePop,1990,3681
+Azerbaijan,31,FemalePop,1995,3967
+Azerbaijan,31,FemalePop,2000,4151
+Azerbaijan,31,FemalePop,2005,4345
+Azerbaijan,31,FemalePop,2010,4590
+Azerbaijan,31,FemalePop,2015,4898
+Bahrain,48,Pop,1990,496
+Bahrain,48,Pop,1995,564
+Bahrain,48,Pop,2000,667
+Bahrain,48,Pop,2005,867
+Bahrain,48,Pop,2010,1261
+Bahrain,48,Pop,2015,1377
+Bahrain,48,MalePop,1990,286
+Bahrain,48,MalePop,1995,325
+Bahrain,48,MalePop,2000,381
+Bahrain,48,MalePop,2005,521
+Bahrain,48,MalePop,2010,787
+Bahrain,48,MalePop,2015,854
+Bahrain,48,FemalePop,1990,210
+Bahrain,48,FemalePop,1995,239
+Bahrain,48,FemalePop,2000,286
+Bahrain,48,FemalePop,2005,346
+Bahrain,48,FemalePop,2010,474
+Bahrain,48,FemalePop,2015,524
+Cyprus,196,Pop,1990,767
+Cyprus,196,Pop,1995,855
+Cyprus,196,Pop,2000,943
+Cyprus,196,Pop,2005,1033
+Cyprus,196,Pop,2010,1104
+Cyprus,196,Pop,2015,1165
+Cyprus,196,MalePop,1990,389
+Cyprus,196,MalePop,1995,432
+Cyprus,196,MalePop,2000,475
+Cyprus,196,MalePop,2005,522
+Cyprus,196,MalePop,2010,563
+Cyprus,196,MalePop,2015,594
+Cyprus,196,FemalePop,1990,378
+Cyprus,196,FemalePop,1995,424
+Cyprus,196,FemalePop,2000,468
+Cyprus,196,FemalePop,2005,510
+Cyprus,196,FemalePop,2010,540
+Cyprus,196,FemalePop,2015,571
+Georgia,268,Pop,1990,5460
+Georgia,268,Pop,1995,5067
+Georgia,268,Pop,2000,4744
+Georgia,268,Pop,2005,4475
+Georgia,268,Pop,2010,4250
+Georgia,268,Pop,2015,4000
+Georgia,268,MalePop,1990,2595
+Georgia,268,MalePop,1995,2406
+Georgia,268,MalePop,2000,2245
+Georgia,268,MalePop,2005,2111
+Georgia,268,MalePop,2010,2018
+Georgia,268,MalePop,2015,1908
+Georgia,268,FemalePop,1990,2865
+Georgia,268,FemalePop,1995,2661
+Georgia,268,FemalePop,2000,2499
+Georgia,268,FemalePop,2005,2364
+Georgia,268,FemalePop,2010,2232
+Georgia,268,FemalePop,2015,2092
+Iraq,368,Pop,1990,17478
+Iraq,368,Pop,1995,20218
+Iraq,368,Pop,2000,23575
+Iraq,368,Pop,2005,27018
+Iraq,368,Pop,2010,30868
+Iraq,368,Pop,2015,36423
+Iraq,368,MalePop,1990,8824
+Iraq,368,MalePop,1995,10200
+Iraq,368,MalePop,2000,11899
+Iraq,368,MalePop,2005,13660
+Iraq,368,MalePop,2010,15608
+Iraq,368,MalePop,2015,18437
+Iraq,368,FemalePop,1990,8655
+Iraq,368,FemalePop,1995,10018
+Iraq,368,FemalePop,2000,11676
+Iraq,368,FemalePop,2005,13358
+Iraq,368,FemalePop,2010,15260
+Iraq,368,FemalePop,2015,17986
+Israel,376,Pop,1990,4499
+Israel,376,Pop,1995,5332
+Israel,376,Pop,2000,6014
+Israel,376,Pop,2005,6604
+Israel,376,Pop,2010,7420
+Israel,376,Pop,2015,8064
+Israel,376,MalePop,1990,2245
+Israel,376,MalePop,1995,2633
+Israel,376,MalePop,2000,2964
+Israel,376,MalePop,2005,3258
+Israel,376,MalePop,2010,3665
+Israel,376,MalePop,2015,3999
+Israel,376,FemalePop,1990,2254
+Israel,376,FemalePop,1995,2698
+Israel,376,FemalePop,2000,3050
+Israel,376,FemalePop,2005,3346
+Israel,376,FemalePop,2010,3755
+Israel,376,FemalePop,2015,4065
+Jordan,400,Pop,1990,3358
+Jordan,400,Pop,1995,4320
+Jordan,400,Pop,2000,4767
+Jordan,400,Pop,2005,5333
+Jordan,400,Pop,2010,6518
+Jordan,400,Pop,2015,7595
+Jordan,400,MalePop,1990,1764
+Jordan,400,MalePop,1995,2270
+Jordan,400,MalePop,2000,2483
+Jordan,400,MalePop,2005,2763
+Jordan,400,MalePop,2010,3360
+Jordan,400,MalePop,2015,3889
+Jordan,400,FemalePop,1990,1594
+Jordan,400,FemalePop,1995,2051
+Jordan,400,FemalePop,2000,2284
+Jordan,400,FemalePop,2005,2570
+Jordan,400,FemalePop,2010,3158
+Jordan,400,FemalePop,2015,3706
+Kuwait,414,Pop,1990,2059
+Kuwait,414,Pop,1995,1637
+Kuwait,414,Pop,2000,1929
+Kuwait,414,Pop,2005,2264
+Kuwait,414,Pop,2010,3059
+Kuwait,414,Pop,2015,3892
+Kuwait,414,MalePop,1990,1098
+Kuwait,414,MalePop,1995,957
+Kuwait,414,MalePop,2000,1133
+Kuwait,414,MalePop,2005,1328
+Kuwait,414,MalePop,2010,1724
+Kuwait,414,MalePop,2015,2186
+Kuwait,414,FemalePop,1990,961
+Kuwait,414,FemalePop,1995,680
+Kuwait,414,FemalePop,2000,797
+Kuwait,414,FemalePop,2005,935
+Kuwait,414,FemalePop,2010,1335
+Kuwait,414,FemalePop,2015,1706
+Lebanon,422,Pop,1990,2703
+Lebanon,422,Pop,1995,3033
+Lebanon,422,Pop,2000,3235
+Lebanon,422,Pop,2005,3987
+Lebanon,422,Pop,2010,4337
+Lebanon,422,Pop,2015,5851
+Lebanon,422,MalePop,1990,1333
+Lebanon,422,MalePop,1995,1504
+Lebanon,422,MalePop,2000,1605
+Lebanon,422,MalePop,2005,2026
+Lebanon,422,MalePop,2010,2212
+Lebanon,422,MalePop,2015,2939
+Lebanon,422,FemalePop,1990,1370
+Lebanon,422,FemalePop,1995,1529
+Lebanon,422,FemalePop,2000,1630
+Lebanon,422,FemalePop,2005,1961
+Lebanon,422,FemalePop,2010,2125
+Lebanon,422,FemalePop,2015,2912
+Oman,512,Pop,1990,1812
+Oman,512,Pop,1995,2192
+Oman,512,Pop,2000,2239
+Oman,512,Pop,2005,2507
+Oman,512,Pop,2010,2944
+Oman,512,Pop,2015,4491
+Oman,512,MalePop,1990,1009
+Oman,512,MalePop,1995,1300
+Oman,512,MalePop,2000,1255
+Oman,512,MalePop,2005,1401
+Oman,512,MalePop,2010,1756
+Oman,512,MalePop,2015,2979
+Oman,512,FemalePop,1990,803
+Oman,512,FemalePop,1995,892
+Oman,512,FemalePop,2000,985
+Oman,512,FemalePop,2005,1106
+Oman,512,FemalePop,2010,1188
+Oman,512,FemalePop,2015,1512
+Qatar,634,Pop,1990,476
+Qatar,634,Pop,1995,501
+Qatar,634,Pop,2000,593
+Qatar,634,Pop,2005,837
+Qatar,634,Pop,2010,1766
+Qatar,634,Pop,2015,2235
+Qatar,634,MalePop,1990,319
+Qatar,634,MalePop,1995,330
+Qatar,634,MalePop,2000,386
+Qatar,634,MalePop,2005,558
+Qatar,634,MalePop,2010,1330
+Qatar,634,MalePop,2015,1624
+Qatar,634,FemalePop,1990,157
+Qatar,634,FemalePop,1995,171
+Qatar,634,FemalePop,2000,208
+Qatar,634,FemalePop,2005,279
+Qatar,634,FemalePop,2010,435
+Qatar,634,FemalePop,2015,612
+Saudi Arabia,682,Pop,1990,16361
+Saudi Arabia,682,Pop,1995,18854
+Saudi Arabia,682,Pop,2000,21392
+Saudi Arabia,682,Pop,2005,24745
+Saudi Arabia,682,Pop,2010,28091
+Saudi Arabia,682,Pop,2015,31540
+Saudi Arabia,682,MalePop,1990,9155
+Saudi Arabia,682,MalePop,1995,10504
+Saudi Arabia,682,MalePop,2000,11782
+Saudi Arabia,682,MalePop,2005,13810
+Saudi Arabia,682,MalePop,2010,15820
+Saudi Arabia,682,MalePop,2015,17836
+Saudi Arabia,682,FemalePop,1990,7207
+Saudi Arabia,682,FemalePop,1995,8350
+Saudi Arabia,682,FemalePop,2000,9610
+Saudi Arabia,682,FemalePop,2005,10935
+Saudi Arabia,682,FemalePop,2010,12271
+Saudi Arabia,682,FemalePop,2015,13704
+State of Palestine,275,Pop,1990,2101
+State of Palestine,275,Pop,1995,2618
+State of Palestine,275,Pop,2000,3224
+State of Palestine,275,Pop,2005,3579
+State of Palestine,275,Pop,2010,4069
+State of Palestine,275,Pop,2015,4668
+State of Palestine,275,MalePop,1990,1063
+State of Palestine,275,MalePop,1995,1327
+State of Palestine,275,MalePop,2000,1634
+State of Palestine,275,MalePop,2005,1815
+State of Palestine,275,MalePop,2010,2063
+State of Palestine,275,MalePop,2015,2367
+State of Palestine,275,FemalePop,1990,1038
+State of Palestine,275,FemalePop,1995,1292
+State of Palestine,275,FemalePop,2000,1589
+State of Palestine,275,FemalePop,2005,1764
+State of Palestine,275,FemalePop,2010,2006
+State of Palestine,275,FemalePop,2015,2302
+Syrian Arab Republic,760,Pop,1990,12452
+Syrian Arab Republic,760,Pop,1995,14332
+Syrian Arab Republic,760,Pop,2000,16354
+Syrian Arab Republic,760,Pop,2005,18133
+Syrian Arab Republic,760,Pop,2010,20721
+Syrian Arab Republic,760,Pop,2015,18502
+Syrian Arab Republic,760,MalePop,1990,6326
+Syrian Arab Republic,760,MalePop,1995,7281
+Syrian Arab Republic,760,MalePop,2000,8303
+Syrian Arab Republic,760,MalePop,2005,9277
+Syrian Arab Republic,760,MalePop,2010,10479
+Syrian Arab Republic,760,MalePop,2015,9367
+Syrian Arab Republic,760,FemalePop,1990,6125
+Syrian Arab Republic,760,FemalePop,1995,7051
+Syrian Arab Republic,760,FemalePop,2000,8051
+Syrian Arab Republic,760,FemalePop,2005,8856
+Syrian Arab Republic,760,FemalePop,2010,10242
+Syrian Arab Republic,760,FemalePop,2015,9136
+Turkey,792,Pop,1990,53995
+Turkey,792,Pop,1995,58522
+Turkey,792,Pop,2000,63240
+Turkey,792,Pop,2005,67861
+Turkey,792,Pop,2010,72310
+Turkey,792,Pop,2015,78666
+Turkey,792,MalePop,1990,26637
+Turkey,792,MalePop,1995,28820
+Turkey,792,MalePop,2000,31114
+Turkey,792,MalePop,2005,33364
+Turkey,792,MalePop,2010,35525
+Turkey,792,MalePop,2015,38675
+Turkey,792,FemalePop,1990,27358
+Turkey,792,FemalePop,1995,29702
+Turkey,792,FemalePop,2000,32126
+Turkey,792,FemalePop,2005,34496
+Turkey,792,FemalePop,2010,36786
+Turkey,792,FemalePop,2015,39991
+United Arab Emirates,784,Pop,1990,1811
+United Arab Emirates,784,Pop,1995,2350
+United Arab Emirates,784,Pop,2000,3050
+United Arab Emirates,784,Pop,2005,4482
+United Arab Emirates,784,Pop,2010,8329
+United Arab Emirates,784,Pop,2015,9157
+United Arab Emirates,784,MalePop,1990,1192
+United Arab Emirates,784,MalePop,1995,1566
+United Arab Emirates,784,MalePop,2000,2066
+United Arab Emirates,784,MalePop,2005,3186
+United Arab Emirates,784,MalePop,2010,6232
+United Arab Emirates,784,MalePop,2015,6708
+United Arab Emirates,784,FemalePop,1990,620
+United Arab Emirates,784,FemalePop,1995,784
+United Arab Emirates,784,FemalePop,2000,984
+United Arab Emirates,784,FemalePop,2005,1296
+United Arab Emirates,784,FemalePop,2010,2097
+United Arab Emirates,784,FemalePop,2015,2449
+Yemen,887,Pop,1990,11961
+Yemen,887,Pop,1995,15266
+Yemen,887,Pop,2000,17795
+Yemen,887,Pop,2005,20504
+Yemen,887,Pop,2010,23592
+Yemen,887,Pop,2015,26832
+Yemen,887,MalePop,1990,5924
+Yemen,887,MalePop,1995,7741
+Yemen,887,MalePop,2000,9001
+Yemen,887,MalePop,2005,10356
+Yemen,887,MalePop,2010,11918
+Yemen,887,MalePop,2015,13553
+Yemen,887,FemalePop,1990,6037
+Yemen,887,FemalePop,1995,7525
+Yemen,887,FemalePop,2000,8794
+Yemen,887,FemalePop,2005,10149
+Yemen,887,FemalePop,2010,11674
+Yemen,887,FemalePop,2015,13279
+Belarus,112,Pop,1990,10232
+Belarus,112,Pop,1995,10160
+Belarus,112,Pop,2000,9952
+Belarus,112,Pop,2005,9641
+Belarus,112,Pop,2010,9492
+Belarus,112,Pop,2015,9496
+Belarus,112,MalePop,1990,4800
+Belarus,112,MalePop,1995,4765
+Belarus,112,MalePop,2000,4673
+Belarus,112,MalePop,2005,4502
+Belarus,112,MalePop,2010,4414
+Belarus,112,MalePop,2015,4414
+Belarus,112,FemalePop,1990,5432
+Belarus,112,FemalePop,1995,5395
+Belarus,112,FemalePop,2000,5279
+Belarus,112,FemalePop,2005,5139
+Belarus,112,FemalePop,2010,5078
+Belarus,112,FemalePop,2015,5082
+Bulgaria,100,Pop,1990,8821
+Bulgaria,100,Pop,1995,8358
+Bulgaria,100,Pop,2000,8001
+Bulgaria,100,Pop,2005,7683
+Bulgaria,100,Pop,2010,7407
+Bulgaria,100,Pop,2015,7150
+Bulgaria,100,MalePop,1990,4349
+Bulgaria,100,MalePop,1995,4093
+Bulgaria,100,MalePop,2000,3898
+Bulgaria,100,MalePop,2005,3740
+Bulgaria,100,MalePop,2010,3606
+Bulgaria,100,MalePop,2015,3473
+Bulgaria,100,FemalePop,1990,4472
+Bulgaria,100,FemalePop,1995,4265
+Bulgaria,100,FemalePop,2000,4102
+Bulgaria,100,FemalePop,2005,3942
+Bulgaria,100,FemalePop,2010,3801
+Bulgaria,100,FemalePop,2015,3676
+Czech Republic,203,Pop,1990,10324
+Czech Republic,203,Pop,1995,10336
+Czech Republic,203,Pop,2000,10263
+Czech Republic,203,Pop,2005,10231
+Czech Republic,203,Pop,2010,10507
+Czech Republic,203,Pop,2015,10543
+Czech Republic,203,MalePop,1990,5012
+Czech Republic,203,MalePop,1995,5022
+Czech Republic,203,MalePop,2000,4992
+Czech Republic,203,MalePop,2005,4982
+Czech Republic,203,MalePop,2010,5155
+Czech Republic,203,MalePop,2015,5180
+Czech Republic,203,FemalePop,1990,5312
+Czech Republic,203,FemalePop,1995,5314
+Czech Republic,203,FemalePop,2000,5271
+Czech Republic,203,FemalePop,2005,5249
+Czech Republic,203,FemalePop,2010,5351
+Czech Republic,203,FemalePop,2015,5363
+Hungary,348,Pop,1990,10385
+Hungary,348,Pop,1995,10352
+Hungary,348,Pop,2000,10224
+Hungary,348,Pop,2005,10096
+Hungary,348,Pop,2010,10015
+Hungary,348,Pop,2015,9855
+Hungary,348,MalePop,1990,4988
+Hungary,348,MalePop,1995,4946
+Hungary,348,MalePop,2000,4865
+Hungary,348,MalePop,2005,4792
+Hungary,348,MalePop,2010,4757
+Hungary,348,MalePop,2015,4691
+Hungary,348,FemalePop,1990,5397
+Hungary,348,FemalePop,1995,5406
+Hungary,348,FemalePop,2000,5359
+Hungary,348,FemalePop,2005,5304
+Hungary,348,FemalePop,2010,5258
+Hungary,348,FemalePop,2015,5164
+Poland,616,Pop,1990,38195
+Poland,616,Pop,1995,38592
+Poland,616,Pop,2000,38486
+Poland,616,Pop,2005,38464
+Poland,616,Pop,2010,38575
+Poland,616,Pop,2015,38612
+Poland,616,MalePop,1990,18572
+Poland,616,MalePop,1995,18728
+Poland,616,MalePop,2000,18681
+Poland,616,MalePop,2005,18643
+Poland,616,MalePop,2010,18671
+Poland,616,MalePop,2015,18674
+Poland,616,FemalePop,1990,19623
+Poland,616,FemalePop,1995,19864
+Poland,616,FemalePop,2000,19805
+Poland,616,FemalePop,2005,19820
+Poland,616,FemalePop,2010,19904
+Poland,616,FemalePop,2015,19938
+Republic of Moldova,498,Pop,1990,4364
+Republic of Moldova,498,Pop,1995,4339
+Republic of Moldova,498,Pop,2000,4201
+Republic of Moldova,498,Pop,2005,4158
+Republic of Moldova,498,Pop,2010,4084
+Republic of Moldova,498,Pop,2015,4069
+Republic of Moldova,498,MalePop,1990,2080
+Republic of Moldova,498,MalePop,1995,2073
+Republic of Moldova,498,MalePop,2000,2011
+Republic of Moldova,498,MalePop,2005,1991
+Republic of Moldova,498,MalePop,2010,1964
+Republic of Moldova,498,MalePop,2015,1956
+Republic of Moldova,498,FemalePop,1990,2284
+Republic of Moldova,498,FemalePop,1995,2267
+Republic of Moldova,498,FemalePop,2000,2190
+Republic of Moldova,498,FemalePop,2005,2166
+Republic of Moldova,498,FemalePop,2010,2121
+Republic of Moldova,498,FemalePop,2015,2113
+Romania,642,Pop,1990,23489
+Romania,642,Pop,1995,22965
+Romania,642,Pop,2000,22128
+Romania,642,Pop,2005,21408
+Romania,642,Pop,2010,20299
+Romania,642,Pop,2015,19511
+Romania,642,MalePop,1990,11580
+Romania,642,MalePop,1995,11284
+Romania,642,MalePop,2000,10825
+Romania,642,MalePop,2005,10439
+Romania,642,MalePop,2010,9860
+Romania,642,MalePop,2015,9451
+Romania,642,FemalePop,1990,11910
+Romania,642,FemalePop,1995,11681
+Romania,642,FemalePop,2000,11303
+Romania,642,FemalePop,2005,10969
+Romania,642,FemalePop,2010,10439
+Romania,642,FemalePop,2015,10060
+Russian Federation,643,Pop,1990,147569
+Russian Federation,643,Pop,1995,148293
+Russian Federation,643,Pop,2000,146401
+Russian Federation,643,Pop,2005,143623
+Russian Federation,643,Pop,2010,143158
+Russian Federation,643,Pop,2015,143457
+Russian Federation,643,MalePop,1990,69087
+Russian Federation,643,MalePop,1995,69571
+Russian Federation,643,MalePop,2000,68511
+Russian Federation,643,MalePop,2005,66836
+Russian Federation,643,MalePop,2010,66390
+Russian Federation,643,MalePop,2015,66644
+Russian Federation,643,FemalePop,1990,78481
+Russian Federation,643,FemalePop,1995,78723
+Russian Federation,643,FemalePop,2000,77890
+Russian Federation,643,FemalePop,2005,76786
+Russian Federation,643,FemalePop,2010,76768
+Russian Federation,643,FemalePop,2015,76813
+Slovakia,703,Pop,1990,5278
+Slovakia,703,Pop,1995,5363
+Slovakia,703,Pop,2000,5386
+Slovakia,703,Pop,2005,5385
+Slovakia,703,Pop,2010,5407
+Slovakia,703,Pop,2015,5426
+Slovakia,703,MalePop,1990,2578
+Slovakia,703,MalePop,1995,2611
+Slovakia,703,MalePop,2000,2616
+Slovakia,703,MalePop,2005,2612
+Slovakia,703,MalePop,2010,2621
+Slovakia,703,MalePop,2015,2630
+Slovakia,703,FemalePop,1990,2700
+Slovakia,703,FemalePop,1995,2752
+Slovakia,703,FemalePop,2000,2770
+Slovakia,703,FemalePop,2005,2774
+Slovakia,703,FemalePop,2010,2786
+Slovakia,703,FemalePop,2015,2796
+Ukraine,804,Pop,1990,51370
+Ukraine,804,Pop,1995,50812
+Ukraine,804,Pop,2000,48746
+Ukraine,804,Pop,2005,46795
+Ukraine,804,Pop,2010,45647
+Ukraine,804,Pop,2015,44824
+Ukraine,804,MalePop,1990,23885
+Ukraine,804,MalePop,1995,23684
+Ukraine,804,MalePop,2000,22686
+Ukraine,804,MalePop,2005,21701
+Ukraine,804,MalePop,2010,21095
+Ukraine,804,MalePop,2015,20759
+Ukraine,804,FemalePop,1990,27485
+Ukraine,804,FemalePop,1995,27128
+Ukraine,804,FemalePop,2000,26060
+Ukraine,804,FemalePop,2005,25095
+Ukraine,804,FemalePop,2010,24553
+Ukraine,804,FemalePop,2015,24064
+Channel Islands,830,Pop,1990,141
+Channel Islands,830,Pop,1995,144
+Channel Islands,830,Pop,2000,149
+Channel Islands,830,Pop,2005,154
+Channel Islands,830,Pop,2010,160
+Channel Islands,830,Pop,2015,164
+Channel Islands,830,MalePop,1990,68
+Channel Islands,830,MalePop,1995,70
+Channel Islands,830,MalePop,2000,73
+Channel Islands,830,MalePop,2005,76
+Channel Islands,830,MalePop,2010,79
+Channel Islands,830,MalePop,2015,81
+Channel Islands,830,FemalePop,1990,72
+Channel Islands,830,FemalePop,1995,74
+Channel Islands,830,FemalePop,2000,76
+Channel Islands,830,FemalePop,2005,78
+Channel Islands,830,FemalePop,2010,81
+Channel Islands,830,FemalePop,2015,83
+Denmark,208,Pop,1990,5140
+Denmark,208,Pop,1995,5233
+Denmark,208,Pop,2000,5338
+Denmark,208,Pop,2005,5418
+Denmark,208,Pop,2010,5551
+Denmark,208,Pop,2015,5669
+Denmark,208,MalePop,1990,2535
+Denmark,208,MalePop,1995,2584
+Denmark,208,MalePop,2000,2640
+Denmark,208,MalePop,2005,2682
+Denmark,208,MalePop,2010,2753
+Denmark,208,MalePop,2015,2814
+Denmark,208,FemalePop,1990,2606
+Denmark,208,FemalePop,1995,2649
+Denmark,208,FemalePop,2000,2698
+Denmark,208,FemalePop,2005,2735
+Denmark,208,FemalePop,2010,2798
+Denmark,208,FemalePop,2015,2855
+Estonia,233,Pop,1990,1565
+Estonia,233,Pop,1995,1433
+Estonia,233,Pop,2000,1399
+Estonia,233,Pop,2005,1356
+Estonia,233,Pop,2010,1332
+Estonia,233,Pop,2015,1313
+Estonia,233,MalePop,1990,732
+Estonia,233,MalePop,1995,663
+Estonia,233,MalePop,2000,653
+Estonia,233,MalePop,2005,630
+Estonia,233,MalePop,2010,620
+Estonia,233,MalePop,2015,614
+Estonia,233,FemalePop,1990,833
+Estonia,233,FemalePop,1995,770
+Estonia,233,FemalePop,2000,747
+Estonia,233,FemalePop,2005,726
+Estonia,233,FemalePop,2010,712
+Estonia,233,FemalePop,2015,698
+Faeroe Islands,234,Pop,1990,48
+Faeroe Islands,234,Pop,1995,44
+Faeroe Islands,234,Pop,2000,46
+Faeroe Islands,234,Pop,2005,48
+Faeroe Islands,234,Pop,2010,49
+Faeroe Islands,234,Pop,2015,48
+Faeroe Islands,234,MalePop,1990,NA
+Faeroe Islands,234,MalePop,1995,NA
+Faeroe Islands,234,MalePop,2000,NA
+Faeroe Islands,234,MalePop,2005,NA
+Faeroe Islands,234,MalePop,2010,NA
+Faeroe Islands,234,MalePop,2015,NA
+Faeroe Islands,234,FemalePop,1990,NA
+Faeroe Islands,234,FemalePop,1995,NA
+Faeroe Islands,234,FemalePop,2000,NA
+Faeroe Islands,234,FemalePop,2005,NA
+Faeroe Islands,234,FemalePop,2010,NA
+Faeroe Islands,234,FemalePop,2015,NA
+Finland,246,Pop,1990,4987
+Finland,246,Pop,1995,5108
+Finland,246,Pop,2000,5176
+Finland,246,Pop,2005,5246
+Finland,246,Pop,2010,5368
+Finland,246,Pop,2015,5503
+Finland,246,MalePop,1990,2420
+Finland,246,MalePop,1995,2487
+Finland,246,MalePop,2000,2526
+Finland,246,MalePop,2005,2567
+Finland,246,MalePop,2010,2634
+Finland,246,MalePop,2015,2709
+Finland,246,FemalePop,1990,2567
+Finland,246,FemalePop,1995,2621
+Finland,246,FemalePop,2000,2650
+Finland,246,FemalePop,2005,2679
+Finland,246,FemalePop,2010,2734
+Finland,246,FemalePop,2015,2794
+Iceland,352,Pop,1990,255
+Iceland,352,Pop,1995,267
+Iceland,352,Pop,2000,281
+Iceland,352,Pop,2005,297
+Iceland,352,Pop,2010,318
+Iceland,352,Pop,2015,329
+Iceland,352,MalePop,1990,128
+Iceland,352,MalePop,1995,134
+Iceland,352,MalePop,2000,141
+Iceland,352,MalePop,2005,149
+Iceland,352,MalePop,2010,160
+Iceland,352,MalePop,2015,165
+Iceland,352,FemalePop,1990,127
+Iceland,352,FemalePop,1995,133
+Iceland,352,FemalePop,2000,140
+Iceland,352,FemalePop,2005,148
+Iceland,352,FemalePop,2010,158
+Iceland,352,FemalePop,2015,164
+Ireland,372,Pop,1990,3563
+Ireland,372,Pop,1995,3645
+Ireland,372,Pop,2000,3842
+Ireland,372,Pop,2005,4204
+Ireland,372,Pop,2010,4617
+Ireland,372,Pop,2015,4688
+Ireland,372,MalePop,1990,1774
+Ireland,372,MalePop,1995,1811
+Ireland,372,MalePop,2000,1910
+Ireland,372,MalePop,2005,2099
+Ireland,372,MalePop,2010,2301
+Ireland,372,MalePop,2015,2340
+Ireland,372,FemalePop,1990,1789
+Ireland,372,FemalePop,1995,1834
+Ireland,372,FemalePop,2000,1931
+Ireland,372,FemalePop,2005,2104
+Ireland,372,FemalePop,2010,2316
+Ireland,372,FemalePop,2015,2348
+Isle of Man,833,Pop,1990,70
+Isle of Man,833,Pop,1995,72
+Isle of Man,833,Pop,2000,77
+Isle of Man,833,Pop,2005,80
+Isle of Man,833,Pop,2010,84
+Isle of Man,833,Pop,2015,88
+Isle of Man,833,MalePop,1990,NA
+Isle of Man,833,MalePop,1995,NA
+Isle of Man,833,MalePop,2000,NA
+Isle of Man,833,MalePop,2005,NA
+Isle of Man,833,MalePop,2010,NA
+Isle of Man,833,MalePop,2015,NA
+Isle of Man,833,FemalePop,1990,NA
+Isle of Man,833,FemalePop,1995,NA
+Isle of Man,833,FemalePop,2000,NA
+Isle of Man,833,FemalePop,2005,NA
+Isle of Man,833,FemalePop,2010,NA
+Isle of Man,833,FemalePop,2015,NA
+Latvia,428,Pop,1990,2664
+Latvia,428,Pop,1995,2488
+Latvia,428,Pop,2000,2371
+Latvia,428,Pop,2005,2228
+Latvia,428,Pop,2010,2091
+Latvia,428,Pop,2015,1971
+Latvia,428,MalePop,1990,1238
+Latvia,428,MalePop,1995,1147
+Latvia,428,MalePop,2000,1091
+Latvia,428,MalePop,2005,1021
+Latvia,428,MalePop,2010,955
+Latvia,428,MalePop,2015,904
+Latvia,428,FemalePop,1990,1426
+Latvia,428,FemalePop,1995,1341
+Latvia,428,FemalePop,2000,1280
+Latvia,428,FemalePop,2005,1207
+Latvia,428,FemalePop,2010,1135
+Latvia,428,FemalePop,2015,1067
+Lithuania,440,Pop,1990,3697
+Lithuania,440,Pop,1995,3628
+Lithuania,440,Pop,2000,3486
+Lithuania,440,Pop,2005,3343
+Lithuania,440,Pop,2010,3123
+Lithuania,440,Pop,2015,2878
+Lithuania,440,MalePop,1990,1750
+Lithuania,440,MalePop,1995,1710
+Lithuania,440,MalePop,2000,1632
+Lithuania,440,MalePop,2005,1556
+Lithuania,440,MalePop,2010,1440
+Lithuania,440,MalePop,2015,1325
+Lithuania,440,FemalePop,1990,1948
+Lithuania,440,FemalePop,1995,1919
+Lithuania,440,FemalePop,2000,1855
+Lithuania,440,FemalePop,2005,1788
+Lithuania,440,FemalePop,2010,1683
+Lithuania,440,FemalePop,2015,1553
+Norway,578,Pop,1990,4240
+Norway,578,Pop,1995,4360
+Norway,578,Pop,2000,4492
+Norway,578,Pop,2005,4624
+Norway,578,Pop,2010,4891
+Norway,578,Pop,2015,5211
+Norway,578,MalePop,1990,2096
+Norway,578,MalePop,1995,2155
+Norway,578,MalePop,2000,2224
+Norway,578,MalePop,2005,2293
+Norway,578,MalePop,2010,2444
+Norway,578,MalePop,2015,2625
+Norway,578,FemalePop,1990,2145
+Norway,578,FemalePop,1995,2205
+Norway,578,FemalePop,2000,2268
+Norway,578,FemalePop,2005,2332
+Norway,578,FemalePop,2010,2447
+Norway,578,FemalePop,2015,2586
+Sweden,752,Pop,1990,8559
+Sweden,752,Pop,1995,8827
+Sweden,752,Pop,2000,8872
+Sweden,752,Pop,2005,9030
+Sweden,752,Pop,2010,9382
+Sweden,752,Pop,2015,9779
+Sweden,752,MalePop,1990,4228
+Sweden,752,MalePop,1995,4361
+Sweden,752,MalePop,2000,4387
+Sweden,752,MalePop,2005,4477
+Sweden,752,MalePop,2010,4672
+Sweden,752,MalePop,2015,4887
+Sweden,752,FemalePop,1990,4331
+Sweden,752,FemalePop,1995,4466
+Sweden,752,FemalePop,2000,4486
+Sweden,752,FemalePop,2005,4554
+Sweden,752,FemalePop,2010,4711
+Sweden,752,FemalePop,2015,4893
+United Kingdom of Great Britain and Northern Ireland,826,Pop,1990,57110
+United Kingdom of Great Britain and Northern Ireland,826,Pop,1995,57904
+United Kingdom of Great Britain and Northern Ireland,826,Pop,2000,58867
+United Kingdom of Great Britain and Northern Ireland,826,Pop,2005,60210
+United Kingdom of Great Britain and Northern Ireland,826,Pop,2010,62717
+United Kingdom of Great Britain and Northern Ireland,826,Pop,2015,64716
+United Kingdom of Great Britain and Northern Ireland,826,MalePop,1990,27750
+United Kingdom of Great Britain and Northern Ireland,826,MalePop,1995,28143
+United Kingdom of Great Britain and Northern Ireland,826,MalePop,2000,28677
+United Kingdom of Great Britain and Northern Ireland,826,MalePop,2005,29474
+United Kingdom of Great Britain and Northern Ireland,826,MalePop,2010,30813
+United Kingdom of Great Britain and Northern Ireland,826,MalePop,2015,31899
+United Kingdom of Great Britain and Northern Ireland,826,FemalePop,1990,29360
+United Kingdom of Great Britain and Northern Ireland,826,FemalePop,1995,29761
+United Kingdom of Great Britain and Northern Ireland,826,FemalePop,2000,30190
+United Kingdom of Great Britain and Northern Ireland,826,FemalePop,2005,30736
+United Kingdom of Great Britain and Northern Ireland,826,FemalePop,2010,31903
+United Kingdom of Great Britain and Northern Ireland,826,FemalePop,2015,32817
+Albania,8,Pop,1990,3281
+Albania,8,Pop,1995,3107
+Albania,8,Pop,2000,3122
+Albania,8,Pop,2005,3082
+Albania,8,Pop,2010,2902
+Albania,8,Pop,2015,2897
+Albania,8,MalePop,1990,1681
+Albania,8,MalePop,1995,1529
+Albania,8,MalePop,2000,1578
+Albania,8,MalePop,2005,1549
+Albania,8,MalePop,2010,1463
+Albania,8,MalePop,2015,1437
+Albania,8,FemalePop,1990,1601
+Albania,8,FemalePop,1995,1577
+Albania,8,FemalePop,2000,1544
+Albania,8,FemalePop,2005,1533
+Albania,8,FemalePop,2010,1439
+Albania,8,FemalePop,2015,1460
+Andorra,20,Pop,1990,55
+Andorra,20,Pop,1995,64
+Andorra,20,Pop,2000,65
+Andorra,20,Pop,2005,81
+Andorra,20,Pop,2010,84
+Andorra,20,Pop,2015,70
+Andorra,20,MalePop,1990,NA
+Andorra,20,MalePop,1995,NA
+Andorra,20,MalePop,2000,NA
+Andorra,20,MalePop,2005,NA
+Andorra,20,MalePop,2010,NA
+Andorra,20,MalePop,2015,NA
+Andorra,20,FemalePop,1990,NA
+Andorra,20,FemalePop,1995,NA
+Andorra,20,FemalePop,2000,NA
+Andorra,20,FemalePop,2005,NA
+Andorra,20,FemalePop,2010,NA
+Andorra,20,FemalePop,2015,NA
+Bosnia and Herzegovina,70,Pop,1990,4527
+Bosnia and Herzegovina,70,Pop,1995,3879
+Bosnia and Herzegovina,70,Pop,2000,3793
+Bosnia and Herzegovina,70,Pop,2005,3833
+Bosnia and Herzegovina,70,Pop,2010,3835
+Bosnia and Herzegovina,70,Pop,2015,3810
+Bosnia and Herzegovina,70,MalePop,1990,2262
+Bosnia and Herzegovina,70,MalePop,1995,1933
+Bosnia and Herzegovina,70,MalePop,2000,1891
+Bosnia and Herzegovina,70,MalePop,2005,1910
+Bosnia and Herzegovina,70,MalePop,2010,1910
+Bosnia and Herzegovina,70,MalePop,2015,1896
+Bosnia and Herzegovina,70,FemalePop,1990,2265
+Bosnia and Herzegovina,70,FemalePop,1995,1946
+Bosnia and Herzegovina,70,FemalePop,2000,1902
+Bosnia and Herzegovina,70,FemalePop,2005,1924
+Bosnia and Herzegovina,70,FemalePop,2010,1926
+Bosnia and Herzegovina,70,FemalePop,2015,1914
+Croatia,191,Pop,1990,4776
+Croatia,191,Pop,1995,4617
+Croatia,191,Pop,2000,4428
+Croatia,191,Pop,2005,4378
+Croatia,191,Pop,2010,4316
+Croatia,191,Pop,2015,4240
+Croatia,191,MalePop,1990,2316
+Croatia,191,MalePop,1995,2233
+Croatia,191,MalePop,2000,2132
+Croatia,191,MalePop,2005,2108
+Croatia,191,MalePop,2010,2081
+Croatia,191,MalePop,2015,2045
+Croatia,191,FemalePop,1990,2461
+Croatia,191,FemalePop,1995,2384
+Croatia,191,FemalePop,2000,2296
+Croatia,191,FemalePop,2005,2270
+Croatia,191,FemalePop,2010,2236
+Croatia,191,FemalePop,2015,2195
+Gibraltar,292,Pop,1990,27
+Gibraltar,292,Pop,1995,27
+Gibraltar,292,Pop,2000,27
+Gibraltar,292,Pop,2005,29
+Gibraltar,292,Pop,2010,31
+Gibraltar,292,Pop,2015,32
+Gibraltar,292,MalePop,1990,NA
+Gibraltar,292,MalePop,1995,NA
+Gibraltar,292,MalePop,2000,NA
+Gibraltar,292,MalePop,2005,NA
+Gibraltar,292,MalePop,2010,NA
+Gibraltar,292,MalePop,2015,NA
+Gibraltar,292,FemalePop,1990,NA
+Gibraltar,292,FemalePop,1995,NA
+Gibraltar,292,FemalePop,2000,NA
+Gibraltar,292,FemalePop,2005,NA
+Gibraltar,292,FemalePop,2010,NA
+Gibraltar,292,FemalePop,2015,NA
+Greece,300,Pop,1990,10132
+Greece,300,Pop,1995,10641
+Greece,300,Pop,2000,10954
+Greece,300,Pop,2005,11070
+Greece,300,Pop,2010,11178
+Greece,300,Pop,2015,10955
+Greece,300,MalePop,1990,5001
+Greece,300,MalePop,1995,5260
+Greece,300,MalePop,2000,5415
+Greece,300,MalePop,2005,5449
+Greece,300,MalePop,2010,5484
+Greece,300,MalePop,2015,5345
+Greece,300,FemalePop,1990,5131
+Greece,300,FemalePop,1995,5381
+Greece,300,FemalePop,2000,5539
+Greece,300,FemalePop,2005,5620
+Greece,300,FemalePop,2010,5694
+Greece,300,FemalePop,2015,5609
+Holy See,336,Pop,1990,1
+Holy See,336,Pop,1995,1
+Holy See,336,Pop,2000,1
+Holy See,336,Pop,2005,1
+Holy See,336,Pop,2010,1
+Holy See,336,Pop,2015,1
+Holy See,336,MalePop,1990,NA
+Holy See,336,MalePop,1995,NA
+Holy See,336,MalePop,2000,NA
+Holy See,336,MalePop,2005,NA
+Holy See,336,MalePop,2010,NA
+Holy See,336,MalePop,2015,NA
+Holy See,336,FemalePop,1990,NA
+Holy See,336,FemalePop,1995,NA
+Holy See,336,FemalePop,2000,NA
+Holy See,336,FemalePop,2005,NA
+Holy See,336,FemalePop,2010,NA
+Holy See,336,FemalePop,2015,NA
+Italy,380,Pop,1990,57008
+Italy,380,Pop,1995,57120
+Italy,380,Pop,2000,57147
+Italy,380,Pop,2005,58657
+Italy,380,Pop,2010,59588
+Italy,380,Pop,2015,59798
+Italy,380,MalePop,1990,27724
+Italy,380,MalePop,1995,27733
+Italy,380,MalePop,2000,27717
+Italy,380,MalePop,2005,28527
+Italy,380,MalePop,2010,28937
+Italy,380,MalePop,2015,29070
+Italy,380,FemalePop,1990,29284
+Italy,380,FemalePop,1995,29387
+Italy,380,FemalePop,2000,29430
+Italy,380,FemalePop,2005,30130
+Italy,380,FemalePop,2010,30651
+Italy,380,FemalePop,2015,30728
+Malta,470,Pop,1990,356
+Malta,470,Pop,1995,372
+Malta,470,Pop,2000,387
+Malta,470,Pop,2005,397
+Malta,470,Pop,2010,412
+Malta,470,Pop,2015,419
+Malta,470,MalePop,1990,175
+Malta,470,MalePop,1995,184
+Malta,470,MalePop,2000,192
+Malta,470,MalePop,2005,196
+Malta,470,MalePop,2010,205
+Malta,470,MalePop,2015,208
+Malta,470,FemalePop,1990,181
+Malta,470,FemalePop,1995,189
+Malta,470,FemalePop,2000,196
+Malta,470,FemalePop,2005,201
+Malta,470,FemalePop,2010,207
+Malta,470,FemalePop,2015,210
+Montenegro,499,Pop,1990,615
+Montenegro,499,Pop,1995,620
+Montenegro,499,Pop,2000,614
+Montenegro,499,Pop,2005,616
+Montenegro,499,Pop,2010,622
+Montenegro,499,Pop,2015,626
+Montenegro,499,MalePop,1990,306
+Montenegro,499,MalePop,1995,308
+Montenegro,499,MalePop,2000,303
+Montenegro,499,MalePop,2005,303
+Montenegro,499,MalePop,2010,307
+Montenegro,499,MalePop,2015,309
+Montenegro,499,FemalePop,1990,309
+Montenegro,499,FemalePop,1995,312
+Montenegro,499,FemalePop,2000,311
+Montenegro,499,FemalePop,2005,314
+Montenegro,499,FemalePop,2010,315
+Montenegro,499,FemalePop,2015,317
+Portugal,620,Pop,1990,9890
+Portugal,620,Pop,1995,10078
+Portugal,620,Pop,2000,10279
+Portugal,620,Pop,2005,10480
+Portugal,620,Pop,2010,10585
+Portugal,620,Pop,2015,10350
+Portugal,620,MalePop,1990,4762
+Portugal,620,MalePop,1995,4856
+Portugal,620,MalePop,2000,4959
+Portugal,620,MalePop,2005,5069
+Portugal,620,MalePop,2010,5065
+Portugal,620,MalePop,2015,4901
+Portugal,620,FemalePop,1990,5128
+Portugal,620,FemalePop,1995,5222
+Portugal,620,FemalePop,2000,5320
+Portugal,620,FemalePop,2005,5411
+Portugal,620,FemalePop,2010,5520
+Portugal,620,FemalePop,2015,5449
+San Marino,674,Pop,1990,24
+San Marino,674,Pop,1995,26
+San Marino,674,Pop,2000,27
+San Marino,674,Pop,2005,29
+San Marino,674,Pop,2010,31
+San Marino,674,Pop,2015,32
+San Marino,674,MalePop,1990,NA
+San Marino,674,MalePop,1995,NA
+San Marino,674,MalePop,2000,NA
+San Marino,674,MalePop,2005,NA
+San Marino,674,MalePop,2010,NA
+San Marino,674,MalePop,2015,NA
+San Marino,674,FemalePop,1990,NA
+San Marino,674,FemalePop,1995,NA
+San Marino,674,FemalePop,2000,NA
+San Marino,674,FemalePop,2005,NA
+San Marino,674,FemalePop,2010,NA
+San Marino,674,FemalePop,2015,NA
+Serbia,688,Pop,1990,9518
+Serbia,688,Pop,1995,9884
+Serbia,688,Pop,2000,9463
+Serbia,688,Pop,2005,9187
+Serbia,688,Pop,2010,9059
+Serbia,688,Pop,2015,8851
+Serbia,688,MalePop,1990,4698
+Serbia,688,MalePop,1995,4871
+Serbia,688,MalePop,2000,4644
+Serbia,688,MalePop,2005,4491
+Serbia,688,MalePop,2010,4428
+Serbia,688,MalePop,2015,4320
+Serbia,688,FemalePop,1990,4820
+Serbia,688,FemalePop,1995,5014
+Serbia,688,FemalePop,2000,4819
+Serbia,688,FemalePop,2005,4696
+Serbia,688,FemalePop,2010,4631
+Serbia,688,FemalePop,2015,4531
+Slovenia,705,Pop,1990,2007
+Slovenia,705,Pop,1995,1991
+Slovenia,705,Pop,2000,1989
+Slovenia,705,Pop,2005,1997
+Slovenia,705,Pop,2010,2052
+Slovenia,705,Pop,2015,2068
+Slovenia,705,MalePop,1990,974
+Slovenia,705,MalePop,1995,965
+Slovenia,705,MalePop,2000,971
+Slovenia,705,MalePop,2005,975
+Slovenia,705,MalePop,2010,1017
+Slovenia,705,MalePop,2015,1025
+Slovenia,705,FemalePop,1990,1033
+Slovenia,705,FemalePop,1995,1026
+Slovenia,705,FemalePop,2000,1018
+Slovenia,705,FemalePop,2005,1022
+Slovenia,705,FemalePop,2010,1036
+Slovenia,705,FemalePop,2015,1043
+Spain,724,Pop,1990,39192
+Spain,724,Pop,1995,39764
+Spain,724,Pop,2000,40750
+Spain,724,Pop,2005,43855
+Spain,724,Pop,2010,46601
+Spain,724,Pop,2015,46122
+Spain,724,MalePop,1990,19195
+Spain,724,MalePop,1995,19466
+Spain,724,MalePop,2000,20000
+Spain,724,MalePop,2005,21634
+Spain,724,MalePop,2010,23044
+Spain,724,MalePop,2015,22624
+Spain,724,FemalePop,1990,19997
+Spain,724,FemalePop,1995,20298
+Spain,724,FemalePop,2000,20749
+Spain,724,FemalePop,2005,22221
+Spain,724,FemalePop,2010,23557
+Spain,724,FemalePop,2015,23498
+The former Yugoslav Republic of Macedonia,807,Pop,1990,1996
+The former Yugoslav Republic of Macedonia,807,Pop,1995,1954
+The former Yugoslav Republic of Macedonia,807,Pop,2000,2012
+The former Yugoslav Republic of Macedonia,807,Pop,2005,2043
+The former Yugoslav Republic of Macedonia,807,Pop,2010,2062
+The former Yugoslav Republic of Macedonia,807,Pop,2015,2078
+The former Yugoslav Republic of Macedonia,807,MalePop,1990,1004
+The former Yugoslav Republic of Macedonia,807,MalePop,1995,979
+The former Yugoslav Republic of Macedonia,807,MalePop,2000,1006
+The former Yugoslav Republic of Macedonia,807,MalePop,2005,1019
+The former Yugoslav Republic of Macedonia,807,MalePop,2010,1028
+The former Yugoslav Republic of Macedonia,807,MalePop,2015,1035
+The former Yugoslav Republic of Macedonia,807,FemalePop,1990,992
+The former Yugoslav Republic of Macedonia,807,FemalePop,1995,975
+The former Yugoslav Republic of Macedonia,807,FemalePop,2000,1006
+The former Yugoslav Republic of Macedonia,807,FemalePop,2005,1024
+The former Yugoslav Republic of Macedonia,807,FemalePop,2010,1035
+The former Yugoslav Republic of Macedonia,807,FemalePop,2015,1044
+Austria,40,Pop,1990,7707
+Austria,40,Pop,1995,7973
+Austria,40,Pop,2000,8051
+Austria,40,Pop,2005,8235
+Austria,40,Pop,2010,8392
+Austria,40,Pop,2015,8545
+Austria,40,MalePop,1990,3686
+Austria,40,MalePop,1995,3848
+Austria,40,MalePop,2000,3907
+Austria,40,MalePop,2005,4002
+Austria,40,MalePop,2010,4089
+Austria,40,MalePop,2015,4196
+Austria,40,FemalePop,1990,4020
+Austria,40,FemalePop,1995,4125
+Austria,40,FemalePop,2000,4144
+Austria,40,FemalePop,2005,4233
+Austria,40,FemalePop,2010,4303
+Austria,40,FemalePop,2015,4348
+Belgium,56,Pop,1990,9978
+Belgium,56,Pop,1995,10162
+Belgium,56,Pop,2000,10268
+Belgium,56,Pop,2005,10561
+Belgium,56,Pop,2010,10930
+Belgium,56,Pop,2015,11299
+Belgium,56,MalePop,1990,4879
+Belgium,56,MalePop,1995,4971
+Belgium,56,MalePop,2000,5020
+Belgium,56,MalePop,2005,5170
+Belgium,56,MalePop,2010,5356
+Belgium,56,MalePop,2015,5559
+Belgium,56,FemalePop,1990,5100
+Belgium,56,FemalePop,1995,5191
+Belgium,56,FemalePop,2000,5248
+Belgium,56,FemalePop,2005,5392
+Belgium,56,FemalePop,2010,5574
+Belgium,56,FemalePop,2015,5740
+France,250,Pop,1990,56943
+France,250,Pop,1995,58224
+France,250,Pop,2000,59387
+France,250,Pop,2005,61242
+France,250,Pop,2010,62961
+France,250,Pop,2015,64395
+France,250,MalePop,1990,27960
+France,250,MalePop,1995,28533
+France,250,MalePop,2000,29048
+France,250,MalePop,2005,29885
+France,250,MalePop,2010,30676
+France,250,MalePop,2015,31342
+France,250,FemalePop,1990,28983
+France,250,FemalePop,1995,29691
+France,250,FemalePop,2000,30339
+France,250,FemalePop,2005,31357
+France,250,FemalePop,2010,32285
+France,250,FemalePop,2015,33054
+Germany,276,Pop,1990,78958
+Germany,276,Pop,1995,81613
+Germany,276,Pop,2000,81896
+Germany,276,Pop,2005,81247
+Germany,276,Pop,2010,80435
+Germany,276,Pop,2015,80689
+Germany,276,MalePop,1990,38125
+Germany,276,MalePop,1995,39772
+Germany,276,MalePop,2000,40040
+Germany,276,MalePop,2005,39785
+Germany,276,MalePop,2010,39412
+Germany,276,MalePop,2015,39653
+Germany,276,FemalePop,1990,40833
+Germany,276,FemalePop,1995,41840
+Germany,276,FemalePop,2000,41856
+Germany,276,FemalePop,2005,41462
+Germany,276,FemalePop,2010,41023
+Germany,276,FemalePop,2015,41036
+Liechtenstein,438,Pop,1990,29
+Liechtenstein,438,Pop,1995,31
+Liechtenstein,438,Pop,2000,33
+Liechtenstein,438,Pop,2005,35
+Liechtenstein,438,Pop,2010,36
+Liechtenstein,438,Pop,2015,38
+Liechtenstein,438,MalePop,1990,NA
+Liechtenstein,438,MalePop,1995,NA
+Liechtenstein,438,MalePop,2000,NA
+Liechtenstein,438,MalePop,2005,NA
+Liechtenstein,438,MalePop,2010,NA
+Liechtenstein,438,MalePop,2015,NA
+Liechtenstein,438,FemalePop,1990,NA
+Liechtenstein,438,FemalePop,1995,NA
+Liechtenstein,438,FemalePop,2000,NA
+Liechtenstein,438,FemalePop,2005,NA
+Liechtenstein,438,FemalePop,2010,NA
+Liechtenstein,438,FemalePop,2015,NA
+Luxembourg,442,Pop,1990,382
+Luxembourg,442,Pop,1995,408
+Luxembourg,442,Pop,2000,436
+Luxembourg,442,Pop,2005,458
+Luxembourg,442,Pop,2010,508
+Luxembourg,442,Pop,2015,567
+Luxembourg,442,MalePop,1990,187
+Luxembourg,442,MalePop,1995,200
+Luxembourg,442,MalePop,2000,215
+Luxembourg,442,MalePop,2005,226
+Luxembourg,442,MalePop,2010,252
+Luxembourg,442,MalePop,2015,285
+Luxembourg,442,FemalePop,1990,195
+Luxembourg,442,FemalePop,1995,208
+Luxembourg,442,FemalePop,2000,221
+Luxembourg,442,FemalePop,2005,232
+Luxembourg,442,FemalePop,2010,256
+Luxembourg,442,FemalePop,2015,282
+Monaco,492,Pop,1990,29
+Monaco,492,Pop,1995,31
+Monaco,492,Pop,2000,32
+Monaco,492,Pop,2005,34
+Monaco,492,Pop,2010,37
+Monaco,492,Pop,2015,38
+Monaco,492,MalePop,1990,NA
+Monaco,492,MalePop,1995,NA
+Monaco,492,MalePop,2000,NA
+Monaco,492,MalePop,2005,NA
+Monaco,492,MalePop,2010,NA
+Monaco,492,MalePop,2015,NA
+Monaco,492,FemalePop,1990,NA
+Monaco,492,FemalePop,1995,NA
+Monaco,492,FemalePop,2000,NA
+Monaco,492,FemalePop,2005,NA
+Monaco,492,FemalePop,2010,NA
+Monaco,492,FemalePop,2015,NA
+Netherlands,528,Pop,1990,14915
+Netherlands,528,Pop,1995,15451
+Netherlands,528,Pop,2000,15894
+Netherlands,528,Pop,2005,16332
+Netherlands,528,Pop,2010,16632
+Netherlands,528,Pop,2015,16925
+Netherlands,528,MalePop,1990,7372
+Netherlands,528,MalePop,1995,7643
+Netherlands,528,MalePop,2000,7864
+Netherlands,528,MalePop,2005,8081
+Netherlands,528,MalePop,2010,8235
+Netherlands,528,MalePop,2015,8401
+Netherlands,528,FemalePop,1990,7544
+Netherlands,528,FemalePop,1995,7808
+Netherlands,528,FemalePop,2000,8030
+Netherlands,528,FemalePop,2005,8251
+Netherlands,528,FemalePop,2010,8396
+Netherlands,528,FemalePop,2015,8524
+Switzerland,756,Pop,1990,6674
+Switzerland,756,Pop,1995,7017
+Switzerland,756,Pop,2000,7166
+Switzerland,756,Pop,2005,7409
+Switzerland,756,Pop,2010,7831
+Switzerland,756,Pop,2015,8299
+Switzerland,756,MalePop,1990,3258
+Switzerland,756,MalePop,1995,3427
+Switzerland,756,MalePop,2000,3501
+Switzerland,756,MalePop,2005,3626
+Switzerland,756,MalePop,2010,3855
+Switzerland,756,MalePop,2015,4109
+Switzerland,756,FemalePop,1990,3416
+Switzerland,756,FemalePop,1995,3590
+Switzerland,756,FemalePop,2000,3665
+Switzerland,756,FemalePop,2005,3782
+Switzerland,756,FemalePop,2010,3975
+Switzerland,756,FemalePop,2015,4189
+Anguilla,660,Pop,1990,8
+Anguilla,660,Pop,1995,10
+Anguilla,660,Pop,2000,11
+Anguilla,660,Pop,2005,13
+Anguilla,660,Pop,2010,14
+Anguilla,660,Pop,2015,15
+Anguilla,660,MalePop,1990,NA
+Anguilla,660,MalePop,1995,NA
+Anguilla,660,MalePop,2000,NA
+Anguilla,660,MalePop,2005,NA
+Anguilla,660,MalePop,2010,NA
+Anguilla,660,MalePop,2015,NA
+Anguilla,660,FemalePop,1990,NA
+Anguilla,660,FemalePop,1995,NA
+Anguilla,660,FemalePop,2000,NA
+Anguilla,660,FemalePop,2005,NA
+Anguilla,660,FemalePop,2010,NA
+Anguilla,660,FemalePop,2015,NA
+Antigua and Barbuda,28,Pop,1990,62
+Antigua and Barbuda,28,Pop,1995,68
+Antigua and Barbuda,28,Pop,2000,78
+Antigua and Barbuda,28,Pop,2005,83
+Antigua and Barbuda,28,Pop,2010,87
+Antigua and Barbuda,28,Pop,2015,92
+Antigua and Barbuda,28,MalePop,1990,30
+Antigua and Barbuda,28,MalePop,1995,33
+Antigua and Barbuda,28,MalePop,2000,36
+Antigua and Barbuda,28,MalePop,2005,39
+Antigua and Barbuda,28,MalePop,2010,42
+Antigua and Barbuda,28,MalePop,2015,44
+Antigua and Barbuda,28,FemalePop,1990,32
+Antigua and Barbuda,28,FemalePop,1995,35
+Antigua and Barbuda,28,FemalePop,2000,41
+Antigua and Barbuda,28,FemalePop,2005,43
+Antigua and Barbuda,28,FemalePop,2010,46
+Antigua and Barbuda,28,FemalePop,2015,48
+Aruba,533,Pop,1990,62
+Aruba,533,Pop,1995,80
+Aruba,533,Pop,2000,91
+Aruba,533,Pop,2005,100
+Aruba,533,Pop,2010,102
+Aruba,533,Pop,2015,104
+Aruba,533,MalePop,1990,31
+Aruba,533,MalePop,1995,40
+Aruba,533,MalePop,2000,44
+Aruba,533,MalePop,2005,48
+Aruba,533,MalePop,2010,48
+Aruba,533,MalePop,2015,49
+Aruba,533,FemalePop,1990,31
+Aruba,533,FemalePop,1995,41
+Aruba,533,FemalePop,2000,47
+Aruba,533,FemalePop,2005,52
+Aruba,533,FemalePop,2010,53
+Aruba,533,FemalePop,2015,55
+Bahamas,44,Pop,1990,256
+Bahamas,44,Pop,1995,280
+Bahamas,44,Pop,2000,298
+Bahamas,44,Pop,2005,329
+Bahamas,44,Pop,2010,361
+Bahamas,44,Pop,2015,388
+Bahamas,44,MalePop,1990,127
+Bahamas,44,MalePop,1995,138
+Bahamas,44,MalePop,2000,145
+Bahamas,44,MalePop,2005,161
+Bahamas,44,MalePop,2010,176
+Bahamas,44,MalePop,2015,190
+Bahamas,44,FemalePop,1990,129
+Bahamas,44,FemalePop,1995,142
+Bahamas,44,FemalePop,2000,153
+Bahamas,44,FemalePop,2005,169
+Bahamas,44,FemalePop,2010,184
+Bahamas,44,FemalePop,2015,198
+Barbados,52,Pop,1990,260
+Barbados,52,Pop,1995,265
+Barbados,52,Pop,2000,270
+Barbados,52,Pop,2005,274
+Barbados,52,Pop,2010,280
+Barbados,52,Pop,2015,284
+Barbados,52,MalePop,1990,125
+Barbados,52,MalePop,1995,127
+Barbados,52,MalePop,2000,130
+Barbados,52,MalePop,2005,132
+Barbados,52,MalePop,2010,134
+Barbados,52,MalePop,2015,136
+Barbados,52,FemalePop,1990,135
+Barbados,52,FemalePop,1995,137
+Barbados,52,FemalePop,2000,140
+Barbados,52,FemalePop,2005,142
+Barbados,52,FemalePop,2010,145
+Barbados,52,FemalePop,2015,148
+"Bonaire, Sint Eustatius and Saba",535,Pop,1990,13
+"Bonaire, Sint Eustatius and Saba",535,Pop,1995,15
+"Bonaire, Sint Eustatius and Saba",535,Pop,2000,14
+"Bonaire, Sint Eustatius and Saba",535,Pop,2005,14
+"Bonaire, Sint Eustatius and Saba",535,Pop,2010,21
+"Bonaire, Sint Eustatius and Saba",535,Pop,2015,25
+"Bonaire, Sint Eustatius and Saba",535,MalePop,1990,NA
+"Bonaire, Sint Eustatius and Saba",535,MalePop,1995,NA
+"Bonaire, Sint Eustatius and Saba",535,MalePop,2000,NA
+"Bonaire, Sint Eustatius and Saba",535,MalePop,2005,NA
+"Bonaire, Sint Eustatius and Saba",535,MalePop,2010,NA
+"Bonaire, Sint Eustatius and Saba",535,MalePop,2015,NA
+"Bonaire, Sint Eustatius and Saba",535,FemalePop,1990,NA
+"Bonaire, Sint Eustatius and Saba",535,FemalePop,1995,NA
+"Bonaire, Sint Eustatius and Saba",535,FemalePop,2000,NA
+"Bonaire, Sint Eustatius and Saba",535,FemalePop,2005,NA
+"Bonaire, Sint Eustatius and Saba",535,FemalePop,2010,NA
+"Bonaire, Sint Eustatius and Saba",535,FemalePop,2015,NA
+British Virgin Islands,92,Pop,1990,16
+British Virgin Islands,92,Pop,1995,18
+British Virgin Islands,92,Pop,2000,21
+British Virgin Islands,92,Pop,2005,23
+British Virgin Islands,92,Pop,2010,27
+British Virgin Islands,92,Pop,2015,30
+British Virgin Islands,92,MalePop,1990,NA
+British Virgin Islands,92,MalePop,1995,NA
+British Virgin Islands,92,MalePop,2000,NA
+British Virgin Islands,92,MalePop,2005,NA
+British Virgin Islands,92,MalePop,2010,NA
+British Virgin Islands,92,MalePop,2015,NA
+British Virgin Islands,92,FemalePop,1990,NA
+British Virgin Islands,92,FemalePop,1995,NA
+British Virgin Islands,92,FemalePop,2000,NA
+British Virgin Islands,92,FemalePop,2005,NA
+British Virgin Islands,92,FemalePop,2010,NA
+British Virgin Islands,92,FemalePop,2015,NA
+Cayman Islands,136,Pop,1990,25
+Cayman Islands,136,Pop,1995,32
+Cayman Islands,136,Pop,2000,42
+Cayman Islands,136,Pop,2005,49
+Cayman Islands,136,Pop,2010,56
+Cayman Islands,136,Pop,2015,60
+Cayman Islands,136,MalePop,1990,NA
+Cayman Islands,136,MalePop,1995,NA
+Cayman Islands,136,MalePop,2000,NA
+Cayman Islands,136,MalePop,2005,NA
+Cayman Islands,136,MalePop,2010,NA
+Cayman Islands,136,MalePop,2015,NA
+Cayman Islands,136,FemalePop,1990,NA
+Cayman Islands,136,FemalePop,1995,NA
+Cayman Islands,136,FemalePop,2000,NA
+Cayman Islands,136,FemalePop,2005,NA
+Cayman Islands,136,FemalePop,2010,NA
+Cayman Islands,136,FemalePop,2015,NA
+Cuba,192,Pop,1990,10582
+Cuba,192,Pop,1995,10906
+Cuba,192,Pop,2000,11117
+Cuba,192,Pop,2005,11261
+Cuba,192,Pop,2010,11308
+Cuba,192,Pop,2015,11390
+Cuba,192,MalePop,1990,5332
+Cuba,192,MalePop,1995,5490
+Cuba,192,MalePop,2000,5584
+Cuba,192,MalePop,2005,5662
+Cuba,192,MalePop,2010,5686
+Cuba,192,MalePop,2015,5722
+Cuba,192,FemalePop,1990,5251
+Cuba,192,FemalePop,1995,5416
+Cuba,192,FemalePop,2000,5533
+Cuba,192,FemalePop,2005,5599
+Cuba,192,FemalePop,2010,5622
+Cuba,192,FemalePop,2015,5668
+Cura<e7>ao,531,Pop,1990,147
+Cura<e7>ao,531,Pop,1995,144
+Cura<e7>ao,531,Pop,2000,132
+Cura<e7>ao,531,Pop,2005,129
+Cura<e7>ao,531,Pop,2010,148
+Cura<e7>ao,531,Pop,2015,157
+Cura<e7>ao,531,MalePop,1990,70
+Cura<e7>ao,531,MalePop,1995,68
+Cura<e7>ao,531,MalePop,2000,62
+Cura<e7>ao,531,MalePop,2005,61
+Cura<e7>ao,531,MalePop,2010,68
+Cura<e7>ao,531,MalePop,2015,73
+Cura<e7>ao,531,FemalePop,1990,76
+Cura<e7>ao,531,FemalePop,1995,76
+Cura<e7>ao,531,FemalePop,2000,70
+Cura<e7>ao,531,FemalePop,2005,69
+Cura<e7>ao,531,FemalePop,2010,80
+Cura<e7>ao,531,FemalePop,2015,85
+Dominica,212,Pop,1990,71
+Dominica,212,Pop,1995,71
+Dominica,212,Pop,2000,70
+Dominica,212,Pop,2005,71
+Dominica,212,Pop,2010,71
+Dominica,212,Pop,2015,73
+Dominica,212,MalePop,1990,NA
+Dominica,212,MalePop,1995,NA
+Dominica,212,MalePop,2000,NA
+Dominica,212,MalePop,2005,NA
+Dominica,212,MalePop,2010,NA
+Dominica,212,MalePop,2015,NA
+Dominica,212,FemalePop,1990,NA
+Dominica,212,FemalePop,1995,NA
+Dominica,212,FemalePop,2000,NA
+Dominica,212,FemalePop,2005,NA
+Dominica,212,FemalePop,2010,NA
+Dominica,212,FemalePop,2015,NA
+Dominican Republic,214,Pop,1990,7184
+Dominican Republic,214,Pop,1995,7892
+Dominican Republic,214,Pop,2000,8563
+Dominican Republic,214,Pop,2005,9238
+Dominican Republic,214,Pop,2010,9898
+Dominican Republic,214,Pop,2015,10528
+Dominican Republic,214,MalePop,1990,3614
+Dominican Republic,214,MalePop,1995,3964
+Dominican Republic,214,MalePop,2000,4291
+Dominican Republic,214,MalePop,2005,4620
+Dominican Republic,214,MalePop,2010,4941
+Dominican Republic,214,MalePop,2015,5246
+Dominican Republic,214,FemalePop,1990,3569
+Dominican Republic,214,FemalePop,1995,3929
+Dominican Republic,214,FemalePop,2000,4271
+Dominican Republic,214,FemalePop,2005,4618
+Dominican Republic,214,FemalePop,2010,4957
+Dominican Republic,214,FemalePop,2015,5282
+Grenada,308,Pop,1990,96
+Grenada,308,Pop,1995,100
+Grenada,308,Pop,2000,102
+Grenada,308,Pop,2005,103
+Grenada,308,Pop,2010,105
+Grenada,308,Pop,2015,107
+Grenada,308,MalePop,1990,48
+Grenada,308,MalePop,1995,50
+Grenada,308,MalePop,2000,50
+Grenada,308,MalePop,2005,51
+Grenada,308,MalePop,2010,52
+Grenada,308,MalePop,2015,54
+Grenada,308,FemalePop,1990,49
+Grenada,308,FemalePop,1995,51
+Grenada,308,FemalePop,2000,51
+Grenada,308,FemalePop,2005,52
+Grenada,308,FemalePop,2010,52
+Grenada,308,FemalePop,2015,53
+Guadeloupe,312,Pop,1990,390
+Guadeloupe,312,Pop,1995,408
+Guadeloupe,312,Pop,2000,431
+Guadeloupe,312,Pop,2005,451
+Guadeloupe,312,Pop,2010,457
+Guadeloupe,312,Pop,2015,468
+Guadeloupe,312,MalePop,1990,190
+Guadeloupe,312,MalePop,1995,198
+Guadeloupe,312,MalePop,2000,207
+Guadeloupe,312,MalePop,2005,213
+Guadeloupe,312,MalePop,2010,213
+Guadeloupe,312,MalePop,2015,217
+Guadeloupe,312,FemalePop,1990,199
+Guadeloupe,312,FemalePop,1995,210
+Guadeloupe,312,FemalePop,2000,224
+Guadeloupe,312,FemalePop,2005,237
+Guadeloupe,312,FemalePop,2010,243
+Guadeloupe,312,FemalePop,2015,252
+Haiti,332,Pop,1990,7100
+Haiti,332,Pop,1995,7820
+Haiti,332,Pop,2000,8549
+Haiti,332,Pop,2005,9263
+Haiti,332,Pop,2010,10000
+Haiti,332,Pop,2015,10711
+Haiti,332,MalePop,1990,3500
+Haiti,332,MalePop,1995,3858
+Haiti,332,MalePop,2000,4221
+Haiti,332,MalePop,2005,4577
+Haiti,332,MalePop,2010,4943
+Haiti,332,MalePop,2015,5297
+Haiti,332,FemalePop,1990,3600
+Haiti,332,FemalePop,1995,3962
+Haiti,332,FemalePop,2000,4328
+Haiti,332,FemalePop,2005,4686
+Haiti,332,FemalePop,2010,5056
+Haiti,332,FemalePop,2015,5414
+Jamaica,388,Pop,1990,2386
+Jamaica,388,Pop,1995,2490
+Jamaica,388,Pop,2000,2600
+Jamaica,388,Pop,2005,2678
+Jamaica,388,Pop,2010,2741
+Jamaica,388,Pop,2015,2793
+Jamaica,388,MalePop,1990,1177
+Jamaica,388,MalePop,1995,1231
+Jamaica,388,MalePop,2000,1293
+Jamaica,388,MalePop,2005,1326
+Jamaica,388,MalePop,2010,1362
+Jamaica,388,MalePop,2015,1391
+Jamaica,388,FemalePop,1990,1209
+Jamaica,388,FemalePop,1995,1258
+Jamaica,388,FemalePop,2000,1307
+Jamaica,388,FemalePop,2005,1352
+Jamaica,388,FemalePop,2010,1379
+Jamaica,388,FemalePop,2015,1402
+Martinique,474,Pop,1990,358
+Martinique,474,Pop,1995,369
+Martinique,474,Pop,2000,387
+Martinique,474,Pop,2005,397
+Martinique,474,Pop,2010,395
+Martinique,474,Pop,2015,396
+Martinique,474,MalePop,1990,173
+Martinique,474,MalePop,1995,176
+Martinique,474,MalePop,2000,182
+Martinique,474,MalePop,2005,185
+Martinique,474,MalePop,2010,182
+Martinique,474,MalePop,2015,182
+Martinique,474,FemalePop,1990,185
+Martinique,474,FemalePop,1995,193
+Martinique,474,FemalePop,2000,205
+Martinique,474,FemalePop,2005,212
+Martinique,474,FemalePop,2010,212
+Martinique,474,FemalePop,2015,215
+Montserrat,500,Pop,1990,11
+Montserrat,500,Pop,1995,10
+Montserrat,500,Pop,2000,5
+Montserrat,500,Pop,2005,5
+Montserrat,500,Pop,2010,5
+Montserrat,500,Pop,2015,5
+Montserrat,500,MalePop,1990,NA
+Montserrat,500,MalePop,1995,NA
+Montserrat,500,MalePop,2000,NA
+Montserrat,500,MalePop,2005,NA
+Montserrat,500,MalePop,2010,NA
+Montserrat,500,MalePop,2015,NA
+Montserrat,500,FemalePop,1990,NA
+Montserrat,500,FemalePop,1995,NA
+Montserrat,500,FemalePop,2000,NA
+Montserrat,500,FemalePop,2005,NA
+Montserrat,500,FemalePop,2010,NA
+Montserrat,500,FemalePop,2015,NA
+Puerto Rico,630,Pop,1990,3518
+Puerto Rico,630,Pop,1995,3690
+Puerto Rico,630,Pop,2000,3797
+Puerto Rico,630,Pop,2005,3761
+Puerto Rico,630,Pop,2010,3710
+Puerto Rico,630,Pop,2015,3683
+Puerto Rico,630,MalePop,1990,1704
+Puerto Rico,630,MalePop,1995,1780
+Puerto Rico,630,MalePop,2000,1828
+Puerto Rico,630,MalePop,2005,1806
+Puerto Rico,630,MalePop,2010,1783
+Puerto Rico,630,MalePop,2015,1771
+Puerto Rico,630,FemalePop,1990,1814
+Puerto Rico,630,FemalePop,1995,1909
+Puerto Rico,630,FemalePop,2000,1969
+Puerto Rico,630,FemalePop,2005,1956
+Puerto Rico,630,FemalePop,2010,1927
+Puerto Rico,630,FemalePop,2015,1913
+Saint Kitts and Nevis,659,Pop,1990,41
+Saint Kitts and Nevis,659,Pop,1995,43
+Saint Kitts and Nevis,659,Pop,2000,46
+Saint Kitts and Nevis,659,Pop,2005,49
+Saint Kitts and Nevis,659,Pop,2010,52
+Saint Kitts and Nevis,659,Pop,2015,56
+Saint Kitts and Nevis,659,MalePop,1990,NA
+Saint Kitts and Nevis,659,MalePop,1995,NA
+Saint Kitts and Nevis,659,MalePop,2000,NA
+Saint Kitts and Nevis,659,MalePop,2005,NA
+Saint Kitts and Nevis,659,MalePop,2010,NA
+Saint Kitts and Nevis,659,MalePop,2015,NA
+Saint Kitts and Nevis,659,FemalePop,1990,NA
+Saint Kitts and Nevis,659,FemalePop,1995,NA
+Saint Kitts and Nevis,659,FemalePop,2000,NA
+Saint Kitts and Nevis,659,FemalePop,2005,NA
+Saint Kitts and Nevis,659,FemalePop,2010,NA
+Saint Kitts and Nevis,659,FemalePop,2015,NA
+Saint Lucia,662,Pop,1990,138
+Saint Lucia,662,Pop,1995,147
+Saint Lucia,662,Pop,2000,157
+Saint Lucia,662,Pop,2005,165
+Saint Lucia,662,Pop,2010,177
+Saint Lucia,662,Pop,2015,185
+Saint Lucia,662,MalePop,1990,68
+Saint Lucia,662,MalePop,1995,72
+Saint Lucia,662,MalePop,2000,77
+Saint Lucia,662,MalePop,2005,81
+Saint Lucia,662,MalePop,2010,87
+Saint Lucia,662,MalePop,2015,91
+Saint Lucia,662,FemalePop,1990,70
+Saint Lucia,662,FemalePop,1995,75
+Saint Lucia,662,FemalePop,2000,80
+Saint Lucia,662,FemalePop,2005,84
+Saint Lucia,662,FemalePop,2010,90
+Saint Lucia,662,FemalePop,2015,94
+Saint Vincent and the Grenadines,670,Pop,1990,108
+Saint Vincent and the Grenadines,670,Pop,1995,108
+Saint Vincent and the Grenadines,670,Pop,2000,108
+Saint Vincent and the Grenadines,670,Pop,2005,109
+Saint Vincent and the Grenadines,670,Pop,2010,109
+Saint Vincent and the Grenadines,670,Pop,2015,109
+Saint Vincent and the Grenadines,670,MalePop,1990,53
+Saint Vincent and the Grenadines,670,MalePop,1995,54
+Saint Vincent and the Grenadines,670,MalePop,2000,54
+Saint Vincent and the Grenadines,670,MalePop,2005,55
+Saint Vincent and the Grenadines,670,MalePop,2010,55
+Saint Vincent and the Grenadines,670,MalePop,2015,55
+Saint Vincent and the Grenadines,670,FemalePop,1990,54
+Saint Vincent and the Grenadines,670,FemalePop,1995,54
+Saint Vincent and the Grenadines,670,FemalePop,2000,54
+Saint Vincent and the Grenadines,670,FemalePop,2005,54
+Saint Vincent and the Grenadines,670,FemalePop,2010,54
+Saint Vincent and the Grenadines,670,FemalePop,2015,54
+Sint Maarten (Dutch part),534,Pop,1990,29
+Sint Maarten (Dutch part),534,Pop,1995,31
+Sint Maarten (Dutch part),534,Pop,2000,32
+Sint Maarten (Dutch part),534,Pop,2005,33
+Sint Maarten (Dutch part),534,Pop,2010,33
+Sint Maarten (Dutch part),534,Pop,2015,39
+Sint Maarten (Dutch part),534,MalePop,1990,NA
+Sint Maarten (Dutch part),534,MalePop,1995,NA
+Sint Maarten (Dutch part),534,MalePop,2000,NA
+Sint Maarten (Dutch part),534,MalePop,2005,NA
+Sint Maarten (Dutch part),534,MalePop,2010,NA
+Sint Maarten (Dutch part),534,MalePop,2015,NA
+Sint Maarten (Dutch part),534,FemalePop,1990,NA
+Sint Maarten (Dutch part),534,FemalePop,1995,NA
+Sint Maarten (Dutch part),534,FemalePop,2000,NA
+Sint Maarten (Dutch part),534,FemalePop,2005,NA
+Sint Maarten (Dutch part),534,FemalePop,2010,NA
+Sint Maarten (Dutch part),534,FemalePop,2015,NA
+Trinidad and Tobago,780,Pop,1990,1222
+Trinidad and Tobago,780,Pop,1995,1255
+Trinidad and Tobago,780,Pop,2000,1268
+Trinidad and Tobago,780,Pop,2005,1297
+Trinidad and Tobago,780,Pop,2010,1328
+Trinidad and Tobago,780,Pop,2015,1360
+Trinidad and Tobago,780,MalePop,1990,609
+Trinidad and Tobago,780,MalePop,1995,625
+Trinidad and Tobago,780,MalePop,2000,631
+Trinidad and Tobago,780,MalePop,2005,643
+Trinidad and Tobago,780,MalePop,2010,657
+Trinidad and Tobago,780,MalePop,2015,671
+Trinidad and Tobago,780,FemalePop,1990,613
+Trinidad and Tobago,780,FemalePop,1995,630
+Trinidad and Tobago,780,FemalePop,2000,637
+Trinidad and Tobago,780,FemalePop,2005,654
+Trinidad and Tobago,780,FemalePop,2010,671
+Trinidad and Tobago,780,FemalePop,2015,689
+Turks and Caicos Islands,796,Pop,1990,12
+Turks and Caicos Islands,796,Pop,1995,15
+Turks and Caicos Islands,796,Pop,2000,19
+Turks and Caicos Islands,796,Pop,2005,26
+Turks and Caicos Islands,796,Pop,2010,31
+Turks and Caicos Islands,796,Pop,2015,34
+Turks and Caicos Islands,796,MalePop,1990,NA
+Turks and Caicos Islands,796,MalePop,1995,NA
+Turks and Caicos Islands,796,MalePop,2000,NA
+Turks and Caicos Islands,796,MalePop,2005,NA
+Turks and Caicos Islands,796,MalePop,2010,NA
+Turks and Caicos Islands,796,MalePop,2015,NA
+Turks and Caicos Islands,796,FemalePop,1990,NA
+Turks and Caicos Islands,796,FemalePop,1995,NA
+Turks and Caicos Islands,796,FemalePop,2000,NA
+Turks and Caicos Islands,796,FemalePop,2005,NA
+Turks and Caicos Islands,796,FemalePop,2010,NA
+Turks and Caicos Islands,796,FemalePop,2015,NA
+United States Virgin Islands,850,Pop,1990,103
+United States Virgin Islands,850,Pop,1995,107
+United States Virgin Islands,850,Pop,2000,109
+United States Virgin Islands,850,Pop,2005,108
+United States Virgin Islands,850,Pop,2010,106
+United States Virgin Islands,850,Pop,2015,106
+United States Virgin Islands,850,MalePop,1990,50
+United States Virgin Islands,850,MalePop,1995,51
+United States Virgin Islands,850,MalePop,2000,52
+United States Virgin Islands,850,MalePop,2005,52
+United States Virgin Islands,850,MalePop,2010,51
+United States Virgin Islands,850,MalePop,2015,51
+United States Virgin Islands,850,FemalePop,1990,53
+United States Virgin Islands,850,FemalePop,1995,56
+United States Virgin Islands,850,FemalePop,2000,57
+United States Virgin Islands,850,FemalePop,2005,56
+United States Virgin Islands,850,FemalePop,2010,56
+United States Virgin Islands,850,FemalePop,2015,56
+Belize,84,Pop,1990,188
+Belize,84,Pop,1995,207
+Belize,84,Pop,2000,247
+Belize,84,Pop,2005,283
+Belize,84,Pop,2010,322
+Belize,84,Pop,2015,359
+Belize,84,MalePop,1990,95
+Belize,84,MalePop,1995,104
+Belize,84,MalePop,2000,125
+Belize,84,MalePop,2005,142
+Belize,84,MalePop,2010,161
+Belize,84,MalePop,2015,179
+Belize,84,FemalePop,1990,93
+Belize,84,FemalePop,1995,103
+Belize,84,FemalePop,2000,123
+Belize,84,FemalePop,2005,141
+Belize,84,FemalePop,2010,161
+Belize,84,FemalePop,2015,180
+Costa Rica,188,Pop,1990,3096
+Costa Rica,188,Pop,1995,3511
+Costa Rica,188,Pop,2000,3925
+Costa Rica,188,Pop,2005,4248
+Costa Rica,188,Pop,2010,4545
+Costa Rica,188,Pop,2015,4808
+Costa Rica,188,MalePop,1990,1560
+Costa Rica,188,MalePop,1995,1766
+Costa Rica,188,MalePop,2000,1970
+Costa Rica,188,MalePop,2005,2130
+Costa Rica,188,MalePop,2010,2277
+Costa Rica,188,MalePop,2015,2406
+Costa Rica,188,FemalePop,1990,1536
+Costa Rica,188,FemalePop,1995,1745
+Costa Rica,188,FemalePop,2000,1955
+Costa Rica,188,FemalePop,2005,2118
+Costa Rica,188,FemalePop,2010,2268
+Costa Rica,188,FemalePop,2015,2402
+El Salvador,222,Pop,1990,5252
+El Salvador,222,Pop,1995,5589
+El Salvador,222,Pop,2000,5812
+El Salvador,222,Pop,2005,5947
+El Salvador,222,Pop,2010,6038
+El Salvador,222,Pop,2015,6127
+El Salvador,222,MalePop,1990,2563
+El Salvador,222,MalePop,1995,2713
+El Salvador,222,MalePop,2000,2799
+El Salvador,222,MalePop,2005,2837
+El Salvador,222,MalePop,2010,2854
+El Salvador,222,MalePop,2015,2875
+El Salvador,222,FemalePop,1990,2689
+El Salvador,222,FemalePop,1995,2875
+El Salvador,222,FemalePop,2000,3013
+El Salvador,222,FemalePop,2005,3111
+El Salvador,222,FemalePop,2010,3184
+El Salvador,222,FemalePop,2015,3251
+Guatemala,320,Pop,1990,9159
+Guatemala,320,Pop,1995,10357
+Guatemala,320,Pop,2000,11689
+Guatemala,320,Pop,2005,13184
+Guatemala,320,Pop,2010,14732
+Guatemala,320,Pop,2015,16343
+Guatemala,320,MalePop,1990,4544
+Guatemala,320,MalePop,1995,5100
+Guatemala,320,MalePop,2000,5714
+Guatemala,320,MalePop,2005,6434
+Guatemala,320,MalePop,2010,7197
+Guatemala,320,MalePop,2015,7993
+Guatemala,320,FemalePop,1990,4615
+Guatemala,320,FemalePop,1995,5258
+Guatemala,320,FemalePop,2000,5975
+Guatemala,320,FemalePop,2005,6750
+Guatemala,320,FemalePop,2010,7535
+Guatemala,320,FemalePop,2015,8350
+Honduras,340,Pop,1990,4903
+Honduras,340,Pop,1995,5591
+Honduras,340,Pop,2000,6243
+Honduras,340,Pop,2005,6880
+Honduras,340,Pop,2010,7504
+Honduras,340,Pop,2015,8075
+Honduras,340,MalePop,1990,2459
+Honduras,340,MalePop,1995,2800
+Honduras,340,MalePop,2000,3122
+Honduras,340,MalePop,2005,3440
+Honduras,340,MalePop,2010,3751
+Honduras,340,MalePop,2015,4036
+Honduras,340,FemalePop,1990,2445
+Honduras,340,FemalePop,1995,2791
+Honduras,340,FemalePop,2000,3121
+Honduras,340,FemalePop,2005,3441
+Honduras,340,FemalePop,2010,3753
+Honduras,340,FemalePop,2015,4039
+Mexico,484,Pop,1990,85609
+Mexico,484,Pop,1995,94427
+Mexico,484,Pop,2000,102809
+Mexico,484,Pop,2005,109748
+Mexico,484,Pop,2010,118618
+Mexico,484,Pop,2015,127017
+Mexico,484,MalePop,1990,42577
+Mexico,484,MalePop,1995,46886
+Mexico,484,MalePop,2000,51040
+Mexico,484,MalePop,2005,54535
+Mexico,484,MalePop,2010,58988
+Mexico,484,MalePop,2015,63181
+Mexico,484,FemalePop,1990,43033
+Mexico,484,FemalePop,1995,47541
+Mexico,484,FemalePop,2000,51769
+Mexico,484,FemalePop,2005,55213
+Mexico,484,FemalePop,2010,59629
+Mexico,484,FemalePop,2015,63836
+Nicaragua,558,Pop,1990,4145
+Nicaragua,558,Pop,1995,4612
+Nicaragua,558,Pop,2000,5027
+Nicaragua,558,Pop,2005,5379
+Nicaragua,558,Pop,2010,5738
+Nicaragua,558,Pop,2015,6082
+Nicaragua,558,MalePop,1990,2055
+Nicaragua,558,MalePop,1995,2285
+Nicaragua,558,MalePop,2000,2487
+Nicaragua,558,MalePop,2005,2655
+Nicaragua,558,MalePop,2010,2827
+Nicaragua,558,MalePop,2015,2998
+Nicaragua,558,FemalePop,1990,2089
+Nicaragua,558,FemalePop,1995,2328
+Nicaragua,558,FemalePop,2000,2540
+Nicaragua,558,FemalePop,2005,2724
+Nicaragua,558,FemalePop,2010,2911
+Nicaragua,558,FemalePop,2015,3084
+Panama,591,Pop,1990,2471
+Panama,591,Pop,1995,2738
+Panama,591,Pop,2000,3029
+Panama,591,Pop,2005,3319
+Panama,591,Pop,2010,3621
+Panama,591,Pop,2015,3929
+Panama,591,MalePop,1990,1249
+Panama,591,MalePop,1995,1381
+Panama,591,MalePop,2000,1526
+Panama,591,MalePop,2005,1670
+Panama,591,MalePop,2010,1819
+Panama,591,MalePop,2015,1970
+Panama,591,FemalePop,1990,1222
+Panama,591,FemalePop,1995,1357
+Panama,591,FemalePop,2000,1503
+Panama,591,FemalePop,2005,1649
+Panama,591,FemalePop,2010,1802
+Panama,591,FemalePop,2015,1959
+Argentina,32,Pop,1990,32730
+Argentina,32,Pop,1995,34995
+Argentina,32,Pop,2000,37057
+Argentina,32,Pop,2005,39145
+Argentina,32,Pop,2010,41223
+Argentina,32,Pop,2015,43417
+Argentina,32,MalePop,1990,16047
+Argentina,32,MalePop,1995,17143
+Argentina,32,MalePop,2000,18131
+Argentina,32,MalePop,2005,19149
+Argentina,32,MalePop,2010,20163
+Argentina,32,MalePop,2015,21245
+Argentina,32,FemalePop,1990,16683
+Argentina,32,FemalePop,1995,17852
+Argentina,32,FemalePop,2000,18926
+Argentina,32,FemalePop,2005,19997
+Argentina,32,FemalePop,2010,21060
+Argentina,32,FemalePop,2015,22172
+Bolivia (Plurinational State of),68,Pop,1990,6856
+Bolivia (Plurinational State of),68,Pop,1995,7567
+Bolivia (Plurinational State of),68,Pop,2000,8340
+Bolivia (Plurinational State of),68,Pop,2005,9125
+Bolivia (Plurinational State of),68,Pop,2010,9918
+Bolivia (Plurinational State of),68,Pop,2015,10725
+Bolivia (Plurinational State of),68,MalePop,1990,3437
+Bolivia (Plurinational State of),68,MalePop,1995,3794
+Bolivia (Plurinational State of),68,MalePop,2000,4181
+Bolivia (Plurinational State of),68,MalePop,2005,4575
+Bolivia (Plurinational State of),68,MalePop,2010,4970
+Bolivia (Plurinational State of),68,MalePop,2015,5371
+Bolivia (Plurinational State of),68,FemalePop,1990,3419
+Bolivia (Plurinational State of),68,FemalePop,1995,3773
+Bolivia (Plurinational State of),68,FemalePop,2000,4158
+Bolivia (Plurinational State of),68,FemalePop,2005,4550
+Bolivia (Plurinational State of),68,FemalePop,2010,4948
+Bolivia (Plurinational State of),68,FemalePop,2015,5354
+Brazil,76,Pop,1990,150393
+Brazil,76,Pop,1995,162755
+Brazil,76,Pop,2000,175786
+Brazil,76,Pop,2005,188479
+Brazil,76,Pop,2010,198614
+Brazil,76,Pop,2015,207848
+Brazil,76,MalePop,1990,74585
+Brazil,76,MalePop,1995,80546
+Brazil,76,MalePop,2000,86860
+Brazil,76,MalePop,2005,93001
+Brazil,76,MalePop,2010,97830
+Brazil,76,MalePop,2015,102201
+Brazil,76,FemalePop,1990,75808
+Brazil,76,FemalePop,1995,82209
+Brazil,76,FemalePop,2000,88926
+Brazil,76,FemalePop,2005,95479
+Brazil,76,FemalePop,2010,100785
+Brazil,76,FemalePop,2015,105647
+Chile,152,Pop,1990,13141
+Chile,152,Pop,1995,14194
+Chile,152,Pop,2000,15170
+Chile,152,Pop,2005,16097
+Chile,152,Pop,2010,17015
+Chile,152,Pop,2015,17948
+Chile,152,MalePop,1990,6479
+Chile,152,MalePop,1995,7000
+Chile,152,MalePop,2000,7483
+Chile,152,MalePop,2005,7940
+Chile,152,MalePop,2010,8392
+Chile,152,MalePop,2015,8855
+Chile,152,FemalePop,1990,6663
+Chile,152,FemalePop,1995,7194
+Chile,152,FemalePop,2000,7687
+Chile,152,FemalePop,2005,8157
+Chile,152,FemalePop,2010,8623
+Chile,152,FemalePop,2015,9093
+Colombia,170,Pop,1990,34272
+Colombia,170,Pop,1995,37442
+Colombia,170,Pop,2000,40404
+Colombia,170,Pop,2005,43286
+Colombia,170,Pop,2010,45918
+Colombia,170,Pop,2015,48229
+Colombia,170,MalePop,1990,17021
+Colombia,170,MalePop,1995,18547
+Colombia,170,MalePop,2000,19981
+Colombia,170,MalePop,2005,21376
+Colombia,170,MalePop,2010,22641
+Colombia,170,MalePop,2015,23744
+Colombia,170,FemalePop,1990,17251
+Colombia,170,FemalePop,1995,18894
+Colombia,170,FemalePop,2000,20423
+Colombia,170,FemalePop,2005,21910
+Colombia,170,FemalePop,2010,23277
+Colombia,170,FemalePop,2015,24485
+Ecuador,218,Pop,1990,10218
+Ecuador,218,Pop,1995,11441
+Ecuador,218,Pop,2000,12629
+Ecuador,218,Pop,2005,13735
+Ecuador,218,Pop,2010,14935
+Ecuador,218,Pop,2015,16144
+Ecuador,218,MalePop,1990,5134
+Ecuador,218,MalePop,1995,5743
+Ecuador,218,MalePop,2000,6331
+Ecuador,218,MalePop,2005,6879
+Ecuador,218,MalePop,2010,7472
+Ecuador,218,MalePop,2015,8071
+Ecuador,218,FemalePop,1990,5084
+Ecuador,218,FemalePop,1995,5697
+Ecuador,218,FemalePop,2000,6297
+Ecuador,218,FemalePop,2005,6857
+Ecuador,218,FemalePop,2010,7462
+Ecuador,218,FemalePop,2015,8073
+Falkland Islands (Malvinas),238,Pop,1990,2
+Falkland Islands (Malvinas),238,Pop,1995,2
+Falkland Islands (Malvinas),238,Pop,2000,3
+Falkland Islands (Malvinas),238,Pop,2005,3
+Falkland Islands (Malvinas),238,Pop,2010,3
+Falkland Islands (Malvinas),238,Pop,2015,3
+Falkland Islands (Malvinas),238,MalePop,1990,NA
+Falkland Islands (Malvinas),238,MalePop,1995,NA
+Falkland Islands (Malvinas),238,MalePop,2000,NA
+Falkland Islands (Malvinas),238,MalePop,2005,NA
+Falkland Islands (Malvinas),238,MalePop,2010,NA
+Falkland Islands (Malvinas),238,MalePop,2015,NA
+Falkland Islands (Malvinas),238,FemalePop,1990,NA
+Falkland Islands (Malvinas),238,FemalePop,1995,NA
+Falkland Islands (Malvinas),238,FemalePop,2000,NA
+Falkland Islands (Malvinas),238,FemalePop,2005,NA
+Falkland Islands (Malvinas),238,FemalePop,2010,NA
+Falkland Islands (Malvinas),238,FemalePop,2015,NA
+French Guiana,254,Pop,1990,116
+French Guiana,254,Pop,1995,137
+French Guiana,254,Pop,2000,163
+French Guiana,254,Pop,2005,203
+French Guiana,254,Pop,2010,234
+French Guiana,254,Pop,2015,269
+French Guiana,254,MalePop,1990,60
+French Guiana,254,MalePop,1995,71
+French Guiana,254,MalePop,2000,84
+French Guiana,254,MalePop,2005,101
+French Guiana,254,MalePop,2010,117
+French Guiana,254,MalePop,2015,134
+French Guiana,254,FemalePop,1990,55
+French Guiana,254,FemalePop,1995,66
+French Guiana,254,FemalePop,2000,79
+French Guiana,254,FemalePop,2005,103
+French Guiana,254,FemalePop,2010,117
+French Guiana,254,FemalePop,2015,134
+Guyana,328,Pop,1990,720
+Guyana,328,Pop,1995,727
+Guyana,328,Pop,2000,742
+Guyana,328,Pop,2005,742
+Guyana,328,Pop,2010,753
+Guyana,328,Pop,2015,767
+Guyana,328,MalePop,1990,352
+Guyana,328,MalePop,1995,357
+Guyana,328,MalePop,2000,371
+Guyana,328,MalePop,2005,367
+Guyana,328,MalePop,2010,376
+Guyana,328,MalePop,2015,385
+Guyana,328,FemalePop,1990,368
+Guyana,328,FemalePop,1995,369
+Guyana,328,FemalePop,2000,371
+Guyana,328,FemalePop,2005,375
+Guyana,328,FemalePop,2010,377
+Guyana,328,FemalePop,2015,382
+Paraguay,600,Pop,1990,4214
+Paraguay,600,Pop,1995,4761
+Paraguay,600,Pop,2000,5303
+Paraguay,600,Pop,2005,5795
+Paraguay,600,Pop,2010,6210
+Paraguay,600,Pop,2015,6639
+Paraguay,600,MalePop,1990,2130
+Paraguay,600,MalePop,1995,2407
+Paraguay,600,MalePop,2000,2683
+Paraguay,600,MalePop,2005,2935
+Paraguay,600,MalePop,2010,3150
+Paraguay,600,MalePop,2015,3369
+Paraguay,600,FemalePop,1990,2084
+Paraguay,600,FemalePop,1995,2354
+Paraguay,600,FemalePop,2000,2619
+Paraguay,600,FemalePop,2005,2861
+Paraguay,600,FemalePop,2010,3059
+Paraguay,600,FemalePop,2015,3270
+Peru,604,Pop,1990,21827
+Peru,604,Pop,1995,24039
+Peru,604,Pop,2000,25915
+Peru,604,Pop,2005,27610
+Peru,604,Pop,2010,29374
+Peru,604,Pop,2015,31377
+Peru,604,MalePop,1990,10906
+Peru,604,MalePop,1995,12013
+Peru,604,MalePop,2000,12951
+Peru,604,MalePop,2005,13796
+Peru,604,MalePop,2010,14676
+Peru,604,MalePop,2015,15673
+Peru,604,FemalePop,1990,10921
+Peru,604,FemalePop,1995,12026
+Peru,604,FemalePop,2000,12964
+Peru,604,FemalePop,2005,13814
+Peru,604,FemalePop,2010,14698
+Peru,604,FemalePop,2015,15704
+Suriname,740,Pop,1990,408
+Suriname,740,Pop,1995,446
+Suriname,740,Pop,2000,481
+Suriname,740,Pop,2005,492
+Suriname,740,Pop,2010,518
+Suriname,740,Pop,2015,543
+Suriname,740,MalePop,1990,207
+Suriname,740,MalePop,1995,226
+Suriname,740,MalePop,2000,243
+Suriname,740,MalePop,2005,247
+Suriname,740,MalePop,2010,260
+Suriname,740,MalePop,2015,272
+Suriname,740,FemalePop,1990,201
+Suriname,740,FemalePop,1995,220
+Suriname,740,FemalePop,2000,238
+Suriname,740,FemalePop,2005,245
+Suriname,740,FemalePop,2010,258
+Suriname,740,FemalePop,2015,271
+Uruguay,858,Pop,1990,3110
+Uruguay,858,Pop,1995,3225
+Uruguay,858,Pop,2000,3321
+Uruguay,858,Pop,2005,3326
+Uruguay,858,Pop,2010,3374
+Uruguay,858,Pop,2015,3432
+Uruguay,858,MalePop,1990,1508
+Uruguay,858,MalePop,1995,1562
+Uruguay,858,MalePop,2000,1607
+Uruguay,858,MalePop,2005,1605
+Uruguay,858,MalePop,2010,1627
+Uruguay,858,MalePop,2015,1656
+Uruguay,858,FemalePop,1990,1601
+Uruguay,858,FemalePop,1995,1663
+Uruguay,858,FemalePop,2000,1714
+Uruguay,858,FemalePop,2005,1720
+Uruguay,858,FemalePop,2010,1747
+Uruguay,858,FemalePop,2015,1775
+Venezuela (Bolivarian Republic of),862,Pop,1990,19862
+Venezuela (Bolivarian Republic of),862,Pop,1995,22189
+Venezuela (Bolivarian Republic of),862,Pop,2000,24481
+Venezuela (Bolivarian Republic of),862,Pop,2005,26769
+Venezuela (Bolivarian Republic of),862,Pop,2010,28996
+Venezuela (Bolivarian Republic of),862,Pop,2015,31108
+Venezuela (Bolivarian Republic of),862,MalePop,1990,10008
+Venezuela (Bolivarian Republic of),862,MalePop,1995,11165
+Venezuela (Bolivarian Republic of),862,MalePop,2000,12291
+Venezuela (Bolivarian Republic of),862,MalePop,2005,13399
+Venezuela (Bolivarian Republic of),862,MalePop,2010,14474
+Venezuela (Bolivarian Republic of),862,MalePop,2015,15487
+Venezuela (Bolivarian Republic of),862,FemalePop,1990,9854
+Venezuela (Bolivarian Republic of),862,FemalePop,1995,11023
+Venezuela (Bolivarian Republic of),862,FemalePop,2000,12191
+Venezuela (Bolivarian Republic of),862,FemalePop,2005,13370
+Venezuela (Bolivarian Republic of),862,FemalePop,2010,14522
+Venezuela (Bolivarian Republic of),862,FemalePop,2015,15621
+Bermuda,60,Pop,1990,61
+Bermuda,60,Pop,1995,63
+Bermuda,60,Pop,2000,64
+Bermuda,60,Pop,2005,65
+Bermuda,60,Pop,2010,64
+Bermuda,60,Pop,2015,62
+Bermuda,60,MalePop,1990,NA
+Bermuda,60,MalePop,1995,NA
+Bermuda,60,MalePop,2000,NA
+Bermuda,60,MalePop,2005,NA
+Bermuda,60,MalePop,2010,NA
+Bermuda,60,MalePop,2015,NA
+Bermuda,60,FemalePop,1990,NA
+Bermuda,60,FemalePop,1995,NA
+Bermuda,60,FemalePop,2000,NA
+Bermuda,60,FemalePop,2005,NA
+Bermuda,60,FemalePop,2010,NA
+Bermuda,60,FemalePop,2015,NA
+Canada,124,Pop,1990,27662
+Canada,124,Pop,1995,29299
+Canada,124,Pop,2000,30702
+Canada,124,Pop,2005,32256
+Canada,124,Pop,2010,34126
+Canada,124,Pop,2015,35940
+Canada,124,MalePop,1990,13716
+Canada,124,MalePop,1995,14503
+Canada,124,MalePop,2000,15204
+Canada,124,MalePop,2005,15986
+Canada,124,MalePop,2010,16927
+Canada,124,MalePop,2015,17826
+Canada,124,FemalePop,1990,13947
+Canada,124,FemalePop,1995,14797
+Canada,124,FemalePop,2000,15498
+Canada,124,FemalePop,2005,16270
+Canada,124,FemalePop,2010,17200
+Canada,124,FemalePop,2015,18114
+Greenland,304,Pop,1990,56
+Greenland,304,Pop,1995,56
+Greenland,304,Pop,2000,56
+Greenland,304,Pop,2005,57
+Greenland,304,Pop,2010,57
+Greenland,304,Pop,2015,56
+Greenland,304,MalePop,1990,NA
+Greenland,304,MalePop,1995,NA
+Greenland,304,MalePop,2000,NA
+Greenland,304,MalePop,2005,NA
+Greenland,304,MalePop,2010,NA
+Greenland,304,MalePop,2015,NA
+Greenland,304,FemalePop,1990,NA
+Greenland,304,FemalePop,1995,NA
+Greenland,304,FemalePop,2000,NA
+Greenland,304,FemalePop,2005,NA
+Greenland,304,FemalePop,2010,NA
+Greenland,304,FemalePop,2015,NA
+Saint Pierre and Miquelon,666,Pop,1990,6
+Saint Pierre and Miquelon,666,Pop,1995,6
+Saint Pierre and Miquelon,666,Pop,2000,6
+Saint Pierre and Miquelon,666,Pop,2005,6
+Saint Pierre and Miquelon,666,Pop,2010,6
+Saint Pierre and Miquelon,666,Pop,2015,6
+Saint Pierre and Miquelon,666,MalePop,1990,NA
+Saint Pierre and Miquelon,666,MalePop,1995,NA
+Saint Pierre and Miquelon,666,MalePop,2000,NA
+Saint Pierre and Miquelon,666,MalePop,2005,NA
+Saint Pierre and Miquelon,666,MalePop,2010,NA
+Saint Pierre and Miquelon,666,MalePop,2015,NA
+Saint Pierre and Miquelon,666,FemalePop,1990,NA
+Saint Pierre and Miquelon,666,FemalePop,1995,NA
+Saint Pierre and Miquelon,666,FemalePop,2000,NA
+Saint Pierre and Miquelon,666,FemalePop,2005,NA
+Saint Pierre and Miquelon,666,FemalePop,2010,NA
+Saint Pierre and Miquelon,666,FemalePop,2015,NA
+United States of America,840,Pop,1990,252848
+United States of America,840,Pop,1995,266276
+United States of America,840,Pop,2000,282896
+United States of America,840,Pop,2005,296140
+United States of America,840,Pop,2010,309876
+United States of America,840,Pop,2015,321774
+United States of America,840,MalePop,1990,123979
+United States of America,840,MalePop,1995,130962
+United States of America,840,MalePop,2000,139559
+United States of America,840,MalePop,2005,146375
+United States of America,840,MalePop,2010,153292
+United States of America,840,MalePop,2015,159494
+United States of America,840,FemalePop,1990,128868
+United States of America,840,FemalePop,1995,135313
+United States of America,840,FemalePop,2000,143337
+United States of America,840,FemalePop,2005,149764
+United States of America,840,FemalePop,2010,156584
+United States of America,840,FemalePop,2015,162280
+Australia,36,Pop,1990,17097
+Australia,36,Pop,1995,18125
+Australia,36,Pop,2000,19107
+Australia,36,Pop,2005,20274
+Australia,36,Pop,2010,22163
+Australia,36,Pop,2015,23969
+Australia,36,MalePop,1990,8526
+Australia,36,MalePop,1995,9018
+Australia,36,MalePop,2000,9531
+Australia,36,MalePop,2005,10117
+Australia,36,MalePop,2010,11086
+Australia,36,MalePop,2015,11976
+Australia,36,FemalePop,1990,8571
+Australia,36,FemalePop,1995,9107
+Australia,36,FemalePop,2000,9576
+Australia,36,FemalePop,2005,10157
+Australia,36,FemalePop,2010,11077
+Australia,36,FemalePop,2015,11993
+New Zealand,554,Pop,1990,3398
+New Zealand,554,Pop,1995,3675
+New Zealand,554,Pop,2000,3858
+New Zealand,554,Pop,2005,4135
+New Zealand,554,Pop,2010,4369
+New Zealand,554,Pop,2015,4529
+New Zealand,554,MalePop,1990,1672
+New Zealand,554,MalePop,1995,1811
+New Zealand,554,MalePop,2000,1893
+New Zealand,554,MalePop,2005,2025
+New Zealand,554,MalePop,2010,2145
+New Zealand,554,MalePop,2015,2213
+New Zealand,554,FemalePop,1990,1725
+New Zealand,554,FemalePop,1995,1864
+New Zealand,554,FemalePop,2000,1965
+New Zealand,554,FemalePop,2005,2110
+New Zealand,554,FemalePop,2010,2224
+New Zealand,554,FemalePop,2015,2315
+Fiji,242,Pop,1990,729
+Fiji,242,Pop,1995,775
+Fiji,242,Pop,2000,811
+Fiji,242,Pop,2005,822
+Fiji,242,Pop,2010,860
+Fiji,242,Pop,2015,892
+Fiji,242,MalePop,1990,370
+Fiji,242,MalePop,1995,394
+Fiji,242,MalePop,2000,412
+Fiji,242,MalePop,2005,419
+Fiji,242,MalePop,2010,439
+Fiji,242,MalePop,2015,454
+Fiji,242,FemalePop,1990,359
+Fiji,242,FemalePop,1995,381
+Fiji,242,FemalePop,2000,399
+Fiji,242,FemalePop,2005,403
+Fiji,242,FemalePop,2010,421
+Fiji,242,FemalePop,2015,439
+New Caledonia,540,Pop,1990,169
+New Caledonia,540,Pop,1995,189
+New Caledonia,540,Pop,2000,210
+New Caledonia,540,Pop,2005,229
+New Caledonia,540,Pop,2010,246
+New Caledonia,540,Pop,2015,263
+New Caledonia,540,MalePop,1990,86
+New Caledonia,540,MalePop,1995,97
+New Caledonia,540,MalePop,2000,106
+New Caledonia,540,MalePop,2005,115
+New Caledonia,540,MalePop,2010,125
+New Caledonia,540,MalePop,2015,133
+New Caledonia,540,FemalePop,1990,83
+New Caledonia,540,FemalePop,1995,93
+New Caledonia,540,FemalePop,2000,104
+New Caledonia,540,FemalePop,2005,114
+New Caledonia,540,FemalePop,2010,121
+New Caledonia,540,FemalePop,2015,130
+Papua New Guinea,598,Pop,1990,4158
+Papua New Guinea,598,Pop,1995,4716
+Papua New Guinea,598,Pop,2000,5374
+Papua New Guinea,598,Pop,2005,6087
+Papua New Guinea,598,Pop,2010,6848
+Papua New Guinea,598,Pop,2015,7619
+Papua New Guinea,598,MalePop,1990,2126
+Papua New Guinea,598,MalePop,1995,2406
+Papua New Guinea,598,MalePop,2000,2740
+Papua New Guinea,598,MalePop,2005,3104
+Papua New Guinea,598,MalePop,2010,3493
+Papua New Guinea,598,MalePop,2015,3887
+Papua New Guinea,598,FemalePop,1990,2032
+Papua New Guinea,598,FemalePop,1995,2310
+Papua New Guinea,598,FemalePop,2000,2634
+Papua New Guinea,598,FemalePop,2005,2983
+Papua New Guinea,598,FemalePop,2010,3355
+Papua New Guinea,598,FemalePop,2015,3733
+Solomon Islands,90,Pop,1990,312
+Solomon Islands,90,Pop,1995,359
+Solomon Islands,90,Pop,2000,412
+Solomon Islands,90,Pop,2005,469
+Solomon Islands,90,Pop,2010,526
+Solomon Islands,90,Pop,2015,584
+Solomon Islands,90,MalePop,1990,160
+Solomon Islands,90,MalePop,1995,185
+Solomon Islands,90,MalePop,2000,212
+Solomon Islands,90,MalePop,2005,239
+Solomon Islands,90,MalePop,2010,267
+Solomon Islands,90,MalePop,2015,296
+Solomon Islands,90,FemalePop,1990,152
+Solomon Islands,90,FemalePop,1995,175
+Solomon Islands,90,FemalePop,2000,201
+Solomon Islands,90,FemalePop,2005,230
+Solomon Islands,90,FemalePop,2010,259
+Solomon Islands,90,FemalePop,2015,287
+Vanuatu,548,Pop,1990,147
+Vanuatu,548,Pop,1995,168
+Vanuatu,548,Pop,2000,185
+Vanuatu,548,Pop,2005,209
+Vanuatu,548,Pop,2010,236
+Vanuatu,548,Pop,2015,265
+Vanuatu,548,MalePop,1990,75
+Vanuatu,548,MalePop,1995,86
+Vanuatu,548,MalePop,2000,95
+Vanuatu,548,MalePop,2005,107
+Vanuatu,548,MalePop,2010,120
+Vanuatu,548,MalePop,2015,134
+Vanuatu,548,FemalePop,1990,71
+Vanuatu,548,FemalePop,1995,82
+Vanuatu,548,FemalePop,2000,90
+Vanuatu,548,FemalePop,2005,103
+Vanuatu,548,FemalePop,2010,116
+Vanuatu,548,FemalePop,2015,131
+Guam,316,Pop,1990,130
+Guam,316,Pop,1995,146
+Guam,316,Pop,2000,155
+Guam,316,Pop,2005,158
+Guam,316,Pop,2010,159
+Guam,316,Pop,2015,170
+Guam,316,MalePop,1990,70
+Guam,316,MalePop,1995,76
+Guam,316,MalePop,2000,79
+Guam,316,MalePop,2005,81
+Guam,316,MalePop,2010,81
+Guam,316,MalePop,2015,86
+Guam,316,FemalePop,1990,61
+Guam,316,FemalePop,1995,70
+Guam,316,FemalePop,2000,76
+Guam,316,FemalePop,2005,78
+Guam,316,FemalePop,2010,78
+Guam,316,FemalePop,2015,84
+Kiribati,296,Pop,1990,72
+Kiribati,296,Pop,1995,78
+Kiribati,296,Pop,2000,84
+Kiribati,296,Pop,2005,92
+Kiribati,296,Pop,2010,103
+Kiribati,296,Pop,2015,112
+Kiribati,296,MalePop,1990,36
+Kiribati,296,MalePop,1995,39
+Kiribati,296,MalePop,2000,42
+Kiribati,296,MalePop,2005,45
+Kiribati,296,MalePop,2010,51
+Kiribati,296,MalePop,2015,55
+Kiribati,296,FemalePop,1990,37
+Kiribati,296,FemalePop,1995,39
+Kiribati,296,FemalePop,2000,43
+Kiribati,296,FemalePop,2005,47
+Kiribati,296,FemalePop,2010,52
+Kiribati,296,FemalePop,2015,57
+Marshall Islands,584,Pop,1990,47
+Marshall Islands,584,Pop,1995,51
+Marshall Islands,584,Pop,2000,52
+Marshall Islands,584,Pop,2005,52
+Marshall Islands,584,Pop,2010,52
+Marshall Islands,584,Pop,2015,53
+Marshall Islands,584,MalePop,1990,NA
+Marshall Islands,584,MalePop,1995,NA
+Marshall Islands,584,MalePop,2000,NA
+Marshall Islands,584,MalePop,2005,NA
+Marshall Islands,584,MalePop,2010,NA
+Marshall Islands,584,MalePop,2015,NA
+Marshall Islands,584,FemalePop,1990,NA
+Marshall Islands,584,FemalePop,1995,NA
+Marshall Islands,584,FemalePop,2000,NA
+Marshall Islands,584,FemalePop,2005,NA
+Marshall Islands,584,FemalePop,2010,NA
+Marshall Islands,584,FemalePop,2015,NA
+Micronesia (Federated States of),583,Pop,1990,96
+Micronesia (Federated States of),583,Pop,1995,108
+Micronesia (Federated States of),583,Pop,2000,107
+Micronesia (Federated States of),583,Pop,2005,106
+Micronesia (Federated States of),583,Pop,2010,104
+Micronesia (Federated States of),583,Pop,2015,104
+Micronesia (Federated States of),583,MalePop,1990,49
+Micronesia (Federated States of),583,MalePop,1995,55
+Micronesia (Federated States of),583,MalePop,2000,54
+Micronesia (Federated States of),583,MalePop,2005,54
+Micronesia (Federated States of),583,MalePop,2010,53
+Micronesia (Federated States of),583,MalePop,2015,54
+Micronesia (Federated States of),583,FemalePop,1990,47
+Micronesia (Federated States of),583,FemalePop,1995,53
+Micronesia (Federated States of),583,FemalePop,2000,53
+Micronesia (Federated States of),583,FemalePop,2005,52
+Micronesia (Federated States of),583,FemalePop,2010,51
+Micronesia (Federated States of),583,FemalePop,2015,51
+Nauru,520,Pop,1990,9
+Nauru,520,Pop,1995,10
+Nauru,520,Pop,2000,10
+Nauru,520,Pop,2005,10
+Nauru,520,Pop,2010,10
+Nauru,520,Pop,2015,10
+Nauru,520,MalePop,1990,NA
+Nauru,520,MalePop,1995,NA
+Nauru,520,MalePop,2000,NA
+Nauru,520,MalePop,2005,NA
+Nauru,520,MalePop,2010,NA
+Nauru,520,MalePop,2015,NA
+Nauru,520,FemalePop,1990,NA
+Nauru,520,FemalePop,1995,NA
+Nauru,520,FemalePop,2000,NA
+Nauru,520,FemalePop,2005,NA
+Nauru,520,FemalePop,2010,NA
+Nauru,520,FemalePop,2015,NA
+Northern Mariana Islands,580,Pop,1990,44
+Northern Mariana Islands,580,Pop,1995,58
+Northern Mariana Islands,580,Pop,2000,68
+Northern Mariana Islands,580,Pop,2005,64
+Northern Mariana Islands,580,Pop,2010,54
+Northern Mariana Islands,580,Pop,2015,55
+Northern Mariana Islands,580,MalePop,1990,NA
+Northern Mariana Islands,580,MalePop,1995,NA
+Northern Mariana Islands,580,MalePop,2000,NA
+Northern Mariana Islands,580,MalePop,2005,NA
+Northern Mariana Islands,580,MalePop,2010,NA
+Northern Mariana Islands,580,MalePop,2015,NA
+Northern Mariana Islands,580,FemalePop,1990,NA
+Northern Mariana Islands,580,FemalePop,1995,NA
+Northern Mariana Islands,580,FemalePop,2000,NA
+Northern Mariana Islands,580,FemalePop,2005,NA
+Northern Mariana Islands,580,FemalePop,2010,NA
+Northern Mariana Islands,580,FemalePop,2015,NA
+Palau,585,Pop,1990,15
+Palau,585,Pop,1995,17
+Palau,585,Pop,2000,19
+Palau,585,Pop,2005,20
+Palau,585,Pop,2010,20
+Palau,585,Pop,2015,21
+Palau,585,MalePop,1990,NA
+Palau,585,MalePop,1995,NA
+Palau,585,MalePop,2000,NA
+Palau,585,MalePop,2005,NA
+Palau,585,MalePop,2010,NA
+Palau,585,MalePop,2015,NA
+Palau,585,FemalePop,1990,NA
+Palau,585,FemalePop,1995,NA
+Palau,585,FemalePop,2000,NA
+Palau,585,FemalePop,2005,NA
+Palau,585,FemalePop,2010,NA
+Palau,585,FemalePop,2015,NA
+American Samoa,16,Pop,1990,47
+American Samoa,16,Pop,1995,53
+American Samoa,16,Pop,2000,58
+American Samoa,16,Pop,2005,59
+American Samoa,16,Pop,2010,56
+American Samoa,16,Pop,2015,56
+American Samoa,16,MalePop,1990,NA
+American Samoa,16,MalePop,1995,NA
+American Samoa,16,MalePop,2000,NA
+American Samoa,16,MalePop,2005,NA
+American Samoa,16,MalePop,2010,NA
+American Samoa,16,MalePop,2015,NA
+American Samoa,16,FemalePop,1990,NA
+American Samoa,16,FemalePop,1995,NA
+American Samoa,16,FemalePop,2000,NA
+American Samoa,16,FemalePop,2005,NA
+American Samoa,16,FemalePop,2010,NA
+American Samoa,16,FemalePop,2015,NA
+Cook Islands,184,Pop,1990,18
+Cook Islands,184,Pop,1995,18
+Cook Islands,184,Pop,2000,18
+Cook Islands,184,Pop,2005,19
+Cook Islands,184,Pop,2010,20
+Cook Islands,184,Pop,2015,21
+Cook Islands,184,MalePop,1990,NA
+Cook Islands,184,MalePop,1995,NA
+Cook Islands,184,MalePop,2000,NA
+Cook Islands,184,MalePop,2005,NA
+Cook Islands,184,MalePop,2010,NA
+Cook Islands,184,MalePop,2015,NA
+Cook Islands,184,FemalePop,1990,NA
+Cook Islands,184,FemalePop,1995,NA
+Cook Islands,184,FemalePop,2000,NA
+Cook Islands,184,FemalePop,2005,NA
+Cook Islands,184,FemalePop,2010,NA
+Cook Islands,184,FemalePop,2015,NA
+French Polynesia,258,Pop,1990,198
+French Polynesia,258,Pop,1995,215
+French Polynesia,258,Pop,2000,237
+French Polynesia,258,Pop,2005,255
+French Polynesia,258,Pop,2010,268
+French Polynesia,258,Pop,2015,283
+French Polynesia,258,MalePop,1990,103
+French Polynesia,258,MalePop,1995,112
+French Polynesia,258,MalePop,2000,122
+French Polynesia,258,MalePop,2005,131
+French Polynesia,258,MalePop,2010,137
+French Polynesia,258,MalePop,2015,144
+French Polynesia,258,FemalePop,1990,95
+French Polynesia,258,FemalePop,1995,103
+French Polynesia,258,FemalePop,2000,115
+French Polynesia,258,FemalePop,2005,124
+French Polynesia,258,FemalePop,2010,131
+French Polynesia,258,FemalePop,2015,138
+Niue,570,Pop,1990,2
+Niue,570,Pop,1995,2
+Niue,570,Pop,2000,2
+Niue,570,Pop,2005,2
+Niue,570,Pop,2010,2
+Niue,570,Pop,2015,2
+Niue,570,MalePop,1990,NA
+Niue,570,MalePop,1995,NA
+Niue,570,MalePop,2000,NA
+Niue,570,MalePop,2005,NA
+Niue,570,MalePop,2010,NA
+Niue,570,MalePop,2015,NA
+Niue,570,FemalePop,1990,NA
+Niue,570,FemalePop,1995,NA
+Niue,570,FemalePop,2000,NA
+Niue,570,FemalePop,2005,NA
+Niue,570,FemalePop,2010,NA
+Niue,570,FemalePop,2015,NA
+Samoa,882,Pop,1990,163
+Samoa,882,Pop,1995,170
+Samoa,882,Pop,2000,175
+Samoa,882,Pop,2005,180
+Samoa,882,Pop,2010,186
+Samoa,882,Pop,2015,193
+Samoa,882,MalePop,1990,85
+Samoa,882,MalePop,1995,88
+Samoa,882,MalePop,2000,91
+Samoa,882,MalePop,2005,93
+Samoa,882,MalePop,2010,96
+Samoa,882,MalePop,2015,100
+Samoa,882,FemalePop,1990,78
+Samoa,882,FemalePop,1995,82
+Samoa,882,FemalePop,2000,84
+Samoa,882,FemalePop,2005,87
+Samoa,882,FemalePop,2010,90
+Samoa,882,FemalePop,2015,94
+Tokelau,772,Pop,1990,2
+Tokelau,772,Pop,1995,2
+Tokelau,772,Pop,2000,2
+Tokelau,772,Pop,2005,1
+Tokelau,772,Pop,2010,1
+Tokelau,772,Pop,2015,1
+Tokelau,772,MalePop,1990,NA
+Tokelau,772,MalePop,1995,NA
+Tokelau,772,MalePop,2000,NA
+Tokelau,772,MalePop,2005,NA
+Tokelau,772,MalePop,2010,NA
+Tokelau,772,MalePop,2015,NA
+Tokelau,772,FemalePop,1990,NA
+Tokelau,772,FemalePop,1995,NA
+Tokelau,772,FemalePop,2000,NA
+Tokelau,772,FemalePop,2005,NA
+Tokelau,772,FemalePop,2010,NA
+Tokelau,772,FemalePop,2015,NA
+Tonga,776,Pop,1990,95
+Tonga,776,Pop,1995,96
+Tonga,776,Pop,2000,98
+Tonga,776,Pop,2005,101
+Tonga,776,Pop,2010,104
+Tonga,776,Pop,2015,106
+Tonga,776,MalePop,1990,48
+Tonga,776,MalePop,1995,49
+Tonga,776,MalePop,2000,50
+Tonga,776,MalePop,2005,51
+Tonga,776,MalePop,2010,52
+Tonga,776,MalePop,2015,53
+Tonga,776,FemalePop,1990,47
+Tonga,776,FemalePop,1995,47
+Tonga,776,FemalePop,2000,48
+Tonga,776,FemalePop,2005,50
+Tonga,776,FemalePop,2010,52
+Tonga,776,FemalePop,2015,53
+Tuvalu,798,Pop,1990,9
+Tuvalu,798,Pop,1995,9
+Tuvalu,798,Pop,2000,9
+Tuvalu,798,Pop,2005,10
+Tuvalu,798,Pop,2010,10
+Tuvalu,798,Pop,2015,10
+Tuvalu,798,MalePop,1990,NA
+Tuvalu,798,MalePop,1995,NA
+Tuvalu,798,MalePop,2000,NA
+Tuvalu,798,MalePop,2005,NA
+Tuvalu,798,MalePop,2010,NA
+Tuvalu,798,MalePop,2015,NA
+Tuvalu,798,FemalePop,1990,NA
+Tuvalu,798,FemalePop,1995,NA
+Tuvalu,798,FemalePop,2000,NA
+Tuvalu,798,FemalePop,2005,NA
+Tuvalu,798,FemalePop,2010,NA
+Tuvalu,798,FemalePop,2015,NA
+Wallis and Futuna Islands,876,Pop,1990,14
+Wallis and Futuna Islands,876,Pop,1995,14
+Wallis and Futuna Islands,876,Pop,2000,14
+Wallis and Futuna Islands,876,Pop,2005,14
+Wallis and Futuna Islands,876,Pop,2010,14
+Wallis and Futuna Islands,876,Pop,2015,13
+Wallis and Futuna Islands,876,MalePop,1990,NA
+Wallis and Futuna Islands,876,MalePop,1995,NA
+Wallis and Futuna Islands,876,MalePop,2000,NA
+Wallis and Futuna Islands,876,MalePop,2005,NA
+Wallis and Futuna Islands,876,MalePop,2010,NA
+Wallis and Futuna Islands,876,MalePop,2015,NA
+Wallis and Futuna Islands,876,FemalePop,1990,NA
+Wallis and Futuna Islands,876,FemalePop,1995,NA
+Wallis and Futuna Islands,876,FemalePop,2000,NA
+Wallis and Futuna Islands,876,FemalePop,2005,NA
+Wallis and Futuna Islands,876,FemalePop,2010,NA
+Wallis and Futuna Islands,876,FemalePop,2015,NA
