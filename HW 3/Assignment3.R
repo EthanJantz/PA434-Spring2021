@@ -135,9 +135,47 @@ countries <- full_data  %>%
 dim(full_data) # 1392 obs of 15 vars
 dim(countries) # 232 obs of 2 vars
 
+write_csv(full_data, "full_data.csv")
+write_csv(countries, "common_obs.csv")
 
 ### -----------
 ### Task 2
 ### questions
 
 # 5. avg migrants/total population in 2015
+# Appending this ratio to the full data 
+full_data$mig_pop_ratio <- full_data$mig_total / full_data$pop_total
+# Creating a new object
+data_2015 <- full_data[which(full_data$year == 2015),]
+# Finding the average of mig_pop_ratio for the year 2015
+mean(data_2015$mig_pop_ratio) # 133.3353... This doesn't seem right
+# I went back through and the only error I can find is that I probably misunderstood
+# what these variables represent. Let me know if I made a silly mistake in feedback 
+# please!
+
+# 6. Refugee / Total Migrants trends from 1990
+full_data$ref_mig_ratio <- full_data$ref_total / full_data$mig_total
+mean(full_data[which(full_data$year == 1990),]$ref_mig_ratio, na.rm = TRUE) # 15.44% in 1990
+mean(full_data[which(full_data$year == 2015),]$ref_mig_ratio, na.rm = TRUE) # 15.15% in 2015
+# Very slight decrease in refugee percentages since 1990
+
+# 7. Highest/Lowest % of immigrants in a country in 2010
+max(full_data[which(full_data$year == 2010),]$mig_pop_ratio) # 878... same issue as question 5
+min(full_data[which(full_data$year == 2010),]$mig_pop_ratio) # 63% which is a more reasonable number
+
+# 8. Median percentage of immigrants in a country in 2015
+median(full_data[which(full_data$year == 2015),]$mig_pop_ratio) # 54.4...
+
+# I'm sure I made some error in this homework but I don't know what I did that led to such strange numbers.
+migration %>%
+  filter(Country == "Burundi") %>%
+  select(Tot_2015) # 286810 migrants in Burundi in 2015
+
+pop %>%
+  filter(Country == "Burundi", year == 2015) # Total population of 11179, which is impossible if I understand the data right
+
+### ----------
+### Update
+###
+
+# I understand now that the population values were in the 100k unit. This means the values were off by a factor of 100,000.
