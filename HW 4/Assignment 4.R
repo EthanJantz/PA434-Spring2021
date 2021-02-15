@@ -4,8 +4,8 @@
 library(dplyr)
 library(readr)
 
-immigration <- read_csv("ImmigrationData.csv")
-region <- read_csv("RegionData.csv")
+immigration <- read_csv(here::here("HW 4", "ImmigrationData.csv"))
+region <- read_csv(here::here("HW 4", "RegionData.csv"))
 
 ### ------------
 ### merge
@@ -63,3 +63,4 @@ full_data %>%
 full_data %>%
   filter(Country %in% c("Italy", "Germany", "Spain", "France", "Portugal", "Greece"), 
          year == 2015)
+rm(immigration, region)

@@ -3,10 +3,10 @@
 ###
 library(tidyverse)
 
-migration <- read_csv("MigrationFlows.csv")
-origin <- read_csv("Origin.csv")
-pop <- read_csv("Population.csv")
-refugees <- read_csv("Refugees.csv")
+migration <- read_csv("HW 3/MigrationFlows.csv")
+origin <- read_csv("HW 3/Origin.csv")
+pop <- read_csv("HW 3/Population.csv")
+refugees <- read_csv("HW 3/Refugees.csv")
 
 names(migration)
 glimpse(migration)
