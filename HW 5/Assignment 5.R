@@ -86,3 +86,34 @@ data %>%
 
 # Q 1
 # calculate missing values in refugees, pop, and migrant columns
+data %>%
+  summarize(ref_na = sum(is.na(Refugees)), # 366 refugee NA values
+            pop_na = sum(is.na(Pop)), # No NA values at all
+            mig_na = sum(is.na(Migrants))) # 15 Migrant NA values
+
+# Q 2
+# Analyze missingness
+# by region
+data %>%
+  group_by(region) %>%
+  summarize(ref_na = sum(is.na(Refugees)), # Lots of NA values in Territories/Others
+            mig_na = sum(is.na(Migrants))) # Only 7 Migrant NAs in Territories/Others
+
+# by year
+data %>%
+  group_by(year) %>%
+  summarize(ref_na = sum(is.na(Refugees)), # Even missingness between years
+            mig_na = sum(is.na(Migrants))) # More missingness further back in time
+
+# by country
+data %>%
+  group_by(Country) %>%
+  summarize(ref_na = sum(is.na(Refugees)),
+            mig_na = sum(is.na(Migrants)))
+
+# Q 3
+# wrap-up
+
+# In terms of refugees, which has the most NA values, there seems to be a concentration in regions noted as Territories or Other entries. This may be because of a lack of capacity to track refugee counts in those areas. In this case I would probably say MNAR.
+
+# There doesn't seem to be a relationship betwen ref_na and mig_na values, though the same capacity problem seems to exist in counting migrants in some territories
