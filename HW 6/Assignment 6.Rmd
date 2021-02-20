@@ -1,0 +1,63 @@
+---
+title: "Assignment 6"
+author: "Ethan Jantz"
+date: "2/20/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(patchwork)
+
+data <- read_csv(here::here("HW 6", "api_data.csv"))
+```
+
+# Step 1
+
+## Question 1: Unit of Analysis
+
+The unit of analysis is the school-characteristic. Each row represents one school and an observation of its student population. There are three population characteristics observed in this data, `meals`, `colgrad`, and `fullqual`. 
+
+## Question 2: Tidiness
+
+The data is messy, but not incredibly so. The `variable_name` and `percentage` columns are tidy, but the `community_schooltype` column is not. `community_schooltype` will beak out into two variables, `community` and `schooltype`, using `separate()`. The final shape of the data will have 30,000 rows and 7 columns. I will also convert character-type variables to factors for ease of analysis later on.
+
+
+```{r tidy}
+data <- data %>%
+  separate(col = community_schooltype,
+           into = c("community", "schooltype"),
+           sep = "_") %>%
+  mutate(across(.cols = where(is.character), .fns = as.factor))
+
+glimpse(data)
+```
+
+## Question 3: Missing data
+
+Let's use `dplyr::summarize` to see if there is any missing data. 
+
+```{r missingness}
+data %>%
+  summarize(across(.cols = everything(),
+                   .fns = ~ sum(is.na(.x))))
+```
+
+It looks like there are no missing observations in this dataset. This makes sense, considering it's simulated data.
+
+# Step 2
+
+## Question 1: Visualizing Descriptive Statistics
+
+Let's take a look at the frequency of the variables in the data using density plots for continuous variables and bar plots for categorical variables. I will not be exploring `uid` or `county` as per the instructions. 
+
+```{r density plots}
+plot_dens <- data %>%
+  ggplot(aes(percentage, fill = variable_name, color = variable_name)) +
+  geom_density(alpha = .1)
+```
+
+```{r bar plots}
+
+```
