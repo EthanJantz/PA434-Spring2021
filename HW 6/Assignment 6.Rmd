@@ -2,7 +2,9 @@
 title: "Assignment 6"
 author: "Ethan Jantz"
 date: "2/20/2021"
-output: word_document
+output:
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -21,7 +23,7 @@ The unit of analysis is the school-characteristic. Each row represents one schoo
 
 ## Question 2: Tidiness
 
-The data is messy, but not incredibly so. The `variable_name` and `percentage` columns are tidy, but the `community_schooltype` column is not. `community_schooltype` will beak out into two variables, `community` and `schooltype`, using `separate()`. The final shape of the data will have 30,000 rows and 7 columns. I will also convert character-type variables to factors for ease of analysis later on.
+The data is messy, but not incredibly so. The `variable_name` and `percentage` columns are tidy, but the `community_schooltype` column is not. `api` is fine because it's not measured by percentage like other variables in the data. `community_schooltype` will beak out into two variables, `community` and `schooltype`, using `separate()`. The final shape of the data will have 30,000 rows and 7 columns. I will also convert character-type variables to factors for ease of analysis later on.
 
 
 ```{r tidy}
@@ -29,7 +31,9 @@ data <- data %>%
   separate(col = community_schooltype,
            into = c("community", "schooltype"),
            sep = "_") %>%
-  mutate(across(.cols = where(is.character), .fns = as.factor))
+  mutate(across(.cols = where(is.character), .fns = as.factor),
+         # Changing factor orders, makes visualization easier
+         schooltype = factor(schooltype, levels = c("H", "M", "E"), labels = c("High School", "Middle School", "Elementary School")))
 
 glimpse(data)
 ```
@@ -53,11 +57,138 @@ It looks like there are no missing observations in this dataset. This makes sens
 Let's take a look at the frequency of the variables in the data using density plots for continuous variables and bar plots for categorical variables. I will not be exploring `uid` or `county` as per the instructions. 
 
 ```{r density plots}
-plot_dens <- data %>%
+plot_dens_var <- data %>%
   ggplot(aes(percentage, fill = variable_name, color = variable_name)) +
-  geom_density(alpha = .1)
+  geom_density(alpha = .1) +
+  labs(title = "Distribution of Continuous Variables",
+       subtitle = "in simulated school data",
+       x = "Value of Variable (%)",
+       y = "Density") +
+  # I could not find a better solution than this to pretty the legend
+  # From what I can find, the fill and color legend use different scales by default
+  # and they need to be set to the same scales
+  scale_fill_hue(name = "Variable",
+                    labels = c("Parents w/ College Degrees", "Fully Qualified Teachers", "Students Eligible for Subsidized Meals")) +
+  scale_color_hue(name = "Variable",
+                    labels = c("Parents w/ College Degrees", "Fully Qualified Teachers", "Students Eligible for Subsidized Meals")) +
+  theme_minimal()
+
+plot_dens_api <- data %>%
+  ggplot(aes(api)) +
+  geom_density(fill = "black", color = "black", alpha = .1) +
+  labs(title = "Distribution of School API",
+       subtitle = "in simulated school data",
+       x = "API Value",
+       y = "Density") +
+  theme_minimal()
+
+plot_dens_var / plot_dens_api
 ```
 
-```{r bar plots}
+We can see that there are three different distributions here, one for each variable. `colgrad` is right-skewed, `fullqual` is normally distributed, and `meals` is left-skewed. Most schools' API value falls between 600 and 800.
 
+```{r bar plot}
+plot_bar <- data %>%
+  select(community, schooltype) %>%
+  ggplot(aes(x = fct_infreq(community), fill = schooltype)) +
+  geom_bar() + 
+  labs(title = "Distribution of School Types",
+       subtitle = "by community",
+       x = "Type of Community",
+       y = "Count") +
+  scale_fill_hue(name = "School Type",
+                 labels = c("High School", "Middle School", "Elementary School")) +
+  theme_minimal()
+
+plot_bar
+```
+
+We have far more schools in Suburban areas than Urban ones, that's surprising! `schooltype` is equally distributed among the types of `community`. 
+
+Let's see the correlation between `api` and the `colgrad` variable. 
+
+## Question 2: Exploring Correlations
+
+I'm anticipating a positive correlation between these two variables. Having parents with college degrees usually has a positive relationship with school performance metrics.
+
+```{r corr plot}
+plot_corr <- data %>%
+  filter(variable_name == "colgrad") %>%
+  ggplot(aes(x = api, y = percentage, color = community)) +
+  geom_jitter() +
+  facet_wrap(~schooltype,
+             labeller = labeller(schooltype = c())) +
+  labs(title = "School Performance",
+       subtitle = "and student parent education",
+       x = "Academic Performance Index",
+       y = "Students with College Educated Parents (%)") +
+  theme_minimal()
+
+plot_corr
+```
+
+It looks like my hypothesis was correct. There is a positive correlation between these two variables. This is found across both `schooltype` and `community` variables. 
+
+## Question 3: Top and Bottom 10 API Schools
+
+The following code will wrangle and plot the top and bottom 10 schools in terms of API.
+
+```{r api extremes}
+top10 <- data %>%
+  select(uid, api) %>%
+  distinct() %>%
+  slice_max(api, n = 10)
+
+bottom10 <- data %>%
+  select(uid, api) %>%
+  distinct() %>%
+  slice_min(api, n = 10)
+
+maxmin_data <- data %>%
+  select(uid:api) %>%
+  filter(uid %in% c(top10$uid, bottom10$uid)) %>%
+  mutate(grp = factor(case_when(
+    uid %in% top10$uid ~ "Top 10",
+    uid %in% bottom10$uid ~ "Bottom 10"), 
+    levels = c("Top 10", "Bottom 10")),
+    schoolname = paste(county, schooltype)) %>%
+  distinct() %>%
+  arrange(api)
+
+maxmin_plot <- maxmin_data %>%
+  ggplot(aes(x = reorder(schoolname, desc(api), FUN = sum), y = api, fill = grp)) +
+  geom_bar(stat = "identity") +
+  geom_hline(aes(yintercept = mean(api)), linetype = "dashed") +
+  coord_flip() +
+  labs(title = "Top and Bottom 10 Schools",
+       subtitle = "in API",
+       x = "School Name",
+       y = "API") +
+  scale_fill_hue(name = "Top/Bottom 10") +
+  theme_minimal()
+
+maxmin_plot
+```
+
+## Question 4: Policy Recommendation
+
+The goal is to identify counties that should receive funding priority to improve their API values. To do so, we'll focus on increasing the percentage of fully qualified teachers in the lowest performing counties. The new value, `priority_index`, will be the county's average api and percentage of fully qualified teachers in relation to the highest performing county on the index. I'll plot the bottom 25% of counties by that metric.
+
+```{r}
+priority_plot <- data %>%
+  filter(variable_name == "fullqual") %>%
+  group_by(county) %>%
+  summarize(api = mean(api),
+            percentage = mean(percentage)) %>%
+  mutate(priority_index = (api * percentage) / max(api * percentage)) %>%
+  slice_min(priority_index, prop = .25) %>%
+  ggplot(aes(x = reorder(county, desc(priority_index)), y = priority_index)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Priority Index Values",
+       subtitle = "by county",
+       x = "County",
+       y = "Priority Index Value (0 - 1)") +
+  coord_flip()
+
+priority_plot
 ```
