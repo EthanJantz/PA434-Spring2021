@@ -1,0 +1,150 @@
+---
+title: "Assignment 9"
+author: "Ethan Jantz"
+date: "3/11/2021"
+output: pdf_document
+---
+
+# Assignment 9: Assignment 7 Redux Using Markdown
+
+Assignment 7 asked students to create a plot using data from January 5th's Tidy Tuesday release. The data was set of transit projects, their location, their start/end dates, and other variables such as cost. For this assignment I decided to make a timeline of transit projects by city. I hadn't made something like that before and thought it would be a fun way to do data visualization in R. I think it turned out pretty well!
+
+## Data Cleaning
+
+First, the data provided for this TidyTuesday needed to be loaded. The following chunk is my `setup` chunk that pulls in the data and declares the libraries I'll be using.
+
+```{r setup, message = F, echo = T}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(tidyverse) # in HW 7 I used patchwork to make the final .png for submission but I won't need that here
+
+data <- tidytuesdayR::tt_load('2021-01-05')$transit_cost # Pull in assignment data using namespace::fun call
+```
+
+The data needed to be cleaned in my use case. The data had start and end years as separate variables, since the unit of analysis was the transit project. My plotting method requires that each transit project has two entries, one for the start year and the other for the end year. Alongside this transformation I coerced a lot of the variables into factors or other types. I'm hoping to make the code in this submission much cleaner. That means as little code as possible to make my project. 
+
+```{r cleaning}
+data_clean <- data %>%
+  select(e, start_year, end_year, country, city, line, length) %>% # we don't really need the URL source in our viz
+  pivot_longer(cols = start_year:end_year,
+               names_to = "state",
+               values_to = "year") %>%
+  mutate(
+    across(c(country, city, line, state), ~ as.factor(.x)), # convert these to factors for ease of analysis
+    across(c(year), ~ lubridate::as_date(paste(.x,"1","1", sep = "-"))) # convert year values to date class for ease of analysis
+  ) %>%
+  drop_na()
+
+summary(data_clean)
+```
+
+Our final dataset has 7 variables and 947 observations. There are some missing values, but I'm not concerned about them for this project. What I am interested in is seeing which cities have the most transit projects. It only makes sense to test out a transit project timeline plot on a city that would have enough projects to warrant a timeline!
+
+## Exploring the Data
+
+Most of the cities with transit projects in this data are in China. But we can see that Turkey, France, India, and other countries do show up in the top 20. From a quick glance it would seem that the larger your cities the more transit projects you have. It would be interesting to see population counts for these cities at the start/end dates to test that hypothesis.
+
+```{r cities}
+# Which cities have the most projects
+data_clean %>%
+  count(city) %>%
+  slice_max(n, n = 20) %>%
+  arrange(desc(n)) %>%
+  ggplot(aes(x = reorder(city, n), y = n)) +
+  geom_col() +
+  coord_flip() +# Shanghai, Beijing, Wuhan... China takes up most of the top 10 in our data
+  labs(title = "Transit Projects by City", subtitle = "Top 20",
+       x = "Count", y = "City")
+```
+
+## Building the Plot
+
+Getting down to business I started creating the timeline plot. I used [this](https://www.molecularecologist.com/2019/01/03/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/) tutorial to figure the process out. There are some subtle differences between my implementation and this author's, but not enough to not give them credit. My script started off by creating the timeline for just one city, Tokyo, and then I decided to functionalize it so I could create timelines on the fly. Here is the first example.
+
+```{r tokyo plot}
+data_jp <- data_clean %>%
+  filter(country == "JP")
+
+timeline_jp <- data_jp %>%
+  ggplot() +
+  geom_line(aes(x = year, y = line, color = length, group = e), size = 10) + # The plot looks like a bar chart, but they're actually lines!
+  # It's probably possible to change size to a dynamic element based on the number of lines, but i'm not doing that today
+  geom_vline(xintercept = as.numeric(Sys.Date()), linetype = "dotted") + # I want the viewer to be able to tell which projects are anticipated/active
+  labs(title = "Rail-Based Transit Projects Over Time",
+       x = "Year",
+       y = "Transit Project",
+       color = "Length of Project (km)") +
+  theme(legend.position = "bottom") +
+  scale_color_binned() # I think binned makes the plot less confusing, though it does obscure nuance
+
+timeline_jp
+```
+
+I think this turned out pretty well! I had tried using `geom_line` and `geom_segment` in a previous attempt, and had thought about using `geom_col` before I found this tutorial. They recommended using `geom_line` in a way that I had not seen done before. It looks nice, but you can see some overlap on the bars. Ideally the `size` parameter in `geom_line` would be dynamic. This is fixed in the functionalized version of the above chunk.
+
+```{r timeline plot function}
+timeline_plot <- function(selected) {
+  data_p <- data_clean %>%
+    filter(country %in% selected | city %in% selected) # User can subimt a city or country code or combination thereof
+  
+  
+  x <- data_p %>%
+    count(line) %>%
+    nrow()
+  
+  timeline_p <- data_p %>%
+    ggplot() +
+    geom_line(aes(x = year, y = line, color = length, group = e), size = (x / 5)) + 
+    geom_vline(xintercept = Sys.Date(), linetype = "dotted") +
+    labs(title = "Rail-Based Transit Projects Over Time",
+         subtitle = selected,
+         x = "Year",
+         y = "Transit Project",
+         color = "Length of Project (km)") +
+    theme(legend.position = "bottom") +
+    scale_color_binned() +
+    scale_x_date(date_minor_breaks = "years", limit = c(min(data_p$year), max(data_p$year))) +
+  
+  timeline_p
+}
+```
+
+In this function, `size` is set as a fraction of the number of unique `lines` being plotted. Let's compare a plot of projects in Mumbai with a plot of projects in India. 
+
+```{r test plot}
+timeline_plot("Mumbai")
+timeline_plot("IN")
+```
+
+I'm happy with this. I don't think it would scale to a country as large as China, but this works for most use cases. One cool and unanticipated aspect of this plotting method was that we can view how much of some of the transit projects was completed over certain chunks. You can see this in the Phase 2 timeline bar for the India plot. This is because some of the lines had multiple projects associated with them. Pretty neat!
+
+## Final Submission
+
+My final submission was a plot of a sample of cities with the most transit projects. To avoid including 3 cities from the same country I picked the top city from each of the top 3 countries in the data. 
+
+```{r countries}
+data_clean %>%
+  count(country) %>%
+  slice_max(n, n = 5) %>%
+  arrange(desc(n)) %>%
+  ggplot(aes(x = reorder(country, n), y = n)) +
+  geom_col() +
+  coord_flip() +# Shanghai, Beijing, Wuhan... China takes up most of the top 10 in our data
+  labs(title = "Transit Projects by Country", subtitle = "Top 20",
+       x = "Count", y = "Country")
+```
+
+The top three countries are China (by a **lot**), India, and Turkey. The top city from each is Shanghai, Mumbai, and Istanbul, respectively. 
+
+```{r shanghai}
+timeline_plot("Shanghai")
+```
+
+
+```{r mumbai}
+timeline_plot("Mumbai")
+```
+
+
+```{r istanbul}
+timeline_plot("Istanbul")
+```
