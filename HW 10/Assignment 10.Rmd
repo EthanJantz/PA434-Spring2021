@@ -1,0 +1,147 @@
+---
+title: "Assignment 10"
+author: "Ethan Jantz"
+date: "3/28/2021"
+output: html_document
+---
+
+# Setup
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(extrafont) # for using Windows fonts
+library(tidyverse)
+loadfonts(device = "win") # loads fonts from windows font list
+
+# Get the data
+tuition_cost <- 
+  read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/tuition_cost.csv')
+diversity_school <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/diversity_school.csv')
+```
+
+# `tuition_cost` 
+
+```{r}
+tuition_cost <- tuition_cost %>%
+  mutate(
+    state = factor(state) %>%
+      fct_relevel(sort),
+    type = factor(type) %>%
+      fct_reorder(.x = in_state_tuition)
+  )
+
+skimr::skim(tuition_cost)
+```
+
+# `diversity_school` 
+
+```{r}
+skimr::skim(diversity_school)
+```
+
+# Creating a Custom Theme
+
+```{r theme}
+theme_ethan <- function(font = "Calibri",
+                        main.text.color = "#000000",
+                        sub.text.color = "#777777",
+                        base.size = 18,
+                        plot.background.color = "#FFFFFF",
+                        legend.position = "right",
+                        panel.border.color = "black",
+                        panel.background = "#FFFFFF",
+                        panel.grid.color = "#999999",
+                        axis.text.color = "#000000",
+                        axis.text.size = 12,
+                        subtitle.size = 14,
+                        legend.text = base.size * .8,
+                        legend.title = base.size * .93,
+                        axis.title.size = 14,
+                        title.size = 16,
+                        title.face = "bold",
+                        subtitle.face = "italic")
+{
+  th <- ggplot2::theme_minimal()
+  
+  # Text format:
+  # Sets font, size, type, and color of text for chart title
+  th$plot.title <- ggplot2::element_text(family = font,
+                                         size = title.size,
+                                         face = title.face,
+                                         color = main.text.color)
+  # and for subtitle
+  th$plot.subtitle <- ggplot2::element_text(family = font,
+                                            size = subtitle.size,
+                                            face = subtitle.face,
+                                            color = main.text.color)
+  #Legend format
+  th$legend.position <- legend.position
+  th$legend.text.align <- 0
+  th$legend.background <- ggplot2::element_blank()
+  th$legend.key <- ggplot2::element_blank()
+  th$legend.text <- ggplot2::element_text(family = font,
+                                          size = legend.text,
+                                          color = main.text.color)
+  th$legend.title <- ggplot2::element_text(family = font,
+                                           size = legend.title,
+                                           color = main.text.color)
+  
+  #Axis format
+  #This sets the text font, size and colour for the axis test, as well as setting the margins and removes lines and ticks. In some cases, axis lines and axis ticks are things we would want to have in the chart - the cookbook shows examples of how to do so.
+  th$axis.title.x <- ggplot2::element_text(family = font,
+                                           size = axis.title.size,
+                                           color = main.text.color)
+  th$axis.title.y <- th$axis.title.x
+  
+  th$axis.text <- ggplot2::element_text(family = font,
+                                        size = axis.text.size,
+                                        color = main.text.color,
+                                        margin = ggplot2::margin(b = 50))
+  
+  th$axis.text.x <- ggplot2::element_text(margin = ggplot2::margin(5, b = 10))
+  th$axis.text.y <- ggplot2::element_text(margin = ggplot2::margin(t = 5, b = 5, l = 10))
+  
+  #Blank background
+  #This sets the panel background as blank, removing the standard grey ggplot background colour from the plot
+  th$panel.background <- ggplot2::element_rect(
+    fill = panel.background,
+    colour = NA
+  )
+  th$plot.background <- ggplot2::element_rect(
+    fill = plot.background.color,
+    colour = NA
+  )
+  th$panel.border <- ggplot2::element_rect(
+    color = panel.border.color,
+    fill = NA,
+    linetype = "solid",
+    size = 0.75
+  )
+  th$plot.caption <- ggplot2::element_text(color=main.text.color)
+  
+  #Strip background (#This sets the panel background for facet-wrapped plots to white, removing the standard grey ggplot background colour and sets the title size of the facet-wrap title to font size 22)
+  th$strip.background <- ggplot2::element_rect(fill = panel.background)
+  th$strip.text <- ggplot2::element_text(colour = main.text.color,
+                                         size  = 12,
+                                         hjust = 0)
+  
+  return (th)
+}
+```
+
+# Heatmap
+
+```{r heatmap, fig.width = 8,fig.height = 8}
+tuition_cost %>%
+  drop_na() %>%
+  group_by(state, type) %>%
+  summarize(in_state_tuition_avg = mean(in_state_tuition)) %>%
+  mutate(state = fct_rev(state)) %>% # the heatmap lists in reverse alpha order
+  # so this pipe reverses the factor levels to ensure it's correct
+  ggplot(aes(type, state, fill= in_state_tuition_avg)) + 
+  geom_tile() +
+  labs() +
+  theme_ethan() +
+  scale_fill_viridis_c()
+```
+
