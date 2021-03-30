@@ -2,7 +2,9 @@
 title: "Assignment 10"
 author: "Ethan Jantz"
 date: "3/28/2021"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 # Setup
@@ -10,7 +12,7 @@ output: html_document
 We're going to import and tidy up the data before merging them together.
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 library(extrafont) # for using Windows fonts
 library(tidyverse)
 loadfonts(device = "win") # loads fonts from windows font list
@@ -55,14 +57,14 @@ summary(diversity_school)
 ## Merge with `left_join`
 
 ```{r}
-data <- left_join(tuition_cost, diversity_school, by = c("name",))
+data <- left_join(tuition_cost, diversity_school, by = c("name", "state"))
 ```
 
 
-# Creating a Custom Theme
+## Create a Custom Theme
 
 ```{r theme}
-theme_ethan <- function(font = "Calibri",
+theme_ethan <- function(font = "Times New Roman",
                         main.text.color = "#000000",
                         sub.text.color = "#777777",
                         base.size = 18,
@@ -146,19 +148,13 @@ theme_ethan <- function(font = "Calibri",
   th$plot.caption <- ggplot2::element_text(color = main.text.color,
                                            hjust = -.5)
   
-  #Strip background (#This sets the panel background for facet-wrapped plots to white, removing the standard grey ggplot background colour and sets the title size of the facet-wrap title to font size 22)
-  th$strip.background <- ggplot2::element_rect(fill = panel.background)
-  th$strip.text <- ggplot2::element_text(colour = main.text.color,
-                                         size  = 12,
-                                         hjust = 0)
-  
   return (th)
 }
 ```
 
 # Heatmap
 
-```{r heatmap, fig.width = 8,fig.height = 8}
+```{r heatmap, fig.width = 8, fig.height = 8}
 tuition_cost %>%
   drop_na() %>%
   group_by(state, type) %>%
@@ -180,7 +176,7 @@ tuition_cost %>%
 
 # Lollipop Chart
 
-```{r, fig.width = 8,fig.height = 8}
+```{r lollipop, fig.width = 9, fig.height = 8}
 data %>%
   filter(type %in% c("Public", "Private"),
          degree_length == "4 Year",
@@ -203,3 +199,27 @@ data %>%
 
 # Cleveland Dot Chart
 
+```{r cleveland, fig.width = 8, fig.height = 8}
+data %>%
+  filter(type %in% c("Public", "Private"),
+         degree_length == "4 Year",
+         state == "Illinois",
+         total_enrollment > median(total_enrollment, na.rm = T)) %>% 
+  select(name, total_enrollment, White, Black) %>%
+  pivot_longer(cols = c(White, Black),
+               names_to = "race") %>%
+  mutate(percent = value / total_enrollment,
+         name = factor(name) %>% fct_reorder2(.x = race, .y = percent, .fun = first2, .desc = F)) %>% # The data doesn't fit an hourglass 
+  # because most schools have more white than black students
+  # but I think this works well
+  ggplot(aes(x = percent, y = name)) +
+  geom_line(aes(group = name)) +
+  geom_point(aes(color = race)) +
+  scale_x_continuous(labels = scales::percent) +
+  labs(title = "Difference Between Enrollment by Race",
+       subtitle = "gaps between black and white student enrollment",
+       x = "Percent",
+       y = "College",
+       color = "Race") +
+  theme_ethan()
+```
