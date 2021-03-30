@@ -7,6 +7,8 @@ output: html_document
 
 # Setup
 
+We're going to import and tidy up the data before merging them together.
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(extrafont) # for using Windows fonts
@@ -19,7 +21,7 @@ tuition_cost <-
 diversity_school <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-10/diversity_school.csv')
 ```
 
-# `tuition_cost` 
+## `tuition_cost` 
 
 ```{r}
 tuition_cost <- tuition_cost %>%
@@ -27,17 +29,35 @@ tuition_cost <- tuition_cost %>%
     state = factor(state) %>%
       fct_relevel(sort),
     type = factor(type) %>%
-      fct_reorder(.x = in_state_tuition)
+      fct_reorder(.x = in_state_tuition),
+    degree_length = factor(degree_length)
   )
 
-skimr::skim(tuition_cost)
+summary(tuition_cost)
 ```
 
-# `diversity_school` 
+## `diversity_school` 
 
 ```{r}
-skimr::skim(diversity_school)
+# widen for the merge
+diversity_school <- diversity_school %>%
+  drop_na() %>%
+  pivot_wider(id_cols = c(state, name, total_enrollment),
+              names_from = category,
+              values_from = enrollment) %>%
+  mutate(state = factor(state) %>%
+      fct_relevel(sort))
+  
+
+summary(diversity_school)
 ```
+
+## Merge with `left_join`
+
+```{r}
+data <- left_join(tuition_cost, diversity_school, by = c("name",))
+```
+
 
 # Creating a Custom Theme
 
@@ -68,12 +88,14 @@ theme_ethan <- function(font = "Calibri",
   th$plot.title <- ggplot2::element_text(family = font,
                                          size = title.size,
                                          face = title.face,
-                                         color = main.text.color)
+                                         color = main.text.color,
+                                         margin = ggplot2::margin(b = 5))
   # and for subtitle
   th$plot.subtitle <- ggplot2::element_text(family = font,
                                             size = subtitle.size,
                                             face = subtitle.face,
-                                            color = main.text.color)
+                                            color = main.text.color,
+                                            margin = ggplot2::margin(b = 5))
   #Legend format
   th$legend.position <- legend.position
   th$legend.text.align <- 0
@@ -91,7 +113,11 @@ theme_ethan <- function(font = "Calibri",
   th$axis.title.x <- ggplot2::element_text(family = font,
                                            size = axis.title.size,
                                            color = main.text.color)
-  th$axis.title.y <- th$axis.title.x
+  
+  th$axis.title.y <- ggplot2::element_text(family = font,
+                                           size = axis.title.size,
+                                           color = main.text.color,
+                                           angle = 90)
   
   th$axis.text <- ggplot2::element_text(family = font,
                                         size = axis.text.size,
@@ -117,7 +143,8 @@ theme_ethan <- function(font = "Calibri",
     linetype = "solid",
     size = 0.75
   )
-  th$plot.caption <- ggplot2::element_text(color=main.text.color)
+  th$plot.caption <- ggplot2::element_text(color = main.text.color,
+                                           hjust = -.5)
   
   #Strip background (#This sets the panel background for facet-wrapped plots to white, removing the standard grey ggplot background colour and sets the title size of the facet-wrap title to font size 22)
   th$strip.background <- ggplot2::element_rect(fill = panel.background)
@@ -140,8 +167,39 @@ tuition_cost %>%
   # so this pipe reverses the factor levels to ensure it's correct
   ggplot(aes(type, state, fill= in_state_tuition_avg)) + 
   geom_tile() +
-  labs() +
+  geom_text(aes(label = scales::comma(round(in_state_tuition_avg, digits = -1))), color = "#FFFFFF", size = 2.5) + # rounds to 10's place
+  labs(title = "Average In-State Tuition",
+       subtitle = "by state, type of school",
+       x = "Type of School",
+       y = "State",
+       fill = "Average In-State Tuition ($$)",
+       caption = "Data: Chronicle of Higher Education") +
   theme_ethan() +
-  scale_fill_viridis_c()
+  scale_fill_viridis_c(labels = scales::comma)
 ```
+
+# Lollipop Chart
+
+```{r, fig.width = 8,fig.height = 8}
+data %>%
+  filter(type %in% c("Public", "Private"),
+         degree_length == "4 Year",
+         state == "Illinois",
+         total_enrollment > median(total_enrollment, na.rm = T)) %>% # na.rm = T is important or median() will not work
+  mutate(black_pct = Black / total_enrollment,
+         name = factor(name) %>%
+           fct_reorder(.x = black_pct, .fun = sort)) %>%
+  ggplot(aes(y = name, x = black_pct)) +
+  geom_point(aes(color = name), size = 3) +
+  geom_segment(aes(yend = name, xend = 0, color = name), size = 1) +
+  scale_x_continuous(labels = scales::percent, limits = c(0, 1), expand = c(0, 0)) +
+  labs(title = "Black Enrollment in Illinois Colleges",
+       subtitle = "among private and public schools with above state median enrollment",
+       x = "Percent",
+       y = "College") +
+  theme_ethan(legend.position = "none")
+```
+
+
+# Cleveland Dot Chart
 
