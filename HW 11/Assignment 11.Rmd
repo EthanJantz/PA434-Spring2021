@@ -1,0 +1,140 @@
+---
+title: "Assignment 11"
+author: "Ethan Jantz"
+date: "4/4/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Question 1
+
+Write a loop that iterates over the numbers 1 - 10 and adds 5 to each before storing the results in a new vector called `output`. 
+
+```{r}
+output <- vector("numeric", 10)
+
+for(i in 1:10) {
+  output[i] <- i + 5
+}
+
+print(output)
+
+output2 <- c(1:10 + 5) # Does the same thing
+
+print(output2)
+```
+
+# Question 2
+
+Create the matrix `mat_x` and perform the following operations:
+
+a. Make a for-loop that calculates the sum for each column of the matrix. 
+b. Use the apply function to perform the same operation.
+
+```{r}
+mat_x <- matrix(1:120, nrow = 20, ncol = 6)
+
+for(i in seq_len(ncol(mat_x))) {
+  print(
+    paste("The sum of column", i, "in mat_x is", sum(mat_x[,i]), 
+          sep = " ") # Ensures R includes a space between each entry
+  )
+}
+```
+
+```{r}
+print(apply(mat_x, 2, 
+            function(x) sum(x))) # This can perform the sum, 
+# but I can't get it to print in a neat way as I did abote
+```
+
+# Question 3
+
+Create a data frame with two numeric and one character vector. Write a loop that loops over the columns and reports the mean of the column if it is numeric and the number of observations if it's a character vector. 
+
+```{r}
+df <- data.frame( 
+  V1 = 1:10,
+  V2 = c(letters[1:10]),
+  V3 = rchisq(10, df = 10)
+)
+
+for(i in seq_len(ncol(df))) {
+    if (class(df[,i]) %in% c("integer", "numeric")) print(mean(df[,i]))
+    if (class(df[,i]) == "character") print(length(df[,i]))
+}
+```
+
+# Question 4
+
+Using a loop, generate 10 random normals from distributions with means -10, 0, 10, and 100. Store them in a new matrix called `mat_distributions`. 
+
+```{r}
+means <- c(-10, 0, 10, 100)
+mat_distributions <- matrix(nrow = 10, ncol = length(means))
+
+for(i in seq_along(means)) {
+  mat_distributions[,i] <- rnorm(nrow(mat_distributions), mean = means[i])
+}
+
+mat_distributions
+```
+
+# Question 5
+
+use a simple `ifelse` statement to add a new column 'male.teen' to a dataframe. This is a dummy variables, indicating 1 ift he observation is a male younger than 20 and 0 otherwise. 
+
+```{r}
+respondent.df <- data.frame(
+  name = c("Sue", "Eva", "Henry", "Jan", "Mary", "John"),
+  sex = c("f", "f", "m", "m", "f", "m"),
+  years = c(21,31,29,19, 23,33)
+  )
+
+respondent.df$male.teen <- ifelse(respondent.df$years < 20 & respondent.df$sex == "m", 
+                                  1, 0)
+
+print(respondent.df)
+```
+
+# Question 6
+
+Using the same dataset, create a new column where values greater than 30 in the column `year` are coded as NA. Other values should stay the same. Use both `ifelse` and `if_else`.
+
+```{r}
+respondent.df$age <- ifelse(respondent.df$years > 30, NA, respondent.df$years)
+
+respondent.df$age2 <- if_else(respondent.df$years > 30, NA, TRUE) # Not sure I understood the question here
+```
+
+# Question 7
+
+Use `tapply` to calculate the average, minimum, and maximum number of years for female and male respondents. 
+
+```{r}
+tapply(respondent.df$years, respondent.df$sex, mean)
+
+tapply(respondent.df$years, respondent.df$sex, min)
+
+tapply(respondent.df$years, respondent.df$sex, max)
+```
+
+# Question 8
+
+Create a loop that will number the publications for each author. "Tidy" the data so that each row represents on author only.
+
+```{r}
+data <- as_tibble(
+  author = c("Author1", "Author1","Author2", "Author3", "Author3","Author3", "Author4", "Author5"), 
+  pub = c("Pub1", "Pub2", "Pub3", "Pub4","Pub5", "Pub6", "Pub7", "Pub8"), 
+  type = c("preprint", "article", "preprint","article", "article", "preprint", "preprint", "article")
+)
+
+for(i in seq_along(data$pub)) {
+  
+}
+```
