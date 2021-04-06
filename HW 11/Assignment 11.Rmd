@@ -125,16 +125,30 @@ tapply(respondent.df$years, respondent.df$sex, max)
 
 # Question 8
 
-Create a loop that will number the publications for each author. "Tidy" the data so that each row represents on author only.
+Create a loop that will number the publications for each author. 
 
 ```{r}
-data <- as_tibble(
+data <- tibble(
   author = c("Author1", "Author1","Author2", "Author3", "Author3","Author3", "Author4", "Author5"), 
   pub = c("Pub1", "Pub2", "Pub3", "Pub4","Pub5", "Pub6", "Pub7", "Pub8"), 
   type = c("preprint", "article", "preprint","article", "article", "preprint", "preprint", "article")
 )
 
-for(i in seq_along(data$pub)) {
-  
+count <- 1
+
+for(i in seq(1, length(data$author) - 1)) {
+  data$pubNum[i] <- count
+  ifelse(data$author[i] == data$author[i + 1],
+         count <- count + 1, 
+         count <- 1)
 }
+```
+
+"Tidy" the data so that each row represents on author only.
+
+```{r}
+data %>% # I don't know how you make a sensicale table by 
+  # widening this df, but this works
+  pivot_wider(names_from = pub,
+              values_from = c(pubNum, type))
 ```
