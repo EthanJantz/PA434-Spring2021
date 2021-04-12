@@ -1,0 +1,207 @@
+---
+title: "Assignment 12"
+author: "Ethan Jantz"
+date: "4/10/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F, warning = F)
+library(tidyverse)
+
+state_names <- state.name
+sentences <- as_tibble(sentences) %>%
+  rename(sentence = value)
+```
+
+# Part 1
+
+Practicing string extraction with the `state.name` dataset.
+
+## Q1
+
+Extract Arizona, California, Illinois, and Oregon from the data.
+
+```{r}
+pattern <- "Arizona|California|Illinois|Oregon"
+selected <- str_extract(state_names, pattern) %>% 
+  na.omit() # Remove the NA values for non-matches
+
+paste(selected)
+```
+
+## Q2
+
+Extract all states that begin with the letter 'a'. Use both `str_subset` and `str_extract` to see how the syntax differs. In both cases, extract the full name of all the states.
+
+### `str_extract`
+
+```{r}
+pattern <- "^[A].*"
+selected <- str_extract(state_names, pattern) %>%
+  na.omit()
+
+paste(selected)
+```
+
+### `str_subset`
+
+```{r}
+# same pattern as above
+selected <- str_subset(state_names, pattern) # Doesn't require removal of NA values
+paste(selected)
+```
+
+## Q3
+
+All states with names ending in a or e. 
+
+```{r}
+pattern <- ".*(a|e)$"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q4
+
+All states with two words (such as North Dakota).
+
+```{r}
+pattern <- "\\s"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q5
+
+All states with n, t, w, or c at any point.
+
+```{r}
+pattern <- "[ntwc]"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q6
+
+Count the states without w, z, or y.
+
+```{r}
+pattern <- "[wzyWZY]"
+selected <- str_subset(state_names, pattern, negate = T)
+length(selected)
+```
+
+## Q7
+
+Extract states with at least one c or i, excluding where these letters are the first letter.
+
+```{r}
+pattern <- "^[^CI][ci]+"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q8
+
+State names that are exactly 6 letters long 
+
+```{r}
+pattern <- "^.{6}$"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+AND at least 6 letters long.
+
+```{r}
+pattern <- "^.{6,}$"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q9
+
+Match any string in the `state_name` vector.
+
+```{r}
+pattern <- ".*"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q10
+
+Extract all states that start with two consonants.
+
+```{r}
+pattern <- "^[^AEIOUaeiou]{2}"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q11
+
+Extract all states with two vowels in a row.
+
+```{r}
+pattern <- "[AEIOUaeiou]{2,}"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+## Q12
+
+Extract states that start with a vowel and end with a consonant.
+
+```{r}
+pattern <- "^[AEIOU].*[^aeiou]$"
+selected <- str_subset(state_names, pattern)
+paste(selected)
+```
+
+# Part 2
+
+Create new columns in the `sentences` tibble using dplyr. The columns should be as follows:
+
+1. The number of letters in each sentence.
+
+2. A dummy variable equal to 1 if the sentence contains a word ending with "ing", and 0 otherwise. 
+
+3. A dummy variable equal to 1 if the sentence contains a color such as red, orange, yellow, green, blue, pink, and purple. 
+
+4. The number of words in each sentence. 
+
+```{r}
+colors <- c("orange", "red", "yellow", "green", "blue", "pink", "purple", "black", "white")
+sentences <- sentences %>%
+  mutate(
+    letter_count = str_count(sentence, "[A-Za-z]"),
+    has_ing = if_else(str_detect(sentence, "ing\\b"), # \\b denotes the edge of a word
+                      1, 0),
+    has_color = if_else(str_detect(sentence, 
+                                   paste0("(?i)\\b(", paste0(colors, collapse = "|"), ")\\b")),
+                        1, 0),
+    word_count = str_count(sentence, boundary("word")) # boundary() is a modifier for stringr functions
+    # in this case the boundary is words, but you could make it lines, characters, or sentences
+  )
+```
+
+Find the following:
+
+1. The average number of letters in across sentences.
+
+2. The number of words ending in ing in the data.
+
+3. The number of times colors are mentioned in the data.
+
+```{r}
+sentences %>%
+  summarize(
+    letters_avg = mean(letter_count),
+    ing_sum = sum(has_ing),
+    color_sum = sum(has_color)
+  )
+```
+
+
