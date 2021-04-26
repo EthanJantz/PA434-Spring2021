@@ -1,0 +1,26 @@
+---
+title: "Assignmen 11"
+author: "Ethan Jantz"
+date: "4/25/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warnings = FALSE)
+library(kableExtra)
+library(stevedata)
+library(tidyverse)
+
+data <- gss_wages
+```
+
+Create a nice summary table of the following:
+
+* Average income for females
+* Average income for males
+* Number of children for females
+* Number of children for males
+* Difference in Income
+* Difference in number of children
+
+Must consider at least 7 or 8 years, max 15. You can select certain years (5yr avg) or a given time period (1990 - 2010). 
