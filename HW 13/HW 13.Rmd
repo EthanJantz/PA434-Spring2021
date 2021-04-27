@@ -24,3 +24,58 @@ Create a nice summary table of the following:
 * Difference in number of children
 
 Must consider at least 7 or 8 years, max 15. You can select certain years (5yr avg) or a given time period (1990 - 2010). 
+
+# Create Summary Table
+
+I'll be summarizing the most recent 10 years in the data, 2000 - 2018, for this project. The first step is to create the summary table.
+
+```{r}
+table <- data %>%
+  group_by(gender, year) %>% # We want summaries for both year and gender
+  summarize(avg_income = mean(realrinc, na.rm = T),
+            children = mean(childs, na.rm = T)) %>%
+  ungroup() %>% # Because i don't want groups to mess anything up
+  pivot_wider(names_from = gender, # We want separate columns for Male and Female in the summarized vars
+              values_from = c(avg_income, children)) %>%
+  mutate(year = as.character(year),
+         avg_income_diff = avg_income_Male - avg_income_Female,
+         children_diff = children_Male - children_Female,
+         income_diff_change = avg_income_diff - lag(avg_income_diff)) %>% # Note, the directionality of diff_ is Male to Female
+  filter(year %in% 2000:2018) %>% # This creates the final table 
+  select(year,
+         avg_income_Male, children_Male,
+         avg_income_Female, children_Female,
+         avg_income_diff, children_diff,
+         income_diff_change) # reorder variables for table
+```
+
+# Create Kable Table
+
+Then I want to style the table.
+
+```{r}
+table %>%
+  # basic table arrangements, label aesthetics
+  kable(align = "lrrrrrrr", 
+        col.names = c("Year[note]", rep(c("Income", "Children"), 3), "Income Change[note]"),
+        caption = "Average Income and # Children by Year, 2008 - 2018", 
+        digits = c(0, rep(2, 6)),
+        format.args = list(big.mark = ",")) %>%
+  # full-table aesthetics
+  kable_styling(font_size = 20,
+                html_font = "Lucida",
+                full_width = F) %>%
+  # header stuff
+  row_spec(0, bold = T, background = "#e5e5e5") %>%
+  add_header_above(c(" " = 1, "Male" = 2, "Female" = 2, "Difference[note]" = 3)) %>%
+  # highlights
+  row_spec(which(table$avg_income_diff %in% max(table$avg_income_diff)), color = "red") %>% # first, color the rows I want to highlight
+  column_spec(c(1,2,3,4,5,6,8), # everything except the difference cols
+              color = "black")
+  
+  # footnotes
+  add_footnote(c("Only years between 2000 and 2018 were included", 
+                 "Change from previous year", 
+                 "Differences were calculated subtracting female averages from male averges"))
+```
+
