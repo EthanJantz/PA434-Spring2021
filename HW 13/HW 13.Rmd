@@ -1,8 +1,12 @@
 ---
-title: "Assignmen 11"
+title: "Assignmen 13"
 author: "Ethan Jantz"
 date: "4/25/2021"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,6 +14,8 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warnings = FALSE)
 library(kableExtra)
 library(stevedata)
 library(tidyverse)
+
+kable_format <- "html" # Setting the type of document I want to print to for kableExtra
 
 data <- gss_wages
 ```
@@ -38,9 +44,18 @@ table <- data %>%
   pivot_wider(names_from = gender, # We want separate columns for Male and Female in the summarized vars
               values_from = c(avg_income, children)) %>%
   mutate(year = as.character(year),
-         avg_income_diff = avg_income_Male - avg_income_Female,
-         children_diff = children_Male - children_Female,
-         income_diff_change = avg_income_diff - lag(avg_income_diff)) %>% # Note, the directionality of diff_ is Male to Female
+         avg_income_diff = round(avg_income_Male - avg_income_Female, 2),
+         children_diff = round(children_Male - children_Female, 2),
+         income_diff_change = avg_income_diff - lag(avg_income_diff),
+         
+         # provide the conditional formatting for the table
+         avg_income_diff = cell_spec(avg_income_diff, 
+                                     format = kable_format,
+                                     color = ifelse(avg_income_diff == max(avg_income_diff), "red", "black")),
+         children_diff = cell_spec(children_diff,
+                                   format = kable_format,
+                                   color = ifelse(children_diff == max(children_diff), "red", "black"))
+         ) %>% # Note, the directionality of diff_ is Male to Female
   filter(year %in% 2000:2018) %>% # This creates the final table 
   select(year,
          avg_income_Male, children_Male,
@@ -56,7 +71,8 @@ Then I want to style the table.
 ```{r}
 table %>%
   # basic table arrangements, label aesthetics
-  kable(align = "lrrrrrrr", 
+  kable(escape = F, # Tells cell_spec HTML to process instead of print
+        align = "lrrrrrrr", 
         col.names = c("Year[note]", rep(c("Income", "Children"), 3), "Income Change[note]"),
         caption = "Average Income and # Children by Year, 2008 - 2018", 
         digits = c(0, rep(2, 6)),
@@ -68,11 +84,7 @@ table %>%
   # header stuff
   row_spec(0, bold = T, background = "#e5e5e5") %>%
   add_header_above(c(" " = 1, "Male" = 2, "Female" = 2, "Difference[note]" = 3)) %>%
-  # highlights
-  row_spec(which(table$avg_income_diff %in% max(table$avg_income_diff)), color = "red") %>% # first, color the rows I want to highlight
-  column_spec(c(1,2,3,4,5,6,8), # everything except the difference cols
-              color = "black")
-  
+
   # footnotes
   add_footnote(c("Only years between 2000 and 2018 were included", 
                  "Change from previous year", 
